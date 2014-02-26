@@ -15326,6 +15326,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-16" value="MMUN2233"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="C45" library="rcl" deviceset="C-EU" device="C1206" value="2.2u"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="2.2u"/>
 </parts>
 <sheets>
 <sheet>
@@ -15363,6 +15364,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="T1" gate="G$1" x="157.48" y="81.28"/>
 <instance part="+3V3" gate="G$1" x="160.02" y="114.3"/>
 <instance part="C45" gate="G$1" x="127" y="33.02"/>
+<instance part="C14" gate="G$1" x="208.28" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -15448,6 +15450,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="190.5" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
 <label x="172.72" y="55.88" size="2.1844" layer="95"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="58.42" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
+<junction x="190.5" y="55.88"/>
 </segment>
 </net>
 <net name="LIVE" class="0">
@@ -15594,8 +15600,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VOUT"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="203.2" y1="68.58" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="68.58" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="68.58" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="68.58" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
+<junction x="208.28" y="68.58"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="9"/>
