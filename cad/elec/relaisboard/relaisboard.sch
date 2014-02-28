@@ -15295,76 +15295,176 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="tea1721" deviceset="TEA1721" device=""/>
-<part name="L1" library="fastron_pisg_inductors" deviceset="INDUCTOR" device=""/>
-<part name="L2" library="fastron_pisg_inductors" deviceset="INDUCTOR" device=""/>
-<part name="DZ7" library="diode" deviceset="DIODE-" device="SOD323-R"/>
-<part name="D4" library="diode" deviceset="CGRM400*-G" device="" technology="1"/>
-<part name="D6" library="diode" deviceset="CGRM400*-G" device="" technology="1"/>
-<part name="D5" library="diode" deviceset="DIODE-" device="DO-214AC"/>
-<part name="D1" library="diode" deviceset="CGRM400*-G" device="" technology="1"/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E5-8.5"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="E5-8.5"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C6" library="rcl" deviceset="CPOL-EU" device="E3.5-8"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/2V"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="U$1" library="tea1721" deviceset="TEA1721" device="">
+<attribute name="DIGIKEY" value="568-9556-1-ND"/>
+</part>
+<part name="L1" library="fastron_pisg_inductors" deviceset="INDUCTOR" device="">
+<attribute name="REICHELT" value="L-PISG 1,0M"/>
+</part>
+<part name="L2" library="fastron_pisg_inductors" deviceset="INDUCTOR" device="">
+<attribute name="REICHELT" value="L-PISR 1,0M"/>
+</part>
+<part name="DZ7" library="diode" deviceset="DIODE-" device="SOD323-R">
+<attribute name="DIGIKEY" value="568-3810-1-ND"/>
+</part>
+<part name="D4" library="diode" deviceset="CGRM400*-G" device="" technology="1">
+<attribute name="REICHELT" value="ES 1JL SMD"/>
+</part>
+<part name="D6" library="diode" deviceset="CGRM400*-G" device="" technology="1">
+<attribute name="REICHELT" value="ES 1JL SMD"/>
+</part>
+<part name="D5" library="diode" deviceset="DIODE-" device="DO-214AC">
+<attribute name="DIGIKEY" value="BYG20J-E3/TRGICT-ND"/>
+</part>
+<part name="D1" library="diode" deviceset="CGRM400*-G" device="" technology="1">
+<attribute name="REICHELT" value="S 1ML SMD"/>
+</part>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E5-8.5">
+<attribute name="DIGIKEY" value="1189-1633-1-ND"/>
+</part>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="E5-8.5">
+<attribute name="DIGIKEY" value="1189-1633-1-ND"/>
+</part>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603">
+<attribute name="DIGIKEY" value="399-8979-1-ND"/>
+</part>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402">
+<attribute name="DIGIKEY" value="1276-1028-1-ND"/>
+</part>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="E3.5-8">
+<attribute name="DIGIKEY" value="493-1043-ND"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/2V">
+<attribute name="DIGIKEY" value="CF14JT47R0CT-ND"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0402">
+<attribute name="DIGIKEY" value="1276-3466-1-ND"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0402">
+<attribute name="DIGIKEY" value="RHM18KCDCT-ND"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206">
+<attribute name="DIGIKEY" value="311-1.0ERCT-ND"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603">
+<attribute name="DIGIKEY" value="311-68KGRCT-ND"/>
+</part>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X5" device=""/>
 <part name="PAD1" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="PAD2" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="PAD3" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="IC1" library="burr-brown" deviceset="REG1117" device=""/>
-<part name="U$2" library="pr3bmf51_relais" deviceset="PR3BMF51" device=""/>
+<part name="IC1" library="burr-brown" deviceset="REG1117" device="">
+<attribute name="DIGIKEY" value="AP1117IE33G-13DICT-ND"/>
+</part>
+<part name="U$2" library="pr3bmf51_relais" deviceset="PR3BMF51" device="">
+<attribute name="DIGIKEY" value="425-2562-5-ND"/>
+</part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0402" value="100"/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-16" value="MMUN2233"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0402" value="1M">
+<attribute name="DIGIKEY" value="311-1.00MLRCT-ND"/>
+</part>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0402" value="100">
+<attribute name="DIGIKEY" value="311-100JRCT-ND"/>
+</part>
+<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-16" value="MMUN2233">
+<attribute name="DIGIKEY" value="MMUN2233LT1GOSCT-ND"/>
+</part>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="C45" library="rcl" deviceset="C-EU" device="C1206" value="2.2u"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="2.2u"/>
+<part name="C45" library="rcl" deviceset="C-EU" device="C1206" value="2.2u">
+<attribute name="DIGIKEY" value="1276-2723-1-ND"/>
+</part>
+<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="2.2u">
+<attribute name="DIGIKEY" value="1276-2723-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="55.88" y="33.02"/>
-<instance part="L1" gate="G$1" x="15.24" y="86.36"/>
-<instance part="L2" gate="G$1" x="121.92" y="-7.62" rot="R90"/>
-<instance part="DZ7" gate="G$1" x="149.86" y="-30.48" rot="R90"/>
-<instance part="D4" gate="G$1" x="99.06" y="-5.08" rot="R90"/>
-<instance part="D6" gate="G$1" x="142.24" y="43.18" rot="R180"/>
-<instance part="D5" gate="G$1" x="111.76" y="-30.48" rot="R90"/>
-<instance part="D1" gate="G$1" x="-12.7" y="86.36"/>
-<instance part="C1" gate="G$1" x="0" y="48.26"/>
-<instance part="C2" gate="G$1" x="33.02" y="48.26"/>
-<instance part="C3" gate="G$1" x="58.42" y="5.08"/>
-<instance part="C7" gate="G$1" x="160.02" y="-30.48"/>
-<instance part="C6" gate="G$1" x="142.24" y="-30.48"/>
-<instance part="R1" gate="G$1" x="-27.94" y="86.36"/>
-<instance part="R2" gate="G$1" x="50.8" y="5.08" rot="R90"/>
-<instance part="R3" gate="G$1" x="71.12" y="12.7" rot="R180"/>
-<instance part="R4" gate="G$1" x="119.38" y="30.48" rot="R90"/>
-<instance part="R5" gate="G$1" x="154.94" y="-30.48" rot="R90"/>
+<instance part="U$1" gate="G$1" x="55.88" y="33.02">
+<attribute name="DIGIKEY" x="55.88" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="L1" gate="G$1" x="15.24" y="86.36">
+<attribute name="REICHELT" x="15.24" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="L2" gate="G$1" x="121.92" y="-7.62" rot="R90">
+<attribute name="REICHELT" x="121.92" y="-7.62" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="DZ7" gate="G$1" x="149.86" y="-30.48" rot="R90">
+<attribute name="DIGIKEY" x="149.86" y="-30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="D4" gate="G$1" x="99.06" y="-5.08" rot="R90">
+<attribute name="REICHELT" x="99.06" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="D6" gate="G$1" x="142.24" y="43.18" rot="R180">
+<attribute name="REICHELT" x="142.24" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="D5" gate="G$1" x="111.76" y="-30.48" rot="R90">
+<attribute name="DIGIKEY" x="111.76" y="-30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="D1" gate="G$1" x="-12.7" y="86.36">
+<attribute name="REICHELT" x="-12.7" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="0" y="48.26">
+<attribute name="DIGIKEY" x="0" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="33.02" y="48.26">
+<attribute name="DIGIKEY" x="33.02" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="58.42" y="5.08">
+<attribute name="DIGIKEY" x="58.42" y="5.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="160.02" y="-30.48">
+<attribute name="DIGIKEY" x="160.02" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="142.24" y="-30.48">
+<attribute name="DIGIKEY" x="142.24" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="-27.94" y="86.36">
+<attribute name="DIGIKEY" x="-27.94" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="50.8" y="5.08" rot="R90">
+<attribute name="DIGIKEY" x="50.8" y="5.08" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="71.12" y="12.7" rot="R180">
+<attribute name="DIGIKEY" x="71.12" y="12.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="119.38" y="30.48" rot="R90">
+<attribute name="DIGIKEY" x="119.38" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="154.94" y="-30.48" rot="R90">
+<attribute name="DIGIKEY" x="154.94" y="-30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="JP1" gate="A" x="190.5" y="30.48"/>
 <instance part="PAD1" gate="1" x="-50.8" y="83.82"/>
 <instance part="PAD2" gate="1" x="-48.26" y="-48.26"/>
 <instance part="PAD3" gate="1" x="208.28" y="93.98" rot="R180"/>
-<instance part="IC1" gate="G$1" x="190.5" y="68.58"/>
-<instance part="U$2" gate="G$1" x="180.34" y="78.74"/>
+<instance part="IC1" gate="G$1" x="190.5" y="68.58">
+<attribute name="DIGIKEY" x="190.5" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="180.34" y="78.74">
+<attribute name="DIGIKEY" x="180.34" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V1" gate="G$1" x="177.8" y="25.4" rot="R90"/>
 <instance part="+3V2" gate="G$1" x="210.82" y="76.2"/>
-<instance part="R6" gate="G$1" x="223.52" y="27.94"/>
-<instance part="R7" gate="G$1" x="160.02" y="101.6" rot="R90"/>
-<instance part="T1" gate="G$1" x="157.48" y="81.28"/>
+<instance part="R6" gate="G$1" x="223.52" y="27.94">
+<attribute name="DIGIKEY" x="223.52" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="160.02" y="101.6" rot="R90">
+<attribute name="DIGIKEY" x="160.02" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="T1" gate="G$1" x="157.48" y="81.28">
+<attribute name="DIGIKEY" x="157.48" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V3" gate="G$1" x="160.02" y="114.3"/>
-<instance part="C45" gate="G$1" x="127" y="33.02"/>
-<instance part="C14" gate="G$1" x="208.28" y="63.5"/>
+<instance part="C45" gate="G$1" x="127" y="33.02">
+<attribute name="DIGIKEY" x="127" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="208.28" y="63.5">
+<attribute name="DIGIKEY" x="208.28" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
