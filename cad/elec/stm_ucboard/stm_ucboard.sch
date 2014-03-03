@@ -5323,9 +5323,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="DIGIKEY" value="1276-2087-1-ND"/>
-</part>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="4u7">
 <attribute name="DIGIKEY" value="1276-2087-1-ND"/>
 </part>
@@ -5352,6 +5349,9 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="DIGIKEY" value="1276-2136-1-ND"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100n">
+<attribute name="DIGIKEY" value="445-4711-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5398,11 +5398,8 @@ pins short to vcc otherwise</text>
 </instance>
 <instance part="+3V9" gate="G$1" x="68.58" y="7.62"/>
 <instance part="+3V10" gate="G$1" x="96.52" y="-60.96" rot="R180"/>
-<instance part="+3V11" gate="G$1" x="30.48" y="-33.02" rot="R90"/>
+<instance part="+3V11" gate="G$1" x="25.4" y="-33.02" rot="R90"/>
 <instance part="+3V12" gate="G$1" x="30.48" y="-12.7" rot="R90"/>
-<instance part="C3" gate="G$1" x="55.88" y="0" rot="R90">
-<attribute name="DIGIKEY" x="55.88" y="0" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="C4" gate="G$1" x="106.68" y="-55.88" rot="R90">
 <attribute name="DIGIKEY" x="106.68" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -5415,7 +5412,7 @@ pins short to vcc otherwise</text>
 <instance part="C6" gate="G$1" x="106.68" y="-66.04" rot="R90">
 <attribute name="DIGIKEY" x="106.68" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND20" gate="1" x="27.94" y="-30.48" rot="R270"/>
+<instance part="GND20" gate="1" x="20.32" y="-30.48" rot="R270"/>
 <instance part="GND21" gate="1" x="93.98" y="-63.5"/>
 <instance part="GND22" gate="1" x="71.12" y="12.7" rot="R180"/>
 <instance part="GND1" gate="1" x="78.74" y="33.02" rot="R180"/>
@@ -5429,6 +5426,9 @@ pins short to vcc otherwise</text>
 <attribute name="DIGIKEY" x="-17.78" y="-7.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="-33.02" y="-17.78" rot="R270"/>
+<instance part="C2" gate="G$1" x="33.02" y="-43.18" rot="R180">
+<attribute name="DIGIKEY" x="33.02" y="-43.18" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5482,18 +5482,20 @@ pins short to vcc otherwise</text>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="7.62" x2="50.8" y2="0" width="0.1524" layer="91"/>
-<junction x="50.8" y="0"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="38.1" y1="-45.72" x2="38.1" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-45.72" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-48.26" x2="38.1" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-45.72" x2="33.02" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-48.26" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="38.1" y="-48.26"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
@@ -5513,7 +5515,7 @@ pins short to vcc otherwise</text>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="VSSA"/>
-<wire x1="30.48" y1="-30.48" x2="48.26" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-30.48" x2="48.26" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
@@ -5568,16 +5570,18 @@ pins short to vcc otherwise</text>
 <segment>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 <pinref part="U$1" gate="G$1" pin="VDDA"/>
-<wire x1="33.02" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-33.02" x2="33.02" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-33.02" x2="48.26" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-38.1" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="38.1" y="-33.02"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="-38.1" x2="33.02" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="33.02" y="-33.02"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="VDD1"/>
-<wire x1="60.96" y1="0" x2="63.5" y2="0" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="0" x2="68.58" y2="0" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="0" x2="68.58" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
@@ -5586,7 +5590,6 @@ pins short to vcc otherwise</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="7.62" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="7.62" x2="63.5" y2="0" width="0.1524" layer="91"/>
-<junction x="63.5" y="0"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
@@ -5845,9 +5848,9 @@ pins short to vcc otherwise</text>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PA5"/>
-<wire x1="73.66" y1="-50.8" x2="73.66" y2="-63.5" width="0.1524" layer="91"/>
-<label x="73.66" y="-63.5" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="PA7"/>
+<wire x1="78.74" y1="-50.8" x2="78.74" y2="-63.5" width="0.1524" layer="91"/>
+<label x="78.74" y="-63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="LED_G" class="0">
