@@ -198,11 +198,11 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <library name="viskos">
 <packages>
 <package name="05HEADER">
-<pad name="P$1" x="-2.54" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$2" x="-1.27" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$3" x="0" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$4" x="1.27" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$5" x="2.54" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
+<pad name="P$1" x="-2.54" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$2" x="-1.27" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$3" x="0" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$4" x="1.27" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$5" x="2.54" y="0" drill="0.635" diameter="0.762" rot="R90"/>
 </package>
 </packages>
 </library>
@@ -625,7 +625,7 @@ Covered vias can be set in Masks (Limit).
 <vertex x="34.7472" y="-0.3048"/>
 <vertex x="0" y="-0.3048"/>
 </polygon>
-<via x="12.954" y="13.2588" extent="1-16" drill="0.3048"/>
+<via x="12.4968" y="13.2588" extent="1-16" drill="0.3048"/>
 <via x="13.1064" y="11.7348" extent="1-16" drill="0.3048"/>
 <via x="11.2776" y="12.8016" extent="1-16" drill="0.3048"/>
 <via x="27.5844" y="2.1336" extent="1-16" drill="0.3048"/>
@@ -638,6 +638,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="16.570865625" y1="3.464465625" x2="16.002" y2="2.8956" width="0.254" layer="1"/>
 <wire x1="16.002" y1="2.8956" x2="15.239996875" y2="2.8956" width="0.254" layer="1"/>
 <wire x1="15.239996875" y1="2.8956" x2="15.09615625" y2="3.039440625" width="0.254" layer="1"/>
+<via x="19.3548" y="5.4864" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="+3V3">
 <contactref element="RF_CONN" pad="2"/>
