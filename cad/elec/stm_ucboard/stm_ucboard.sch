@@ -5286,16 +5286,24 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
-<part name="RF_CONN" library="pinhead" deviceset="PINHD-2X5" device=""/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="10k">
+<attribute name="DIGIKEY" value="1276-5086-1-ND"/>
+</part>
+<part name="RF_CONN" library="pinhead" deviceset="PINHD-2X5" device="">
+<attribute name="DIGIKEY" value="S6105-ND"/>
+</part>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="IO_CONN" library="pinhead" deviceset="PINHD-2X5" device=""/>
+<part name="IO_CONN" library="pinhead" deviceset="PINHD-2X5" device="">
+<attribute name="DIGIKEY" value="609-3243-ND"/>
+</part>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="1M"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="1M">
+<attribute name="DIGIKEY" value="311-1.00MLRCT-ND"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -5309,13 +5317,21 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="4u7">
 <attribute name="DIGIKEY" value="1276-2087-1-ND"/>
 </part>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="1k">
+<attribute name="DIGIKEY" value="1276-5062-1-ND"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="1k">
+<attribute name="DIGIKEY" value="1276-5062-1-ND"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0201" value="0R/NA"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0201" value="0R/NA"/>
-<part name="DBG" library="viskos" deviceset="005CONTACTS" device=""/>
-<part name="UART" library="viskos" deviceset="005CONTACTS" device=""/>
+<part name="DBG" library="viskos" deviceset="005CONTACTS" device="">
+<attribute name="DIGIKEY" value="S9014E-05-ND"/>
+</part>
+<part name="UART" library="viskos" deviceset="005CONTACTS" device="">
+<attribute name="DIGIKEY" value="S9014E-05-ND"/>
+</part>
 <part name="U$1" library="stm32f051" deviceset="STM32F051" device="">
 <attribute name="DIGIKEY" value="497-12893-ND"/>
 </part>
@@ -5330,10 +5346,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100n">
-<attribute name="DIGIKEY" value="445-4711-1-ND"/>
+<attribute name="DIGIKEY" value="399-1095-1-ND"/>
 </part>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="100n">
-<attribute name="DIGIKEY" value="445-4711-1-ND"/>
+<attribute name="DIGIKEY" value="399-1095-1-ND"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -5350,7 +5366,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100n">
-<attribute name="DIGIKEY" value="445-4711-1-ND"/>
+<attribute name="DIGIKEY" value="399-1095-1-ND"/>
 </part>
 </parts>
 <sheets>
@@ -5363,16 +5379,24 @@ your transceiver has 8
 pins short to vcc otherwise</text>
 </plain>
 <instances>
-<instance part="R1" gate="G$1" x="78.74" y="22.86" rot="R90"/>
-<instance part="RF_CONN" gate="A" x="78.74" y="152.4"/>
+<instance part="R1" gate="G$1" x="78.74" y="22.86" rot="R90">
+<attribute name="DIGIKEY" x="78.74" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="RF_CONN" gate="A" x="78.74" y="152.4">
+<attribute name="DIGIKEY" x="78.74" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V4" gate="G$1" x="45.72" y="172.72"/>
 <instance part="+3V5" gate="G$1" x="106.68" y="165.1"/>
 <instance part="GND3" gate="1" x="55.88" y="142.24"/>
 <instance part="GND4" gate="1" x="106.68" y="142.24"/>
-<instance part="IO_CONN" gate="A" x="172.72" y="152.4"/>
+<instance part="IO_CONN" gate="A" x="172.72" y="152.4">
+<attribute name="DIGIKEY" x="172.72" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V6" gate="G$1" x="157.48" y="147.32" rot="R90"/>
 <instance part="GND5" gate="1" x="185.42" y="142.24"/>
-<instance part="R2" gate="G$1" x="193.04" y="149.86"/>
+<instance part="R2" gate="G$1" x="193.04" y="149.86">
+<attribute name="DIGIKEY" x="193.04" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="213.36" y="86.36"/>
 <instance part="+3V7" gate="G$1" x="205.74" y="93.98" rot="R90"/>
 <instance part="GND8" gate="1" x="213.36" y="55.88"/>
@@ -5386,13 +5410,21 @@ pins short to vcc otherwise</text>
 <instance part="C1" gate="G$1" x="38.1" y="-40.64">
 <attribute name="DIGIKEY" x="38.1" y="-40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="215.9" y="124.46"/>
-<instance part="R5" gate="G$1" x="215.9" y="132.08"/>
+<instance part="R4" gate="G$1" x="215.9" y="124.46">
+<attribute name="DIGIKEY" x="215.9" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="215.9" y="132.08">
+<attribute name="DIGIKEY" x="215.9" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="45.72" y="152.4"/>
 <instance part="R6" gate="G$1" x="53.34" y="157.48"/>
 <instance part="R7" gate="G$1" x="53.34" y="160.02"/>
-<instance part="DBG" gate="G$1" x="226.06" y="96.52"/>
-<instance part="UART" gate="G$1" x="228.6" y="68.58"/>
+<instance part="DBG" gate="G$1" x="226.06" y="96.52">
+<attribute name="DIGIKEY" x="226.06" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="UART" gate="G$1" x="228.6" y="68.58">
+<attribute name="DIGIKEY" x="228.6" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$1" gate="G$1" x="81.28" y="-35.56">
 <attribute name="DIGIKEY" x="81.28" y="-35.56" size="1.778" layer="96" display="off"/>
 </instance>

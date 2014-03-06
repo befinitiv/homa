@@ -6203,7 +6203,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X5" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-2X5" device="">
+<attribute name="DIGIKEY" value="S6105-ND"/>
+</part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="ell_inductor" deviceset="ELL_INDUCTOR" device="">
@@ -6245,7 +6247,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="60.96" y="124.46" size="1.778" layer="97">measure battery voltage</text>
 </plain>
 <instances>
-<instance part="JP1" gate="A" x="60.96" y="78.74"/>
+<instance part="JP1" gate="A" x="60.96" y="78.74">
+<attribute name="DIGIKEY" x="60.96" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V1" gate="G$1" x="43.18" y="73.66" rot="R90"/>
 <instance part="GND1" gate="1" x="78.74" y="66.04"/>
 <instance part="U$1" gate="G$1" x="27.94" y="114.3">
