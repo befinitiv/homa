@@ -5297,7 +5297,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="IO_CONN" library="pinhead" deviceset="PINHD-2X5" device="">
-<attribute name="DIGIKEY" value="609-3243-ND"/>
+<attribute name="DIGIKEY" value="952-2124-ND"/>
 </part>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>

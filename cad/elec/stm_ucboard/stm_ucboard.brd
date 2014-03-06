@@ -510,7 +510,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="DIGIKEY" value="S6105-ND" x="2.54" y="7" size="0.635" layer="28" font="vector" ratio="25" rot="MR90" display="off"/>
 </element>
 <element name="IO_CONN" library="pinhead" package="2X05" value="" x="31.46" y="7" rot="R270">
-<attribute name="DIGIKEY" value="609-3243-ND" x="31.46" y="7" size="0.635" layer="27" ratio="25" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="952-2124-ND" x="31.46" y="7" size="0.635" layer="27" ratio="25" rot="R270" display="off"/>
 </element>
 <element name="R2" library="rcl" package="R0402" value="1M" x="27.276" y="6.625" rot="R180">
 <attribute name="DIGIKEY" value="311-1.00MLRCT-ND" x="27.276" y="6.625" size="0.635" layer="27" font="vector" ratio="25" rot="R180" display="off"/>
