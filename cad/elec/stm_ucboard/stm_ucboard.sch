@@ -4951,11 +4951,11 @@ Source: AVX .. aphvc.pdf</description>
 <library name="viskos">
 <packages>
 <package name="05HEADER">
-<pad name="P$1" x="-2.54" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$2" x="-1.27" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$3" x="0" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$4" x="1.27" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
-<pad name="P$5" x="2.54" y="0" drill="0.7112" diameter="0.762" rot="R90"/>
+<pad name="P$1" x="-2.54" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$2" x="-1.27" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$3" x="0" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$4" x="1.27" y="0" drill="0.635" diameter="0.762" rot="R90"/>
+<pad name="P$5" x="2.54" y="0" drill="0.635" diameter="0.762" rot="R90"/>
 </package>
 </packages>
 <symbols>
