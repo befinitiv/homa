@@ -1,0 +1,4 @@
+# preamble
+monitor reset 0
+monitor speed 1000
+monitor flash device STM32F051C8
