@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="6" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -510,7 +510,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="DIGIKEY" value="S6105-ND" x="2.54" y="7" size="0.635" layer="28" font="vector" ratio="25" rot="MR90" display="off"/>
 </element>
 <element name="IO_CONN" library="pinhead" package="2X05" value="" x="31.46" y="7" rot="R270">
-<attribute name="DIGIKEY" value="609-3243-ND" x="31.46" y="7" size="0.635" layer="27" ratio="25" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="952-2124-ND" x="31.46" y="7" size="0.635" layer="27" ratio="25" rot="R270" display="off"/>
 </element>
 <element name="R2" library="rcl" package="R0402" value="1M" x="27.276" y="6.625" rot="R180">
 <attribute name="DIGIKEY" value="311-1.00MLRCT-ND" x="27.276" y="6.625" size="0.635" layer="27" font="vector" ratio="25" rot="R180" display="off"/>
@@ -536,8 +536,12 @@ Covered vias can be set in Masks (Limit).
 </element>
 <element name="R6" library="rcl" package="R0201" value="0R/NA" x="6.1712" y="4.4952" rot="R270"/>
 <element name="R7" library="rcl" package="R0201" value="0R/NA" x="6.1712" y="3.4952" rot="R90"/>
-<element name="DBG" library="viskos" package="05HEADER" value="" x="16.51" y="13.081" rot="R180"/>
-<element name="UART" library="viskos" package="05HEADER" value="" x="25.4" y="13.081"/>
+<element name="DBG" library="viskos" package="05HEADER" value="" x="16.51" y="13.081" rot="R180">
+<attribute name="DIGIKEY" value="S9014E-05-ND" x="16.51" y="13.081" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="UART" library="viskos" package="05HEADER" value="" x="25.4" y="13.081">
+<attribute name="DIGIKEY" value="S9014E-05-ND" x="25.4" y="13.081" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U$1" library="stm32f051" package="LQFP48" value="STM32F051" x="19.05" y="7" rot="R315">
 <attribute name="DIGIKEY" value="497-12893-ND" x="19.05" y="7" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
@@ -545,10 +549,10 @@ Covered vias can be set in Masks (Limit).
 <attribute name="DIGIKEY" value="1276-2087-1-ND" x="25.6032" y="3.2004" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="C5" library="rcl" package="C0603" value="100n" x="12.954" y="8.9916" rot="R225">
-<attribute name="DIGIKEY" value="445-4711-1-ND" x="12.954" y="8.9916" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DIGIKEY" value="399-1095-1-ND" x="12.954" y="8.9916" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="C6" library="rcl" package="C0603" value="100n" x="24.5364" y="4.2672" rot="R225">
-<attribute name="DIGIKEY" value="445-4711-1-ND" x="24.5364" y="4.2672" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DIGIKEY" value="399-1095-1-ND" x="24.5364" y="4.2672" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="U$2" library="crystal_32k" package="SOJ4" value="CRYSTAL_32K" x="8.0772" y="9.7536" rot="R90">
 <attribute name="DIGIKEY" value="370-1056-1-ND" x="8.0772" y="9.7536" size="1.778" layer="27" rot="R90" display="off"/>
@@ -560,7 +564,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="DIGIKEY" value="1276-2136-1-ND" x="7.62" y="4.1148" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="rcl" package="C0603" value="100n" x="15.6972" y="2.4384" rot="R315">
-<attribute name="DIGIKEY" value="445-4711-1-ND" x="15.6972" y="2.4384" size="1.27" layer="27" font="vector" ratio="15" rot="R315" display="off"/>
+<attribute name="DIGIKEY" value="399-1095-1-ND" x="15.6972" y="2.4384" size="1.27" layer="27" font="vector" ratio="15" rot="R315" display="off"/>
 </element>
 </elements>
 <signals>
