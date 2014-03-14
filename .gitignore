@@ -1,3 +1,10 @@
 **.b#*
 **.s#*
 **.l#*
+
+
+**.a
+code/build
+code/*.make
+code/*.elf
+code/*.map
