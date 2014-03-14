@@ -3,7 +3,7 @@ target remote localhost:2331
 # preamble
 monitor reset 0
 monitor speed 1000
-monitor flash device STM32F405RG
+monitor flash device STM32F051C8
 
 # load the binary (was passed as argument to gdb)
 load
