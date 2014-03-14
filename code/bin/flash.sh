@@ -9,9 +9,7 @@ usageInfo ()
 	echo
 	echo "\"JLinkGDBServer -if swd\" needs to be running"
 	echo
-	echo "\$ ./bin/flash.sh erolfP1.elf"
-	echo "or"
-	echo "\$ ./bin/flash.sh erolfP2.elf"
+	echo "\$ ./bin/flash.sh homa.elf"
 }
 
 
