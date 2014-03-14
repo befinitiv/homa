@@ -1,0 +1,1695 @@
+Archive member included because of file (symbol)
+
+./libvector.a(vectorISR.o)    (vector_table)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+                              build/arm/debug/application/obj/quaternion.o (cosf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+                              build/arm/debug/application/obj/matrix.o (__fpclassifyf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+                              build/arm/debug/application/obj/quaternion.o (sinf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+                              build/arm/debug/application/obj/quaternion.o (sqrt)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                              build/arm/debug/application/obj/quaternion.o (acosf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                              build/arm/debug/application/obj/vector.o (sqrtf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o) (__ieee754_sqrt)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o) (__ieee754_acosf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o) (__ieee754_rem_pio2f)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o) (__ieee754_sqrtf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o) (__kernel_cosf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o) (__kernel_sinf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o) (__fpclassifyd)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_lib_ver.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o) (__fdlib_version)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o) (matherr)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o) (nan)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o) (fabsf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o) (floorf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o) (copysignf)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+                              build/arm/debug/application/obj/msg_msgPump.o (__aeabi_idivmod)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o) (__aeabi_idiv0)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o) (__aeabi_dcmplt)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_fcmpeq)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_fadd)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_fdiv)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o) (__eqsf2)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o) (__gesf2)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o) (__lesf2)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_fmul)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_fsub)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(fixsfsi.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o) (__aeabi_f2iz)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_i2f)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o) (__aeabi_dadd)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_ddiv)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o) (__gedf2)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o) (__ledf2)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+                              build/arm/debug/application/obj/quaternion.o (__aeabi_dmul)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+                              build/arm/debug/application/obj/quaternion.o (__aeabi_dsub)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_f2d)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(truncdfsf2.o)
+                              build/arm/debug/application/obj/matrix.o (__aeabi_d2f)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o) (__aeabi_uidiv)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_clzsi2.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o) (__clzsi2)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o) (__errno)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o) (_impure_ptr)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                              build/arm/debug/application/obj/msg_msgPump.o (memcpy)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                              build/arm/debug/application/obj/test_matrix.o (memset)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+                              build/arm/debug/application/obj/matrix.o (rand)
+/home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o) (__aeabi_lmul)
+
+Allocating common symbols
+Common symbol       size              file
+
+protocollIGEP_IGEPBuffer_callbackVector
+                    0x10              build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_data_p
+                    0xaf0             build/arm/debug/application/obj/genericFlawLessProtocol.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00010000         xr
+ram              0x20000000         0x00002000         xrw
+garbage          0x00000000         0x00000400         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/arm/debug/application/obj/main.o
+LOAD build/arm/debug/application/obj/math_test.o
+LOAD build/arm/debug/application/obj/matrix.o
+LOAD build/arm/debug/application/obj/quaternion.o
+LOAD build/arm/debug/application/obj/test_matrix.o
+LOAD build/arm/debug/application/obj/test_quaternion.o
+LOAD build/arm/debug/application/obj/test_vector.o
+LOAD build/arm/debug/application/obj/vector.o
+LOAD build/arm/debug/application/obj/logging.o
+LOAD build/arm/debug/application/obj/Assert.o
+LOAD build/arm/debug/application/obj/msg_msgPump.o
+LOAD build/arm/debug/application/obj/systemInitializer.o
+LOAD build/arm/debug/application/obj/genericFlawLessProtocol.o
+LOAD build/arm/debug/application/obj/msgProxy.o
+LOAD build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+LOAD build/arm/debug/application/obj/buildVersion.o
+LOAD build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+LOAD build/arm/debug/application/obj/test.o
+LOAD build/arm/debug/application/obj/memory.o
+LOAD build/arm/debug/application/obj/nvic.o
+LOAD build/arm/debug/application/obj/system.o
+LOAD ./libvector.a
+LOAD /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a
+START GROUP
+LOAD /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a
+LOAD /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+                0x08000000                . = ORIGIN (rom)
+
+.text           0x08000000     0xbfdc
+ *(.vectors)
+ .vectors       0x08000000       0xc0 ./libvector.a(vectorISR.o)
+                0x08000000                vector_table
+ *(.text*)
+ .text          0x080000c0       0x14 build/arm/debug/application/obj/main.o
+                0x080000c0                main
+ .text          0x080000d4       0x14 build/arm/debug/application/obj/math_test.o
+                0x080000d4                test_all
+ .text          0x080000e8     0x1128 build/arm/debug/application/obj/matrix.o
+                0x080000e8                mat_add
+                0x08000198                mat_adjugate
+                0x080002c4                mat_assign
+                0x08000344                mat_det
+                0x080003f0                mat_eq
+                0x080004b8                mat_eye
+                0x08000524                mat_get
+                0x08000560                mat_inv
+                0x08000668                mat_luDecomposition
+                0x08000974                mat_minor
+                0x08000a58                mat_mul
+                0x08000b84                mat_ones
+                0x08000c14                mat_print
+                0x08000c78                mat_rand
+                0x08000cf0                _rand
+                0x08000d8c                mat_randgauss
+                0x08000df0                mat_scale
+                0x08000e90                mat_set
+                0x08000ef0                mat_sizematch
+                0x08000f40                mat_sub
+                0x08000ff0                mat_transpose
+                0x080010a0                mat_valid
+                0x0800117c                mat_zero
+ .text          0x08001210      0xc10 build/arm/debug/application/obj/quaternion.o
+                0x08001210                quat_assign
+                0x08001244                quat_conjugate
+                0x0800128c                quat_eq
+                0x080012f0                quat_interpolate
+                0x0800157c                quat_inv
+                0x080015dc                quat_mul
+                0x080017b4                quat_print
+                0x080017cc                quat_rot_vec
+                0x08001878                quat_rotinv_vec
+                0x08001974                quat_scale
+                0x080019b8                quat_set_rot
+                0x08001a48                quat_to_mat
+                0x08001da4                quat_valid
+ .text          0x08001e20     0x1cc0 build/arm/debug/application/obj/test_matrix.o
+                0x08001e20                test_matrix
+ .text          0x08003ae0     0x17e0 build/arm/debug/application/obj/test_quaternion.o
+                0x08003ae0                test_quaternion
+ .text          0x080052c0      0x530 build/arm/debug/application/obj/test_vector.o
+                0x080052c0                test_vector
+ .text          0x080057f0      0x3b4 build/arm/debug/application/obj/vector.o
+                0x080057f0                vec_length_sqr
+                0x08005878                vec_mul_cross
+                0x080059bc                vec_mul_dot
+                0x08005a40                vec_normalize
+                0x08005b0c                vec_print
+                0x08005b48                vec_valid
+ .text          0x08005ba4        0x0 build/arm/debug/application/obj/logging.o
+ .text          0x08005ba4       0x10 build/arm/debug/application/obj/Assert.o
+                0x08005ba4                assert_failFunction
+ .text          0x08005bb4      0x7d8 build/arm/debug/application/obj/msg_msgPump.o
+                0x08005bd8                msgPump_registerOnMessage
+                0x08005c90                msgPump_unregisterFromMessage
+                0x08005d24                msgPump_postMessage
+                0x08006010                msgPump_lockMessage
+                0x08006080                msgPump_unlockMessage
+                0x080060e0                msgPump_getFreeBuffer
+                0x080061e4                msgPump_pumpMessage
+ .text          0x0800638c       0x38 build/arm/debug/application/obj/systemInitializer.o
+                0x0800638c                systemInitialize
+ .text          0x080063c4      0x7c4 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x080063c4                phySendFunction7
+                0x080063c4                phySendFunction3
+                0x080063c4                phySendFunction0
+                0x080063c4                phySendFunction2
+                0x080063c4                phySendFunction9
+                0x080063c4                dummySendFunction
+                0x080063c4                phySendFunction6
+                0x080063c4                phySendFunction4
+                0x080063c4                phySendFunction8
+                0x080063c4                phySendFunction5
+                0x080063c4                phySendFunction1
+                0x08006640                flawLess_ReceiveIndication
+                0x080067ec                genericProtocol_sendMessage
+                0x080068fc                genericProtocol_BeginTransmittingFrame
+                0x080069ec                genericProtocol_SendInsideFrame
+                0x08006a90                genericProtocol_EndTransmittingFrame
+ .text          0x08006b88      0x2d4 build/arm/debug/application/obj/msgProxy.o
+                0x08006e0c                msgProxy_addMsgForBroadcast
+                0x08006e34                msgProxy_rmMsgForBroadcast
+ .text          0x08006e5c       0xcc build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .text          0x08006f28       0x34 build/arm/debug/application/obj/buildVersion.o
+                0x08006f28                getBuildVersion
+ .text          0x08006f5c        0x0 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .text          0x08006f5c        0x8 build/arm/debug/application/obj/test.o
+ .text          0x08006f64       0x78 build/arm/debug/application/obj/memory.o
+ .text          0x08006fdc      0x1ac build/arm/debug/application/obj/nvic.o
+                0x08006fdc                nvic_enable_irq
+                0x08007014                nvic_disable_irq
+                0x0800704c                nvic_get_pending_irq
+                0x0800708c                nvic_set_pending_irq
+                0x080070c4                nvic_clear_pending_irq
+                0x080070fc                nvic_get_irq_enabled
+                0x0800713c                nvic_set_priority
+ .text          0x08007188       0x84 build/arm/debug/application/obj/system.o
+                0x0800719c                system_mutex_lock
+                0x080071b8                system_mutex_unlock
+                0x080071e8                system_reset
+ .text          0x0800720c       0x14 ./libvector.a(vectorISR.o)
+                0x0800720c                reset_handler
+                0x08007210                rtc_isr
+                0x08007210                tim7_isr
+                0x08007210                blocking_handler
+                0x08007210                tsc_isr
+                0x08007210                spi1_isr
+                0x08007210                i2c1_isr
+                0x08007210                tim17_isr
+                0x08007210                i2c2_isr
+                0x08007210                usart1_isr
+                0x08007210                usart3_4_isr
+                0x08007210                tim1_cc_isr
+                0x08007210                exti2_3_isr
+                0x08007210                tim16_isr
+                0x08007210                pvd_isr
+                0x08007210                rcc_isr
+                0x08007210                flash_isr
+                0x08007210                hard_fault_handler
+                0x08007210                tim14_isr
+                0x08007210                spi2_isr
+                0x08007210                usb_isr
+                0x08007210                tim15_isr
+                0x08007210                tim3_isr
+                0x08007210                usart2_isr
+                0x08007210                adc_comp_isr
+                0x08007210                dma1_channel1_isr
+                0x08007210                tim6_dac_isr
+                0x08007210                tim1_brk_up_trg_com_isr
+                0x08007210                dma1_channel2_3_isr
+                0x08007210                exti4_15_isr
+                0x08007210                cec_can_isr
+                0x08007210                wwdg_isr
+                0x08007210                tim2_isr
+                0x08007210                dma1_channel4_5_isr
+                0x08007210                exti0_1_isr
+                0x08007218                null_handler
+                0x08007218                sv_call_handler
+                0x08007218                pend_sv_handler
+                0x08007218                sys_tick_handler
+                0x08007218                nmi_handler
+ .text          0x08007220        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+ .text.cosf     0x08007220       0x7c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+                0x08007220                cosf
+ .text          0x0800729c        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+ .text.__fpclassifyf
+                0x0800729c       0x84 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+                0x0800729c                __fpclassifyf
+ .text          0x08007320        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+ .text.sinf     0x08007320       0x80 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+                0x08007320                sinf
+ .text          0x080073a0        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+ .text.sqrt     0x080073a0       0xb0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+                0x080073a0                sqrt
+ .text          0x08007450        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+ .text.acosf    0x08007450       0xa0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                0x08007450                acosf
+ .text          0x080074f0        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+ .text.sqrtf    0x080074f0       0xb0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                0x080074f0                sqrtf
+ .text          0x080075a0        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+ .text.__ieee754_sqrt
+                0x080075a0      0x1ac /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+                0x080075a0                __ieee754_sqrt
+ .text          0x0800774c        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+ .text.__ieee754_acosf
+                0x0800774c      0x2cc /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                0x0800774c                __ieee754_acosf
+ .text          0x08007a18        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+ .text.__ieee754_rem_pio2f
+                0x08007a18      0x314 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                0x08007a18                __ieee754_rem_pio2f
+ .text          0x08007d2c        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+ .text.__ieee754_sqrtf
+                0x08007d2c       0xb8 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+                0x08007d2c                __ieee754_sqrtf
+ .text          0x08007de4        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+ .text.__kernel_cosf
+                0x08007de4      0x190 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+                0x08007de4                __kernel_cosf
+ .text          0x08007f74        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+ .text.__kernel_rem_pio2f
+                0x08007f74      0x670 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                0x08007f74                __kernel_rem_pio2f
+ .text          0x080085e4        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+ .text.__kernel_sinf
+                0x080085e4       0xf8 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+                0x080085e4                __kernel_sinf
+ .text          0x080086dc        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+ .text.__fpclassifyd
+                0x080086dc       0x8c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+                0x080086dc                __fpclassifyd
+ .text          0x08008768        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_lib_ver.o)
+ .text          0x08008768        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+ .text.matherr  0x08008768        0x4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+                0x08008768                matherr
+ .text          0x0800876c        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+ *fill*         0x0800876c        0x4 00
+ .text.nan      0x08008770       0x10 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+                0x08008770                nan
+ .text          0x08008780        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+ .text.fabsf    0x08008780        0x8 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+                0x08008780                fabsf
+ .text          0x08008788        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+ .text.floorf   0x08008788       0x88 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+                0x08008788                floorf
+ .text          0x08008810        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+ .text.scalbnf  0x08008810       0xc0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+                0x08008810                scalbnf
+ .text          0x080088d0        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+ .text.copysignf
+                0x080088d0        0xc /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+                0x080088d0                copysignf
+ .text          0x080088dc       0xc0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+                0x080088dc                __aeabi_idiv
+                0x080088dc                __divsi3
+                0x08008988                __aeabi_idivmod
+ .text          0x0800899c        0x4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x0800899c                __aeabi_ldiv0
+                0x0800899c                __aeabi_idiv0
+ .text          0x080089a0       0x7c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                0x080089a0                __aeabi_cdrcmple
+                0x080089b0                __aeabi_cdcmple
+                0x080089b0                __aeabi_cdcmpeq
+                0x080089c0                __aeabi_dcmpeq
+                0x080089cc                __aeabi_dcmplt
+                0x080089e0                __aeabi_dcmple
+                0x080089f4                __aeabi_dcmpgt
+                0x08008a08                __aeabi_dcmpge
+ .text          0x08008a1c       0x74 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                0x08008a1c                __aeabi_cfrcmple
+                0x08008a24                __aeabi_cfcmple
+                0x08008a24                __aeabi_cfcmpeq
+                0x08008a34                __aeabi_fcmpeq
+                0x08008a40                __aeabi_fcmplt
+                0x08008a54                __aeabi_fcmple
+                0x08008a68                __aeabi_fcmpgt
+                0x08008a7c                __aeabi_fcmpge
+ .text          0x08008a90      0x354 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+                0x08008a90                __aeabi_fadd
+ .text          0x08008de4      0x28c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+                0x08008de4                __aeabi_fdiv
+ .text          0x08009070       0x54 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+                0x08009070                __nesf2
+                0x08009070                __eqsf2
+ .text          0x080090c4       0xa0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+                0x080090c4                __gtsf2
+                0x080090c4                __gesf2
+ .text          0x08009164       0x98 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+                0x08009164                __lesf2
+                0x08009164                __ltsf2
+ .text          0x080091fc      0x228 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+                0x080091fc                __aeabi_fmul
+ .text          0x08009424      0x394 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+                0x08009424                __aeabi_fsub
+ .text          0x080097b8       0x40 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(fixsfsi.o)
+                0x080097b8                __aeabi_f2iz
+ .text          0x080097f8       0xb0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+                0x080097f8                __aeabi_i2f
+ .text          0x080098a8      0x6d4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+                0x080098a8                __aeabi_dadd
+ .text          0x08009f7c      0x5e4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+                0x08009f7c                __aeabi_ddiv
+ .text          0x0800a560       0x80 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+                0x0800a560                __eqdf2
+                0x0800a560                __nedf2
+ .text          0x0800a5e0       0xec /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+                0x0800a5e0                __gtdf2
+                0x0800a5e0                __gedf2
+ .text          0x0800a6cc       0xc0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+                0x0800a6cc                __ltdf2
+                0x0800a6cc                __ledf2
+ .text          0x0800a78c      0x4a4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+                0x0800a78c                __aeabi_dmul
+ .text          0x0800ac30      0x72c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+                0x0800ac30                __aeabi_dsub
+ .text          0x0800b35c       0xa8 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+                0x0800b35c                __aeabi_f2d
+ .text          0x0800b404      0x148 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(truncdfsf2.o)
+                0x0800b404                __aeabi_d2f
+ .text          0x0800b54c       0x9c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+                0x0800b54c                __udivsi3
+                0x0800b54c                __aeabi_uidiv
+                0x0800b5d4                __aeabi_uidivmod
+ .text          0x0800b5e8       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_clzsi2.o)
+                0x0800b5e8                __clzsi2
+ .text          0x0800b624        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .text.__errno  0x0800b624        0xc /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                0x0800b624                __errno
+ .text          0x0800b630        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .text          0x0800b630        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0800b630       0x7c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                0x0800b630                memcpy
+ .text          0x0800b6ac        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .text.memset   0x0800b6ac       0x90 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                0x0800b6ac                memset
+ .text          0x0800b73c        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+ .text.srand    0x0800b73c       0x14 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+                0x0800b73c                srand
+ .text.rand     0x0800b750       0x38 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+                0x0800b750                rand
+ .text          0x0800b788       0x44 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+                0x0800b788                __aeabi_lmul
+                0x0800b788                __muldi3
+                0x0800b7cc                . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata        0x0800b7cc      0x184 build/arm/debug/application/obj/test_matrix.o
+ .rodata        0x0800b950       0xb0 build/arm/debug/application/obj/test_quaternion.o
+ .rodata        0x0800ba00       0x44 build/arm/debug/application/obj/test_vector.o
+ .rodata        0x0800ba44       0x30 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x0800ba44                g_sendFunctions
+ .rodata        0x0800ba74        0x4 build/arm/debug/application/obj/msgProxy.o
+ .rodata        0x0800ba78       0x38 build/arm/debug/application/obj/buildVersion.o
+ .rodata.str1.4
+                0x0800bab0        0x5 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+                                  0x8 (size before relaxing)
+ *fill*         0x0800bab5        0x3 00
+ .rodata.str1.4
+                0x0800bab8        0x6 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                  0xc (size before relaxing)
+ *fill*         0x0800babe        0x2 00
+ .rodata.str1.4
+                0x0800bac0        0x6 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                  0x8 (size before relaxing)
+ *fill*         0x0800bac6        0x2 00
+ .rodata.npio2_hw
+                0x0800bac8       0x80 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x0800bb48      0x318 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.init_jk
+                0x0800be60        0xc /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.PIo2   0x0800be6c       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata        0x0800be98       0x40 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+ .rodata        0x0800bed8       0x40 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+ .rodata        0x0800bf18       0x40 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+ .rodata        0x0800bf58       0x40 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+ .rodata.str1.4
+                0x0800bf98        0x4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0800bf9c        0x4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x0800bf9c                _global_impure_ptr
+                0x0800bfa0                _initFunctions_Begin = .
+ *(.moduleInitializeFunction0*)
+ *(.moduleInitializeFunction1*)
+ .moduleInitializeFunction1
+                0x0800bfa0        0x4 build/arm/debug/application/obj/memory.o
+                0x0800bfa0                memory_initFuncPtr
+ *(.moduleInitializeFunction2*)
+ .moduleInitializeFunction2
+                0x0800bfa4        0x4 build/arm/debug/application/obj/msg_msgPump.o
+                0x0800bfa4                msgPump_initFuncPtr
+ .moduleInitializeFunction2
+                0x0800bfa8        0x4 build/arm/debug/application/obj/system.o
+                0x0800bfa8                system_initFuncPtr
+ *(.moduleInitializeFunction3*)
+ *(.moduleInitializeFunction4*)
+ *(.moduleInitializeFunction5*)
+ .moduleInitializeFunction5
+                0x0800bfac        0x4 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x0800bfac                genericProtocol_initFuncPtr
+ .moduleInitializeFunction5
+                0x0800bfb0        0x4 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+                0x0800bfb0                genericFlawLessProtocolPacketDispatcher_initFuncPtr
+ *(.moduleInitializeFunction6*)
+ *(.moduleInitializeFunction7*)
+ *(.moduleInitializeFunction8*)
+ *(.moduleInitializeFunction9*)
+                0x0800bfb4                _initFunctions_End = .
+                0x0800bfb4                _logStringsBegin = .
+ *(.logStrings*)
+                0x0800bfb4                _logStringsEnd = .
+ *(.genericProtocolEndpointHandles*)
+ .genericProtocolEndpointHandles
+                0x0800bfb4        0xc build/arm/debug/application/obj/msgProxy.o
+                0x0800bfb4                incommingEndpoint_handle
+                0x0800bfc0                _genericProtocolEndpointInternalHandlesBegin = .
+ *(.genericProtocolEndpointInternalHandles*)
+ .genericProtocolEndpointInternalHandles
+                0x0800bfc0        0x4 build/arm/debug/application/obj/msgProxy.o
+                0x0800bfc0                incommingEndpoint_internalHandle
+                0x0800bfc4                _genericProtocolEndpointInternalHandlesEnd = .
+                0x0800bfc4                _msgPumpBPHandlesBegin = .
+ *(.msgPumpDescriptions*)
+ .msgPumpDescriptions
+                0x0800bfc4       0x18 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x0800bfc4                protocollIGEP_IGEPBuffer_description
+                0x0800bfdc                _msgPumpBPHandlesEnd = .
+                0x0800bfdc                _etext = .
+
+.glue_7         0x0800bfdc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0800bfdc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0800bfdc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0800bfdc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+                0x20000000                . = ORIGIN (ram)
+
+.data           0x20000000      0x434 load address 0x0800bfe0
+                0x20000000                _data = .
+ *(.data*)
+ .data          0x20000000        0x0 build/arm/debug/application/obj/main.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/math_test.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/matrix.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/quaternion.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/test_matrix.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/test_quaternion.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/test_vector.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/vector.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/logging.o
+ .data          0x20000000        0x0 build/arm/debug/application/obj/Assert.o
+ .data          0x20000000        0x4 build/arm/debug/application/obj/msg_msgPump.o
+                0x20000000                g_messageBuffers
+ .data          0x20000004        0x0 build/arm/debug/application/obj/systemInitializer.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/msgProxy.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/buildVersion.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/test.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/memory.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/nvic.o
+ .data          0x20000004        0x0 build/arm/debug/application/obj/system.o
+ .data          0x20000004        0x0 ./libvector.a(vectorISR.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+ .data          0x20000004        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_lib_ver.o)
+ .data.__fdlib_version
+                0x20000004        0x1 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_lib_ver.o)
+                0x20000004                __fdlib_version
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(fixsfsi.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(truncdfsf2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_clzsi2.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .data          0x20000005        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ *fill*         0x20000005        0x3 00
+ .data.impure_data
+                0x20000008      0x428 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000430        0x4 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x20000430                _impure_ptr
+ .data          0x20000434        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .data          0x20000434        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .data          0x20000434        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+ .data          0x20000434        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+                0x20000434                . = ALIGN (0x4)
+                0x20000434                _edata = .
+                0x0800bfe0                PROVIDE (_data_loadaddr, LOADADDR (.data))
+
+.bss            0x20000434     0x11e4 load address 0x0800c414
+                0x20000434                . = ALIGN (0x4)
+                0x20000434                _bss = .
+ *(.bss*)
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/main.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/math_test.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/matrix.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/quaternion.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/test_matrix.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/test_quaternion.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/test_vector.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/vector.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/logging.o
+ .bss           0x20000434        0x0 build/arm/debug/application/obj/Assert.o
+ .bss           0x20000434      0x61c build/arm/debug/application/obj/msg_msgPump.o
+                0x20000434                g_messageBuffersBuffer
+ .bss           0x20000a50        0x0 build/arm/debug/application/obj/systemInitializer.o
+ .bss           0x20000a50       0x8c build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .bss           0x20000adc        0x0 build/arm/debug/application/obj/msgProxy.o
+ .bss           0x20000adc        0x0 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .bss           0x20000adc       0x38 build/arm/debug/application/obj/buildVersion.o
+ .bss           0x20000b14        0x0 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .bss           0x20000b14        0x0 build/arm/debug/application/obj/test.o
+ .bss           0x20000b14        0x0 build/arm/debug/application/obj/memory.o
+ .bss           0x20000b14        0x0 build/arm/debug/application/obj/nvic.o
+ .bss           0x20000b14        0x2 build/arm/debug/application/obj/system.o
+ .bss           0x20000b16        0x0 ./libvector.a(vectorISR.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_lib_ver.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(fixsfsi.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(truncdfsf2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_clzsi2.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+ .bss           0x20000b16        0x0 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+ *(COMMON)
+ *fill*         0x20000b16        0x2 00
+ COMMON         0x20000b18      0xb00 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x20000b18                protocollIGEP_IGEPBuffer_callbackVector
+                0x20000b28                protocollIGEP_IGEPBuffer_data_p
+                0x20001618                . = ALIGN (0x4)
+                0x20001618                _ebss = .
+                0x20001618                . = ALIGN (0x4)
+                0x20001618                end = .
+
+.garbage        0x00000000        0x4
+ *(.*NEVER*)
+ .moduleInitializeFunctionNEVER
+                0x00000000        0x4 build/arm/debug/application/obj/test.o
+                0x00000000                test_initFuncPtr
+                0x0800bfe0                PROVIDE (_dataAtFlash, LOADADDR (.data))
+                0x20002000                PROVIDE (_stack, (ORIGIN (ram) + 0x2000))
+                0x20000000                PROVIDE (_ramBegin, ORIGIN (ram))
+OUTPUT(./homa.elf elf32-littlearm)
+
+.moduleRPCShortNames
+                0x00000004       0x10
+ .moduleRPCShortNames
+                0x00000004       0x10 build/arm/debug/application/obj/buildVersion.o
+                0x00000004                getBuildVersion_shortName
+
+.moduleRPCDescriptiveNames
+                0x00000014       0x20
+ .moduleRPCDescriptiveNames
+                0x00000014       0x20 build/arm/debug/application/obj/buildVersion.o
+                0x00000014                getBuildVersion_descriptiveName
+
+.moduleRPCParameterInTypes
+                0x00000034        0x8
+ .moduleRPCParameterInTypes
+                0x00000034        0x8 build/arm/debug/application/obj/buildVersion.o
+                0x00000034                getBuildVersion_in_parameterType
+
+.moduleRPCParameterOutTypes
+                0x0000003c       0x10
+ .moduleRPCParameterOutTypes
+                0x0000003c       0x10 build/arm/debug/application/obj/buildVersion.o
+                0x0000003c                getBuildVersion_out_parameterType
+
+.moduleRPCHandles
+                0x0000004c       0x28
+ .moduleRPCHandles
+                0x0000004c       0x28 build/arm/debug/application/obj/buildVersion.o
+                0x0000004c                getBuildVersion_RPChandle
+
+.debug_info     0x00000000     0x53dd
+ .debug_info    0x00000000       0x89 build/arm/debug/application/obj/main.o
+ .debug_info    0x00000089       0x85 build/arm/debug/application/obj/math_test.o
+ .debug_info    0x0000010e      0x97c build/arm/debug/application/obj/matrix.o
+ .debug_info    0x00000a8a      0x75b build/arm/debug/application/obj/quaternion.o
+ .debug_info    0x000011e5      0xa43 build/arm/debug/application/obj/test_matrix.o
+ .debug_info    0x00001c28      0x8e4 build/arm/debug/application/obj/test_quaternion.o
+ .debug_info    0x0000250c      0x3aa build/arm/debug/application/obj/test_vector.o
+ .debug_info    0x000028b6      0x354 build/arm/debug/application/obj/vector.o
+ .debug_info    0x00002c0a       0x77 build/arm/debug/application/obj/logging.o
+ .debug_info    0x00002c81       0xd6 build/arm/debug/application/obj/Assert.o
+ .debug_info    0x00002d57      0x88e build/arm/debug/application/obj/msg_msgPump.o
+ .debug_info    0x000035e5       0xea build/arm/debug/application/obj/systemInitializer.o
+ .debug_info    0x000036cf      0x968 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_info    0x00004037      0x526 build/arm/debug/application/obj/msgProxy.o
+ .debug_info    0x0000455d      0x368 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_info    0x000048c5      0x3ed build/arm/debug/application/obj/buildVersion.o
+ .debug_info    0x00004cb2       0x70 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_info    0x00004d22       0xbb build/arm/debug/application/obj/test.o
+ .debug_info    0x00004ddd      0x138 build/arm/debug/application/obj/memory.o
+ .debug_info    0x00004f15      0x1b0 build/arm/debug/application/obj/nvic.o
+ .debug_info    0x000050c5      0x12d build/arm/debug/application/obj/system.o
+ .debug_info    0x000051f2      0x1eb ./libvector.a(vectorISR.o)
+
+.debug_abbrev   0x00000000     0x12a7
+ .debug_abbrev  0x00000000       0x43 build/arm/debug/application/obj/main.o
+ .debug_abbrev  0x00000043       0x41 build/arm/debug/application/obj/math_test.o
+ .debug_abbrev  0x00000084      0x175 build/arm/debug/application/obj/matrix.o
+ .debug_abbrev  0x000001f9      0x114 build/arm/debug/application/obj/quaternion.o
+ .debug_abbrev  0x0000030d       0xff build/arm/debug/application/obj/test_matrix.o
+ .debug_abbrev  0x0000040c       0xd8 build/arm/debug/application/obj/test_quaternion.o
+ .debug_abbrev  0x000004e4       0xe1 build/arm/debug/application/obj/test_vector.o
+ .debug_abbrev  0x000005c5      0x10b build/arm/debug/application/obj/vector.o
+ .debug_abbrev  0x000006d0       0x2c build/arm/debug/application/obj/logging.o
+ .debug_abbrev  0x000006fc       0x6f build/arm/debug/application/obj/Assert.o
+ .debug_abbrev  0x0000076b      0x212 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_abbrev  0x0000097d       0x87 build/arm/debug/application/obj/systemInitializer.o
+ .debug_abbrev  0x00000a04      0x1f5 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_abbrev  0x00000bf9      0x147 build/arm/debug/application/obj/msgProxy.o
+ .debug_abbrev  0x00000d40      0x11a build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_abbrev  0x00000e5a       0xec build/arm/debug/application/obj/buildVersion.o
+ .debug_abbrev  0x00000f46       0x2c build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_abbrev  0x00000f72       0x85 build/arm/debug/application/obj/test.o
+ .debug_abbrev  0x00000ff7       0xa1 build/arm/debug/application/obj/memory.o
+ .debug_abbrev  0x00001098       0x8d build/arm/debug/application/obj/nvic.o
+ .debug_abbrev  0x00001125       0xb0 build/arm/debug/application/obj/system.o
+ .debug_abbrev  0x000011d5       0xd2 ./libvector.a(vectorISR.o)
+
+.debug_loc      0x00000000     0x1398
+ .debug_loc     0x00000000       0x2c build/arm/debug/application/obj/main.o
+ .debug_loc     0x0000002c       0x2c build/arm/debug/application/obj/math_test.o
+ .debug_loc     0x00000058      0x508 build/arm/debug/application/obj/matrix.o
+ .debug_loc     0x00000560      0x2ec build/arm/debug/application/obj/quaternion.o
+ .debug_loc     0x0000084c       0x3a build/arm/debug/application/obj/test_matrix.o
+ .debug_loc     0x00000886       0x3a build/arm/debug/application/obj/test_quaternion.o
+ .debug_loc     0x000008c0       0x3a build/arm/debug/application/obj/test_vector.o
+ .debug_loc     0x000008fa      0x150 build/arm/debug/application/obj/vector.o
+ .debug_loc     0x00000a4a       0x38 build/arm/debug/application/obj/Assert.o
+ .debug_loc     0x00000a82      0x1fa build/arm/debug/application/obj/msg_msgPump.o
+ .debug_loc     0x00000c7c       0x38 build/arm/debug/application/obj/systemInitializer.o
+ .debug_loc     0x00000cb4      0x268 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_loc     0x00000f1c       0xe0 build/arm/debug/application/obj/msgProxy.o
+ .debug_loc     0x00000ffc       0x70 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_loc     0x0000106c       0x38 build/arm/debug/application/obj/buildVersion.o
+ .debug_loc     0x000010a4       0x2c build/arm/debug/application/obj/test.o
+ .debug_loc     0x000010d0       0x38 build/arm/debug/application/obj/memory.o
+ .debug_loc     0x00001108      0x188 build/arm/debug/application/obj/nvic.o
+ .debug_loc     0x00001290       0xb0 build/arm/debug/application/obj/system.o
+ .debug_loc     0x00001340       0x58 ./libvector.a(vectorISR.o)
+
+.debug_aranges  0x00000000      0x280
+ .debug_aranges
+                0x00000000       0x20 build/arm/debug/application/obj/main.o
+ .debug_aranges
+                0x00000020       0x20 build/arm/debug/application/obj/math_test.o
+ .debug_aranges
+                0x00000040       0x20 build/arm/debug/application/obj/matrix.o
+ .debug_aranges
+                0x00000060       0x20 build/arm/debug/application/obj/quaternion.o
+ .debug_aranges
+                0x00000080       0x20 build/arm/debug/application/obj/test_matrix.o
+ .debug_aranges
+                0x000000a0       0x20 build/arm/debug/application/obj/test_quaternion.o
+ .debug_aranges
+                0x000000c0       0x20 build/arm/debug/application/obj/test_vector.o
+ .debug_aranges
+                0x000000e0       0x20 build/arm/debug/application/obj/vector.o
+ .debug_aranges
+                0x00000100       0x20 build/arm/debug/application/obj/Assert.o
+ .debug_aranges
+                0x00000120       0x20 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_aranges
+                0x00000140       0x20 build/arm/debug/application/obj/systemInitializer.o
+ .debug_aranges
+                0x00000160       0x20 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_aranges
+                0x00000180       0x20 build/arm/debug/application/obj/msgProxy.o
+ .debug_aranges
+                0x000001a0       0x20 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_aranges
+                0x000001c0       0x20 build/arm/debug/application/obj/buildVersion.o
+ .debug_aranges
+                0x000001e0       0x20 build/arm/debug/application/obj/test.o
+ .debug_aranges
+                0x00000200       0x20 build/arm/debug/application/obj/memory.o
+ .debug_aranges
+                0x00000220       0x20 build/arm/debug/application/obj/nvic.o
+ .debug_aranges
+                0x00000240       0x20 build/arm/debug/application/obj/system.o
+ .debug_aranges
+                0x00000260       0x20 ./libvector.a(vectorISR.o)
+
+.debug_line     0x00000000     0x4e51
+ .debug_line    0x00000000      0x27e build/arm/debug/application/obj/main.o
+ .debug_line    0x0000027e      0x1b4 build/arm/debug/application/obj/math_test.o
+ .debug_line    0x00000432      0x641 build/arm/debug/application/obj/matrix.o
+ .debug_line    0x00000a73      0x40f build/arm/debug/application/obj/quaternion.o
+ .debug_line    0x00000e82      0x578 build/arm/debug/application/obj/test_matrix.o
+ .debug_line    0x000013fa      0x474 build/arm/debug/application/obj/test_quaternion.o
+ .debug_line    0x0000186e      0x3e0 build/arm/debug/application/obj/test_vector.o
+ .debug_line    0x00001c4e      0x3bc build/arm/debug/application/obj/vector.o
+ .debug_line    0x0000200a      0x484 build/arm/debug/application/obj/logging.o
+ .debug_line    0x0000248e      0x385 build/arm/debug/application/obj/Assert.o
+ .debug_line    0x00002813      0x5cb build/arm/debug/application/obj/msg_msgPump.o
+ .debug_line    0x00002dde      0x1f5 build/arm/debug/application/obj/systemInitializer.o
+ .debug_line    0x00002fd3      0x489 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_line    0x0000345c      0x391 build/arm/debug/application/obj/msgProxy.o
+ .debug_line    0x000037ed      0x356 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_line    0x00003b43      0x423 build/arm/debug/application/obj/buildVersion.o
+ .debug_line    0x00003f66      0x35f build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_line    0x000042c5      0x252 build/arm/debug/application/obj/test.o
+ .debug_line    0x00004517       0xb2 build/arm/debug/application/obj/memory.o
+ .debug_line    0x000045c9      0x1f6 build/arm/debug/application/obj/nvic.o
+ .debug_line    0x000047bf      0x4ad build/arm/debug/application/obj/system.o
+ .debug_line    0x00004c6c      0x1e5 ./libvector.a(vectorISR.o)
+
+.debug_macinfo  0x00000000    0x7a166
+ .debug_macinfo
+                0x00000000     0x451e build/arm/debug/application/obj/main.o
+ .debug_macinfo
+                0x0000451e     0x4057 build/arm/debug/application/obj/math_test.o
+ .debug_macinfo
+                0x00008575     0x70e1 build/arm/debug/application/obj/matrix.o
+ .debug_macinfo
+                0x0000f656     0x7caa build/arm/debug/application/obj/quaternion.o
+ .debug_macinfo
+                0x00017300     0x7225 build/arm/debug/application/obj/test_matrix.o
+ .debug_macinfo
+                0x0001e525     0x7eae build/arm/debug/application/obj/test_quaternion.o
+ .debug_macinfo
+                0x000263d3     0x7731 build/arm/debug/application/obj/test_vector.o
+ .debug_macinfo
+                0x0002db04     0x7497 build/arm/debug/application/obj/vector.o
+ .debug_macinfo
+                0x00034f9b     0x6232 build/arm/debug/application/obj/logging.o
+ .debug_macinfo
+                0x0003b1cd     0x5c69 build/arm/debug/application/obj/Assert.o
+ .debug_macinfo
+                0x00040e36     0x615f build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macinfo
+                0x00046f95     0x4028 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macinfo
+                0x0004afbd     0x4668 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macinfo
+                0x0004f625     0x4687 build/arm/debug/application/obj/msgProxy.o
+ .debug_macinfo
+                0x00053cac     0x46a2 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macinfo
+                0x0005834e     0x65ef build/arm/debug/application/obj/buildVersion.o
+ .debug_macinfo
+                0x0005e93d     0x4667 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macinfo
+                0x00062fa4     0x4309 build/arm/debug/application/obj/test.o
+ .debug_macinfo
+                0x000672ad     0x22ff build/arm/debug/application/obj/memory.o
+ .debug_macinfo
+                0x000695ac     0x3e6c build/arm/debug/application/obj/nvic.o
+ .debug_macinfo
+                0x0006d418     0x9467 build/arm/debug/application/obj/system.o
+ .debug_macinfo
+                0x0007687f     0x38e7 ./libvector.a(vectorISR.o)
+
+.debug_str      0x00000000     0x1f7d
+ .debug_str     0x00000000       0xc8 build/arm/debug/application/obj/main.o
+                                 0xfc (size before relaxing)
+ .debug_str     0x000000c8       0x1e build/arm/debug/application/obj/math_test.o
+                                0x10a (size before relaxing)
+ .debug_str     0x000000e6      0x1b2 build/arm/debug/application/obj/matrix.o
+                                0x2e8 (size before relaxing)
+ .debug_str     0x00000298      0x294 build/arm/debug/application/obj/quaternion.o
+                                0x494 (size before relaxing)
+ .debug_str     0x0000052c      0x184 build/arm/debug/application/obj/test_matrix.o
+                                0x328 (size before relaxing)
+ .debug_str     0x000006b0      0x364 build/arm/debug/application/obj/test_quaternion.o
+                                0x70c (size before relaxing)
+ .debug_str     0x00000a14       0xd0 build/arm/debug/application/obj/test_vector.o
+                                0x29e (size before relaxing)
+ .debug_str     0x00000ae4       0x72 build/arm/debug/application/obj/vector.o
+                                0x26d (size before relaxing)
+ .debug_str     0x00000b56       0x29 build/arm/debug/application/obj/logging.o
+                                0x11a (size before relaxing)
+ .debug_str     0x00000b7f       0x4e build/arm/debug/application/obj/Assert.o
+                                0x148 (size before relaxing)
+ .debug_str     0x00000bcd      0x59c build/arm/debug/application/obj/msg_msgPump.o
+                                0x6d2 (size before relaxing)
+ .debug_str     0x00001169       0x71 build/arm/debug/application/obj/systemInitializer.o
+                                0x16e (size before relaxing)
+ .debug_str     0x000011da      0x531 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                0x835 (size before relaxing)
+ .debug_str     0x0000170b      0x235 build/arm/debug/application/obj/msgProxy.o
+                                0x4d3 (size before relaxing)
+ .debug_str     0x00001940      0x11a build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+                                0x4a3 (size before relaxing)
+ .debug_str     0x00001a5a      0x21c build/arm/debug/application/obj/buildVersion.o
+                                0x3a4 (size before relaxing)
+ .debug_str     0x00001c76       0x36 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+                                0x122 (size before relaxing)
+ .debug_str     0x00001cac       0x39 build/arm/debug/application/obj/test.o
+                                0x136 (size before relaxing)
+ .debug_str     0x00001ce5       0x67 build/arm/debug/application/obj/memory.o
+                                 0xf8 (size before relaxing)
+ .debug_str     0x00001d4c       0xa8 build/arm/debug/application/obj/nvic.o
+                                0x1ae (size before relaxing)
+ .debug_str     0x00001df4       0x7c build/arm/debug/application/obj/system.o
+                                0x190 (size before relaxing)
+ .debug_str     0x00001e70      0x10d ./libvector.a(vectorISR.o)
+                                0x1ff (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 build/arm/debug/application/obj/main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/math_test.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/matrix.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/quaternion.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/test_matrix.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/test_quaternion.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/test_vector.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/vector.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/logging.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/Assert.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/msg_msgPump.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/systemInitializer.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/msgProxy.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/buildVersion.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/test.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/memory.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/nvic.o
+ .comment       0x00000000       0x71 build/arm/debug/application/obj/system.o
+ .comment       0x00000000       0x71 ./libvector.a(vectorISR.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 build/arm/debug/application/obj/main.o
+ .ARM.attributes
+                0x00000031       0x31 build/arm/debug/application/obj/math_test.o
+ .ARM.attributes
+                0x00000062       0x31 build/arm/debug/application/obj/matrix.o
+ .ARM.attributes
+                0x00000093       0x31 build/arm/debug/application/obj/quaternion.o
+ .ARM.attributes
+                0x000000c4       0x31 build/arm/debug/application/obj/test_matrix.o
+ .ARM.attributes
+                0x000000f5       0x31 build/arm/debug/application/obj/test_quaternion.o
+ .ARM.attributes
+                0x00000126       0x31 build/arm/debug/application/obj/test_vector.o
+ .ARM.attributes
+                0x00000157       0x31 build/arm/debug/application/obj/vector.o
+ .ARM.attributes
+                0x00000188       0x31 build/arm/debug/application/obj/logging.o
+ .ARM.attributes
+                0x000001b9       0x31 build/arm/debug/application/obj/Assert.o
+ .ARM.attributes
+                0x000001ea       0x31 build/arm/debug/application/obj/msg_msgPump.o
+ .ARM.attributes
+                0x0000021b       0x31 build/arm/debug/application/obj/systemInitializer.o
+ .ARM.attributes
+                0x0000024c       0x31 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .ARM.attributes
+                0x0000027d       0x31 build/arm/debug/application/obj/msgProxy.o
+ .ARM.attributes
+                0x000002ae       0x31 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .ARM.attributes
+                0x000002df       0x31 build/arm/debug/application/obj/buildVersion.o
+ .ARM.attributes
+                0x00000310       0x31 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .ARM.attributes
+                0x00000341       0x31 build/arm/debug/application/obj/test.o
+ .ARM.attributes
+                0x00000372       0x31 build/arm/debug/application/obj/memory.o
+ .ARM.attributes
+                0x000003a3       0x31 build/arm/debug/application/obj/nvic.o
+ .ARM.attributes
+                0x000003d4       0x31 build/arm/debug/application/obj/system.o
+ .ARM.attributes
+                0x00000405       0x31 ./libvector.a(vectorISR.o)
+ .ARM.attributes
+                0x00000436       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+ .ARM.attributes
+                0x00000462       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+ .ARM.attributes
+                0x0000048e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+ .ARM.attributes
+                0x000004ba       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+ .ARM.attributes
+                0x000004e6       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+ .ARM.attributes
+                0x00000512       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+ .ARM.attributes
+                0x0000053e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+ .ARM.attributes
+                0x0000056a       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+ .ARM.attributes
+                0x00000596       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x000005c2       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+ .ARM.attributes
+                0x000005ee       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+ .ARM.attributes
+                0x0000061a       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000646       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+ .ARM.attributes
+                0x00000672       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x0000069e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x000006ca       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x000006f6       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x00000722       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000074e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x0000077a       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+ .ARM.attributes
+                0x000007a6       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+ .ARM.attributes
+                0x000007d2       0x1e /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000007f0       0x1e /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000080e       0x1e /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000082c       0x1e /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x0000084a       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+ .ARM.attributes
+                0x00000876       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+ .ARM.attributes
+                0x000008a2       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+ .ARM.attributes
+                0x000008ce       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+ .ARM.attributes
+                0x000008fa       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+ .ARM.attributes
+                0x00000926       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+ .ARM.attributes
+                0x00000952       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+ .ARM.attributes
+                0x0000097e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(fixsfsi.o)
+ .ARM.attributes
+                0x000009aa       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+ .ARM.attributes
+                0x000009d6       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000a02       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x00000a2e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x00000a5a       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x00000a86       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000ab2       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x00000ade       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000b0a       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+ .ARM.attributes
+                0x00000b36       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(truncdfsf2.o)
+ .ARM.attributes
+                0x00000b62       0x1e /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000b80       0x1e /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x00000b9e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000bca       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000bf6       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000c22       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000c4e       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+ .ARM.attributes
+                0x00000c7a       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+
+.debug_frame    0x00000000     0x1500
+ .debug_frame   0x00000000       0x2c build/arm/debug/application/obj/main.o
+ .debug_frame   0x0000002c       0x2c build/arm/debug/application/obj/math_test.o
+ .debug_frame   0x00000058      0x2f4 build/arm/debug/application/obj/matrix.o
+ .debug_frame   0x0000034c      0x1c4 build/arm/debug/application/obj/quaternion.o
+ .debug_frame   0x00000510       0x30 build/arm/debug/application/obj/test_matrix.o
+ .debug_frame   0x00000540       0x30 build/arm/debug/application/obj/test_quaternion.o
+ .debug_frame   0x00000570       0x30 build/arm/debug/application/obj/test_vector.o
+ .debug_frame   0x000005a0       0xd4 build/arm/debug/application/obj/vector.o
+ .debug_frame   0x00000674       0x30 build/arm/debug/application/obj/Assert.o
+ .debug_frame   0x000006a4      0x130 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_frame   0x000007d4       0x30 build/arm/debug/application/obj/systemInitializer.o
+ .debug_frame   0x00000804      0x170 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_frame   0x00000974       0x90 build/arm/debug/application/obj/msgProxy.o
+ .debug_frame   0x00000a04       0x50 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_frame   0x00000a54       0x30 build/arm/debug/application/obj/buildVersion.o
+ .debug_frame   0x00000a84       0x2c build/arm/debug/application/obj/test.o
+ .debug_frame   0x00000ab0       0x30 build/arm/debug/application/obj/memory.o
+ .debug_frame   0x00000ae0       0xf0 build/arm/debug/application/obj/nvic.o
+ .debug_frame   0x00000bd0       0x80 build/arm/debug/application/obj/system.o
+ .debug_frame   0x00000c50       0x58 ./libvector.a(vectorISR.o)
+ .debug_frame   0x00000ca8       0x28 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+ .debug_frame   0x00000cd0       0x28 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+ .debug_frame   0x00000cf8       0x28 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x00000d20       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+ .debug_frame   0x00000d50       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+ .debug_frame   0x00000d80       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+ .debug_frame   0x00000db0       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+ .debug_frame   0x00000dec       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+ .debug_frame   0x00000e1c       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000e58       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x00000e84       0x38 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x00000ebc       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x00000ef8       0x38 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x00000f30       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00000f5c       0x20 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000f7c       0x20 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+ .debug_frame   0x00000f9c       0x20 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x00000fbc       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x00000fec       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x00001018       0x20 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+ .debug_frame   0x00001038       0x20 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x00001058       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+ .debug_frame   0x00001088       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+ .debug_frame   0x000010c4       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+ .debug_frame   0x000010f4       0x34 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+ .debug_frame   0x00001128       0x34 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+ .debug_frame   0x0000115c       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+ .debug_frame   0x00001198       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+ .debug_frame   0x000011c8       0x28 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(fixsfsi.o)
+ .debug_frame   0x000011f0       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+ .debug_frame   0x0000121c       0x38 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+ .debug_frame   0x00001254       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+ .debug_frame   0x00001290       0x34 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+ .debug_frame   0x000012c4       0x34 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+ .debug_frame   0x000012f8       0x34 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+ .debug_frame   0x0000132c       0x3c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x00001368       0x38 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+ .debug_frame   0x000013a0       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+ .debug_frame   0x000013cc       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(truncdfsf2.o)
+ .debug_frame   0x000013fc       0x20 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000141c       0x20 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+ .debug_frame   0x0000143c       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000146c       0x2c /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x00001498       0x38 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+ .debug_frame   0x000014d0       0x30 /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+
+.debug_ranges   0x00000000       0x60
+ .debug_ranges  0x00000000       0x48 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_ranges  0x00000048       0x18 build/arm/debug/application/obj/msgProxy.o
+
+Cross Reference Table
+
+Symbol                                            File
+__aeabi_cdcmpeq                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdcmple                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdrcmple                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cfcmpeq                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfcmple                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfrcmple                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+__aeabi_d2f                                       /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(truncdfsf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_dadd                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+__aeabi_dcmpeq                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmpge                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmpgt                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+__aeabi_dcmple                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmplt                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+__aeabi_ddiv                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_dmul                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+__aeabi_dsub                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+__aeabi_f2d                                       /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_f2iz                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(fixsfsi.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+__aeabi_fadd                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                                                  build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_fcmpeq                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                                                  build/arm/debug/application/obj/test_vector.o
+                                                  build/arm/debug/application/obj/test_quaternion.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_fcmpge                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+__aeabi_fcmpgt                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_fcmple                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+__aeabi_fcmplt                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+__aeabi_fdiv                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                                                  build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_fmul                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                                                  build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_fsub                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+                                                  build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_i2f                                       /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                                                  build/arm/debug/application/obj/matrix.o
+__aeabi_idiv                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+__aeabi_idiv0                                     /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+__aeabi_idivmod                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+__aeabi_ldiv0                                     /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_dvmd_tls.o)
+__aeabi_lmul                                      /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+__aeabi_uidiv                                     /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+__aeabi_uidivmod                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+__clzsi2                                          /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_clzsi2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(extendsfdf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subdf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(muldf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divdf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(adddf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(floatsisf.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(subsf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(mulsf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(divsf3.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(addsf3.o)
+__divsi3                                          /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_divsi3.o)
+__eqdf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__eqsf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+__errno                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+__fdlib_version                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_lib_ver.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+__fpclassifyd                                     /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_fpclassify.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+__fpclassifyf                                     /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fpclassify.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  build/arm/debug/application/obj/matrix.o
+__gedf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__gesf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+__gtdf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gedf2.o)
+__gtsf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(gesf2.o)
+__ieee754_acosf                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+__ieee754_rem_pio2f                               /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+__ieee754_sqrt                                    /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-e_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+__ieee754_sqrtf                                   /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_acos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+__kernel_cosf                                     /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_cos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+__kernel_rem_pio2f                                /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+__kernel_sinf                                     /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+__ledf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpdf2.o)
+__lesf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_arm_cmpsf2.o)
+__ltdf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(ledf2.o)
+__ltsf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(lesf2.o)
+__muldi3                                          /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_muldi3.o)
+__nedf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqdf2.o)
+__nesf2                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(eqsf2.o)
+__udivsi3                                         /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libgcc.a(_udivsi3.o)
+_data                                             build/arm/debug/application/obj/memory.o
+_data_loadaddr                                    build/arm/debug/application/obj/memory.o
+_ebss                                             build/arm/debug/application/obj/memory.o
+_edata                                            build/arm/debug/application/obj/memory.o
+_genericProtocolEndpointInternalHandlesBegin      build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+_genericProtocolEndpointInternalHandlesEnd        build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+_global_impure_ptr                                /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+_impure_ptr                                       /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-errno.o)
+_initFunctions_Begin                              build/arm/debug/application/obj/systemInitializer.o
+_initFunctions_End                                build/arm/debug/application/obj/systemInitializer.o
+_msgPumpBPHandlesBegin                            build/arm/debug/application/obj/msgProxy.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+_msgPumpBPHandlesEnd                              build/arm/debug/application/obj/msgProxy.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+_ramBegin                                         build/arm/debug/application/obj/memory.o
+_rand                                             build/arm/debug/application/obj/matrix.o
+_stack                                            ./libvector.a(vectorISR.o)
+acosf                                             /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+adc_comp_isr                                      ./libvector.a(vectorISR.o)
+assert_failFunction                               build/arm/debug/application/obj/Assert.o
+blocking_handler                                  ./libvector.a(vectorISR.o)
+cec_can_isr                                       ./libvector.a(vectorISR.o)
+copysignf                                         /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_copysign.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+cosf                                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_cos.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+dma1_channel1_isr                                 ./libvector.a(vectorISR.o)
+dma1_channel2_3_isr                               ./libvector.a(vectorISR.o)
+dma1_channel4_5_isr                               ./libvector.a(vectorISR.o)
+dummySendFunction                                 build/arm/debug/application/obj/genericFlawLessProtocol.o
+exti0_1_isr                                       ./libvector.a(vectorISR.o)
+exti2_3_isr                                       ./libvector.a(vectorISR.o)
+exti4_15_isr                                      ./libvector.a(vectorISR.o)
+fabsf                                             /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_fabs.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+flash_isr                                         ./libvector.a(vectorISR.o)
+flawLess_ReceiveIndication                        build/arm/debug/application/obj/genericFlawLessProtocol.o
+floorf                                            /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_floor.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+g_messageBuffers                                  build/arm/debug/application/obj/msg_msgPump.o
+g_messageBuffersBuffer                            build/arm/debug/application/obj/msg_msgPump.o
+g_sendFunctions                                   build/arm/debug/application/obj/genericFlawLessProtocol.o
+genericFlawLessProtocolPacketDispatcher_initFuncPtr build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+genericProtocol_BeginTransmittingFrame            build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+genericProtocol_EndTransmittingFrame              build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+genericProtocol_SendInsideFrame                   build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+genericProtocol_initFuncPtr                       build/arm/debug/application/obj/genericFlawLessProtocol.o
+genericProtocol_sendMessage                       build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+getBuildVersion                                   build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_RPChandle                         build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_descriptiveName                   build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_in_parameterType                  build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_out_parameterType                 build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_shortName                         build/arm/debug/application/obj/buildVersion.o
+hard_fault_handler                                ./libvector.a(vectorISR.o)
+i2c1_isr                                          ./libvector.a(vectorISR.o)
+i2c2_isr                                          ./libvector.a(vectorISR.o)
+incommingEndpoint_handle                          build/arm/debug/application/obj/msgProxy.o
+incommingEndpoint_internalHandle                  build/arm/debug/application/obj/msgProxy.o
+main                                              build/arm/debug/application/obj/main.o
+                                                  ./libvector.a(vectorISR.o)
+mat_add                                           build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+                                                  build/arm/debug/application/obj/quaternion.o
+mat_adjugate                                      build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+mat_assign                                        build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+                                                  build/arm/debug/application/obj/quaternion.o
+mat_det                                           build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+mat_eq                                            build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_vector.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+                                                  build/arm/debug/application/obj/quaternion.o
+mat_eye                                           build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+mat_get                                           build/arm/debug/application/obj/matrix.o
+mat_inv                                           build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+mat_luDecomposition                               build/arm/debug/application/obj/matrix.o
+mat_minor                                         build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+mat_mul                                           build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+                                                  build/arm/debug/application/obj/quaternion.o
+mat_ones                                          build/arm/debug/application/obj/matrix.o
+mat_print                                         build/arm/debug/application/obj/matrix.o
+mat_rand                                          build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+mat_randgauss                                     build/arm/debug/application/obj/matrix.o
+mat_scale                                         build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+                                                  build/arm/debug/application/obj/quaternion.o
+mat_set                                           build/arm/debug/application/obj/matrix.o
+mat_sizematch                                     build/arm/debug/application/obj/matrix.o
+mat_sub                                           build/arm/debug/application/obj/matrix.o
+mat_transpose                                     build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+mat_valid                                         build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+mat_zero                                          build/arm/debug/application/obj/matrix.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+matherr                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_matherr.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+memcpy                                            /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                                                  build/arm/debug/application/obj/buildVersion.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+memory_initFuncPtr                                build/arm/debug/application/obj/memory.o
+memset                                            /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/test_matrix.o
+msgProxy_addMsgForBroadcast                       build/arm/debug/application/obj/msgProxy.o
+msgProxy_rmMsgForBroadcast                        build/arm/debug/application/obj/msgProxy.o
+msgPump_getFreeBuffer                             build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+msgPump_initFuncPtr                               build/arm/debug/application/obj/msg_msgPump.o
+msgPump_lockMessage                               build/arm/debug/application/obj/msg_msgPump.o
+msgPump_postMessage                               build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+msgPump_pumpMessage                               build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/main.o
+msgPump_registerOnMessage                         build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+msgPump_unlockMessage                             build/arm/debug/application/obj/msg_msgPump.o
+msgPump_unregisterFromMessage                     build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+nan                                               /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-s_nan.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_acos.o)
+nmi_handler                                       ./libvector.a(vectorISR.o)
+null_handler                                      ./libvector.a(vectorISR.o)
+nvic_clear_pending_irq                            build/arm/debug/application/obj/nvic.o
+nvic_disable_irq                                  build/arm/debug/application/obj/nvic.o
+nvic_enable_irq                                   build/arm/debug/application/obj/nvic.o
+nvic_get_irq_enabled                              build/arm/debug/application/obj/nvic.o
+nvic_get_pending_irq                              build/arm/debug/application/obj/nvic.o
+nvic_set_pending_irq                              build/arm/debug/application/obj/nvic.o
+nvic_set_priority                                 build/arm/debug/application/obj/nvic.o
+pend_sv_handler                                   ./libvector.a(vectorISR.o)
+phySendFunction0                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction1                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction2                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction3                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction4                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction5                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction6                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction7                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction8                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction9                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_callbackVector           build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_data_p                   build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_description              build/arm/debug/application/obj/genericFlawLessProtocol.o
+pvd_isr                                           ./libvector.a(vectorISR.o)
+quat_assign                                       build/arm/debug/application/obj/quaternion.o
+quat_conjugate                                    build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/test_quaternion.o
+quat_eq                                           build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/test_quaternion.o
+quat_interpolate                                  build/arm/debug/application/obj/quaternion.o
+quat_inv                                          build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/test_quaternion.o
+quat_mul                                          build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/test_quaternion.o
+quat_print                                        build/arm/debug/application/obj/quaternion.o
+quat_rot_vec                                      build/arm/debug/application/obj/quaternion.o
+quat_rotinv_vec                                   build/arm/debug/application/obj/quaternion.o
+quat_scale                                        build/arm/debug/application/obj/quaternion.o
+                                                  build/arm/debug/application/obj/test_quaternion.o
+quat_set_rot                                      build/arm/debug/application/obj/quaternion.o
+quat_to_mat                                       build/arm/debug/application/obj/quaternion.o
+quat_valid                                        build/arm/debug/application/obj/quaternion.o
+rand                                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+                                                  build/arm/debug/application/obj/matrix.o
+rcc_isr                                           ./libvector.a(vectorISR.o)
+reset_handler                                     ./libvector.a(vectorISR.o)
+rtc_isr                                           ./libvector.a(vectorISR.o)
+scalbnf                                           /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_scalbn.o)
+                                                  /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-kf_rem_pio2.o)
+sinf                                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-sf_sin.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+spi1_isr                                          ./libvector.a(vectorISR.o)
+spi2_isr                                          ./libvector.a(vectorISR.o)
+sqrt                                              /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-w_sqrt.o)
+                                                  build/arm/debug/application/obj/quaternion.o
+sqrtf                                             /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libm.a(lib_a-wf_sqrt.o)
+                                                  build/arm/debug/application/obj/vector.o
+srand                                             /home/lutz/gcc-arm-none-eabi-4.6/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-rand.o)
+sv_call_handler                                   ./libvector.a(vectorISR.o)
+sys_tick_handler                                  ./libvector.a(vectorISR.o)
+systemInitialize                                  build/arm/debug/application/obj/systemInitializer.o
+                                                  build/arm/debug/application/obj/main.o
+system_initFuncPtr                                build/arm/debug/application/obj/system.o
+system_mutex_lock                                 build/arm/debug/application/obj/system.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+system_mutex_unlock                               build/arm/debug/application/obj/system.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+system_reset                                      build/arm/debug/application/obj/system.o
+test_all                                          build/arm/debug/application/obj/math_test.o
+test_initFuncPtr                                  build/arm/debug/application/obj/test.o
+test_matrix                                       build/arm/debug/application/obj/test_matrix.o
+                                                  build/arm/debug/application/obj/math_test.o
+test_quaternion                                   build/arm/debug/application/obj/test_quaternion.o
+                                                  build/arm/debug/application/obj/math_test.o
+test_vector                                       build/arm/debug/application/obj/test_vector.o
+                                                  build/arm/debug/application/obj/math_test.o
+tim14_isr                                         ./libvector.a(vectorISR.o)
+tim15_isr                                         ./libvector.a(vectorISR.o)
+tim16_isr                                         ./libvector.a(vectorISR.o)
+tim17_isr                                         ./libvector.a(vectorISR.o)
+tim1_brk_up_trg_com_isr                           ./libvector.a(vectorISR.o)
+tim1_cc_isr                                       ./libvector.a(vectorISR.o)
+tim2_isr                                          ./libvector.a(vectorISR.o)
+tim3_isr                                          ./libvector.a(vectorISR.o)
+tim6_dac_isr                                      ./libvector.a(vectorISR.o)
+tim7_isr                                          ./libvector.a(vectorISR.o)
+tsc_isr                                           ./libvector.a(vectorISR.o)
+usart1_isr                                        ./libvector.a(vectorISR.o)
+usart2_isr                                        ./libvector.a(vectorISR.o)
+usart3_4_isr                                      ./libvector.a(vectorISR.o)
+usb_isr                                           ./libvector.a(vectorISR.o)
+vec_length_sqr                                    build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+vec_mul_cross                                     build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/test_vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+vec_mul_dot                                       build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+vec_normalize                                     build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+vec_print                                         build/arm/debug/application/obj/vector.o
+vec_valid                                         build/arm/debug/application/obj/vector.o
+                                                  build/arm/debug/application/obj/quaternion.o
+vector_table                                      ./libvector.a(vectorISR.o)
+wwdg_isr                                          ./libvector.a(vectorISR.o)
