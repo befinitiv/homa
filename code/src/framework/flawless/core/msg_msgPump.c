@@ -452,20 +452,21 @@ static void msgPump_init(void)
 
 		while (desc < &_msgPumpBPHandlesEnd)
 		{
-			uint8_t i = 0;
 
 			g_messageBuffers[desc->id] = desc;
 			memset(desc->data, 0, (desc->msgAmount * (desc->msgSize + MSG_BUFFER_MSG_OVERHEAD)));
 
 #ifdef MSG_PUMP_USE_HEADER_MAGIC
-			/* add some magic */
-			for (i = 0U; i < desc->msgAmount; ++i)
 			{
-				msgPumpMsgHeader_t *header = (msgPumpMsgHeader_t *)&(((uint8_t*)desc->data)[i * (desc->msgSize + MSG_BUFFER_MSG_OVERHEAD)]);
-				header->headerMagic = MSG_PUMP_MAGIC;
+				uint8_t i = 0;
+				/* add some magic */
+				for (i = 0U; i < desc->msgAmount; ++i)
+				{
+					msgPumpMsgHeader_t *header = (msgPumpMsgHeader_t *)&(((uint8_t*)desc->data)[i * (desc->msgSize + MSG_BUFFER_MSG_OVERHEAD)]);
+					header->headerMagic = MSG_PUMP_MAGIC;
+				}
 			}
 #endif
-
 			desc += 1;
 		}
 		memset((void*)g_msgQueue, 0, sizeof(g_msgQueue));
