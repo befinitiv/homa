@@ -1,4 +1,4 @@
-TOOLCHAIN_PREFIX				= "/home/lutz/gcc-arm-none-eabi-4.6/bin"
+TOOLCHAIN_PREFIX				= "/usr/bin/"
 
 GCC_ARM_CC_PATH  = TOOLCHAIN_PREFIX .. "/arm-none-eabi-gcc"
 GCC_ARM_CPP_PATH = TOOLCHAIN_PREFIX .. "/arm-none-eabi-g++"
