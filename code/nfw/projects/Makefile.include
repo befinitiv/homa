@@ -24,5 +24,6 @@ DEFS		= -DSTM32F0
 FP_FLAGS	?= -msoft-float
 ARCH_FLAGS	= -mthumb -mcpu=cortex-m0 $(FP_FLAGS)
 
+OPENCM3_DIR = $(abspath ../../libopencm3)
 
 include ../Makefile.rules
