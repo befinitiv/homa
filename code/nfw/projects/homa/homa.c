@@ -25,6 +25,10 @@
 #define PORT_LED GPIOA
 #define PIN_LED GPIO6
 
+#include "spi.h"
+
+
+
 static void gpio_setup(void)
 {
 	/* Enable GPIOB clock. */
@@ -43,6 +47,7 @@ int main(void)
 {
 	int i;
 
+	spi_init();
 	gpio_setup();
 
 	/* Blink the LED (PC8) on the board. */
