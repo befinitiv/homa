@@ -50,6 +50,11 @@ int main(void)
 	spi_init();
 	gpio_setup();
 
+	uint32_t *p = (uint32_t*)SPI1_I2S1_BASE;
+
+
+	i = *p;
+
 	/* Blink the LED (PC8) on the board. */
 	while (1) {
 		/* Manually: */
@@ -73,6 +78,8 @@ int main(void)
 		for (i = 0; i < 1000000; i++) {	/* Wait a bit. */
 			__asm__("nop");
 		}
+
+		spi_test();
 	}
 
 	return 0;
