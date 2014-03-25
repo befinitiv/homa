@@ -50,10 +50,6 @@ int main(void)
 	spi_init();
 	gpio_setup();
 
-	uint32_t *p = (uint32_t*)SPI1_I2S1_BASE;
-
-
-	i = *p;
 
 	/* Blink the LED (PC8) on the board. */
 	while (1) {
@@ -79,7 +75,7 @@ int main(void)
 			__asm__("nop");
 		}
 
-		spi_test();
+		if(spi_test() == 123)gpio_toggle(PORT_LED, PIN_LED);
 	}
 
 	return 0;

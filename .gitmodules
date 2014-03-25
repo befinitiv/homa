@@ -1,3 +1,6 @@
+[submodule "libopencm3"]
+	path = code/nfw/libopencm3
+	url = https://github.com/libopencm3/libopencm3.git
 [submodule "code/nfw/libopencm3"]
 	path = code/nfw/libopencm3
 	url = https://github.com/libopencm3/libopencm3.git

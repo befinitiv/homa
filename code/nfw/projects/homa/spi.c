@@ -6,29 +6,61 @@
 
 #include "spi.h"
 
+#define PORT_SPI GPIOB
+#define PIN_MOSI GPIO5
+#define PIN_MISO GPIO4
+#define PIN_SCK GPIO3
+
+#define PORT_SS GPIOA
+#define PIN_SS GPIO15
+
+
+void spi_select(void) {
+	gpio_clear(PORT_SS, PIN_SS);
+}
+
+void spi_deselect(void) {
+	gpio_set(PORT_SS, PIN_SS);
+}
+
 void spi_hardware_init(void) {
 	rcc_periph_clock_enable(RCC_SPI1);
 	rcc_periph_clock_enable(RCC_GPIOA);
 	rcc_periph_clock_enable(RCC_GPIOB);
 
-	gpio_set_af(GPIOB, 0, GPIO3 | GPIO4 | GPIO5);
-	gpio_set_af(GPIOA, 0, GPIO15);
+	gpio_set_af(PORT_SPI, 0, PIN_MOSI | PIN_MISO | PIN_SCK);
+	//gpio_set_af(PORT_SS, 0, PIN_SS);
 
-	gpio_mode_setup(GPIOB, GPIO_MODE_AF, GPIO_PUPD_NONE, GPIO3 | GPIO5);
-	gpio_mode_setup(GPIOA, GPIO_MODE_AF, GPIO_PUPD_NONE, GPIO15);
+	gpio_mode_setup(PORT_SPI, GPIO_MODE_AF, GPIO_PUPD_NONE, PIN_MOSI | PIN_MISO | PIN_SCK);
+	//gpio_mode_setup(GPIOA, GPIO_MODE_AF, GPIO_PUPD_NONE, GPIO15);
+	gpio_mode_setup(PORT_SS, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_SS);
 
 	spi_reset(SPI1_I2S1_BASE);
 
 	spi_init_master(SPI1_I2S1_BASE, 0, SPI_CR1_CPOL_CLK_TO_0_WHEN_IDLE, SPI_CR1_CPHA_CLK_TRANSITION_1, 0, SPI_CR1_LSBFIRST);
 
 
+	spi_send_msb_first(SPI1_I2S1_BASE);
 	spi_set_data_size(SPI1_I2S1_BASE, 8);
-	spi_enable_ss_output(SPI1_I2S1_BASE);
+	spi_fifo_reception_threshold_8bit(SPI1_I2S1_BASE);
 
-	SPI_CR2(SPI1_I2S1_BASE) |= SPI_CR2_NSSP;
+
+
+	//spi_enable_ss_output(SPI1_I2S1_BASE);
+	//SPI_CR2(SPI1_I2S1_BASE) |= SPI_CR2_NSSP;
+
+	//for some reason the harware SS control does not work as described in the manual.
+	//it only outputs pulses if NSSP=1, otherwise it stays constant at 0V
+	//RM0091 pp718/914 says that it should go HIGH if SPE=0. This is not the case
+	//thus we use GPIO as SS
+	spi_enable_software_slave_management(SPI1_I2S1_BASE);
+	spi_set_nss_high(SPI1_I2S1_BASE);
+
+	spi_deselect();
 
 	spi_enable(SPI1_I2S1_BASE);
 }
+
 
 
 void spi_init(void) {
@@ -36,6 +68,40 @@ void spi_init(void) {
 }
 
 
-void spi_test(void) {
-	spi_send8(SPI1_I2S1_BASE, 0x55);
+uint8_t spi_xfer8(uint32_t spi, uint8_t data)
+{
+	SPI_DR8(spi) = data;
+
+	/* Wait for transfer finished. */
+	while (!(SPI_SR(spi) & SPI_SR_RXNE));
+
+	/* Read the data (8 or 16 bits, depending on DFF bit) from DR. */
+	return SPI_DR8(spi);
+}
+
+
+void spi_transfer(uint8_t len, uint8_t *tx, uint8_t *rx) {
+	spi_select();
+
+	if(rx) {
+		while(len--) {
+			*rx++ = spi_xfer8(SPI1_I2S1_BASE, *tx++);
+		}
+	}
+	else
+	{
+		while(len--) {
+			spi_xfer8(SPI1_I2S1_BASE, *tx++);
+		}
+	}
+
+	spi_deselect();
+}
+
+int spi_test(void) {
+	uint8_t c = 0xff;
+
+	spi_transfer(1, &c, &c);
+
+	return c;
 }

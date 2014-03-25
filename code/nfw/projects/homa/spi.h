@@ -4,7 +4,7 @@
 
 void spi_hardware_init(void);
 void spi_init(void);
-void spi_test(void);
+int spi_test(void);
 
 
 #endif
