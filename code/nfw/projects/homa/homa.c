@@ -26,7 +26,7 @@
 #define PIN_LED GPIO6
 
 #include "spi.h"
-
+#include "nrf.h"
 
 
 static void gpio_setup(void)
@@ -48,6 +48,7 @@ int main(void)
 	int i;
 
 	spi_init();
+	nrf_init();
 	gpio_setup();
 
 
@@ -71,11 +72,11 @@ int main(void)
 
 		/* Using API function gpio_toggle(): */
 		gpio_toggle(PORT_LED, PIN_LED);	/* LED on/off */
-		for (i = 0; i < 1000000; i++) {	/* Wait a bit. */
+		for (i = 0; i < 100000; i++) {	/* Wait a bit. */
 			__asm__("nop");
 		}
 
-		if(spi_test() == 123)gpio_toggle(PORT_LED, PIN_LED);
+		nrf_test();
 	}
 
 	return 0;

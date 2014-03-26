@@ -1,4 +1,3 @@
-#include <libopencm3/stm32/i2c.h>
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/stm32/spi.h>
 #include <libopencm3/stm32/rcc.h>
@@ -23,7 +22,7 @@ void spi_deselect(void) {
 	gpio_set(PORT_SS, PIN_SS);
 }
 
-void spi_hardware_init(void) {
+void spi_init_hardware(void) {
 	rcc_periph_clock_enable(RCC_SPI1);
 	rcc_periph_clock_enable(RCC_GPIOA);
 	rcc_periph_clock_enable(RCC_GPIOB);
@@ -64,37 +63,45 @@ void spi_hardware_init(void) {
 
 
 void spi_init(void) {
-	spi_hardware_init();
+	spi_init_hardware();
 }
 
 
-uint8_t spi_xfer8(uint32_t spi, uint8_t data)
+uint8_t spi_xfer8(uint8_t data)
 {
-	SPI_DR8(spi) = data;
+	SPI_DR8(SPI1_I2S1_BASE) = data;
 
 	/* Wait for transfer finished. */
-	while (!(SPI_SR(spi) & SPI_SR_RXNE));
+	while (!(SPI_SR(SPI1_I2S1_BASE) & SPI_SR_RXNE));
 
-	/* Read the data (8 or 16 bits, depending on DFF bit) from DR. */
-	return SPI_DR8(spi);
+	/* Read the data from DR. */
+	return SPI_DR8(SPI1_I2S1_BASE);
 }
 
 
-void spi_transfer(uint8_t len, uint8_t *tx, uint8_t *rx) {
-	spi_select();
-
-	if(rx) {
+void spi_xfer8n(uint8_t len, const uint8_t *tx, uint8_t *rx) {
+	if(rx && tx) {
 		while(len--) {
-			*rx++ = spi_xfer8(SPI1_I2S1_BASE, *tx++);
+			*rx++ = spi_xfer8(*tx++);
+		}
+	}
+	else if(tx)
+	{
+		while(len--) {
+			spi_xfer8(*tx++);
 		}
 	}
 	else
 	{
 		while(len--) {
-			spi_xfer8(SPI1_I2S1_BASE, *tx++);
+			*rx++ = spi_xfer8(0);
 		}
 	}
+}
 
+void spi_transfer(uint8_t len, const uint8_t *tx, uint8_t *rx) {
+	spi_select();
+	spi_xfer8n(len, tx, rx);
 	spi_deselect();
 }
 
