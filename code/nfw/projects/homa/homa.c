@@ -24,6 +24,7 @@
 
 #define PORT_LED GPIOA
 #define PIN_LED GPIO6
+#define PIN_LED_R GPIO7
 
 #include "spi.h"
 #include "nrf.h"
@@ -40,7 +41,7 @@ static void gpio_setup(void)
 
 	/* Set GPIO6 (in GPIO port B) to 'output push-pull'. */
 	/* Using API functions: */
-	gpio_mode_setup(PORT_LED, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_LED);
+	gpio_mode_setup(PORT_LED, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_LED | PIN_LED_R);
 }
 
 int main(void)
@@ -49,6 +50,8 @@ int main(void)
 
 	spi_init();
 	nrf_init();
+	nrf_standby_2(1);
+
 	gpio_setup();
 
 
@@ -76,7 +79,9 @@ int main(void)
 			__asm__("nop");
 		}
 
-		nrf_test();
+		if(nrf_test()) {
+			gpio_toggle(PORT_LED, PIN_LED_R);
+		}
 	}
 
 	return 0;

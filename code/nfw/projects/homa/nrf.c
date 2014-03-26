@@ -103,22 +103,35 @@ void nrf_init(void) {
 
 	uint8_t reg;
 
-	reg = 1; // 3 byte addresses
+	reg = 3; // 3 byte addresses
 	nrf_write_register(SETUP_AW, &reg, 1);
 
 	reg = 0; //disable automatic retransmit
 	nrf_write_register(SETUP_RETR, &reg, 1);
 
-	reg = (3 << RF_PWR) | (1 << RF_DR_LOW); //0dBm power, 250kbps
+	reg = 0; //disable auto retransmit
+	nrf_write_register(EN_AA, &reg, 1);
+
+	reg = (3 << RF_PWR); //0dBm power, 1mbps
 	nrf_write_register(RF_SETUP, &reg, 1);
+
+	reg = 4;
+	nrf_write_register(RX_PW_P0, &reg, 1);
 
 }
 
 
-void nrf_test(void) {
-	nrf_standby_2(0);
+uint8_t nrf_test(void) {
+	uint8_t reg;
 
-	uint8_t d[] = "Hallo";
+	reg = 0x7e; // clear interrupts
+	reg = nrf_write_register(STATUS, &reg, 1);
 
-	nrf_write_tx_payload(d, sizeof(d)-1);
+	//read fifo
+	if((reg & 0xe) != 0xe) {
+		uint8_t p[4];
+		nrf_read_rx_payload(p, sizeof(p));
+	}
+
+	return reg & 64;
 }
