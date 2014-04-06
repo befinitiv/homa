@@ -1,17 +1,13 @@
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/stm32/rcc.h>
+#include <libopencm3/lm4f/nvic.h>
 
-
-
+#include "hwdefines.h"
 #include "nrf24l01.h"
 #include "nrf.h"
 #include "spi.h"
 
 
-#define PORT_CE GPIOA
-#define PIN_CE GPIO12
-#define PORT_IRQ GPIOA
-#define PIN_IRQ GPIO11
 
 
 
@@ -20,17 +16,19 @@ uint8_t reg_config = 0;
 
 
 void nrf_ce(void) {
-	gpio_set(PORT_CE, PIN_CE);
+	gpio_set(PORT_RF_CE, PIN_RF_CE);
 }
 
 void nrf_nce(void) {
-	gpio_clear(PORT_CE, PIN_CE);
+	gpio_clear(PORT_RF_CE, PIN_RF_CE);
 }
 
 void nrf_init_hardware(void) {
 	rcc_periph_clock_enable(RCC_GPIOA);
 
-	gpio_mode_setup(PORT_CE, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_CE);
+	gpio_mode_setup(PORT_RF_CE, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_RF_CE);
+
+
 
 	nrf_nce();
 }
@@ -103,7 +101,7 @@ void nrf_init(void) {
 
 	uint8_t reg;
 
-	reg = 3; // 3 byte addresses
+	reg = 1; // 3 byte addresses
 	nrf_write_register(SETUP_AW, &reg, 1);
 
 	reg = 0; //disable automatic retransmit
@@ -112,10 +110,10 @@ void nrf_init(void) {
 	reg = 0; //disable auto retransmit
 	nrf_write_register(EN_AA, &reg, 1);
 
-	reg = (3 << RF_PWR); //0dBm power, 1mbps
+	reg = (3 << RF_PWR) | (1 << RF_DR_LOW); //0dBm power, 250kbps
 	nrf_write_register(RF_SETUP, &reg, 1);
 
-	reg = 4;
+	reg = 2; //payload size 2 bytes
 	nrf_write_register(RX_PW_P0, &reg, 1);
 
 }
@@ -130,7 +128,20 @@ uint8_t nrf_test(void) {
 	//read fifo
 	if((reg & 0xe) != 0xe) {
 		uint8_t p[4];
+		uint16_t key, presses;
 		nrf_read_rx_payload(p, sizeof(p));
+		key = (*(uint16_t*)p) & 0xff;
+		presses = *(uint16_t*)(p+2);
+
+		//bottom
+		if(key == 0x1e) {
+			gpio_clear(PORT_LED, PIN_LED_R);
+			gpio_clear(PORT_IO_0, PIN_IO_0);
+		} else if(key == 0xf) { //middle
+			gpio_set(PORT_LED, PIN_LED_R);
+			gpio_set(PORT_IO_0, PIN_IO_0);
+		}
+
 	}
 
 	return reg & 64;
