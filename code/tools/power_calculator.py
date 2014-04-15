@@ -3,15 +3,15 @@
 
 
 battery_capacity = 225e-3 #in Ah (225mAh is the capacity of a CR2032 cell)
-wakeup_period = 0.5 #in s (we assume the active time is neglectable compared to the sleep time. thus wakeup_period = sleep_time)
+wakeup_period = 1.0 #in s (we assume the active time is neglectable compared to the sleep time. thus wakeup_period = sleep_time)
 message_length = 1 + 3 + 1 #message length in bytes (preamble, address, payload). should be kept as small as possible.
 bitrate = 250.0e3
 
 
+#currents
 uc_standby_c = 3.0e-6 #LSI enabled (LSE would be 2.7e-6)
 uc_running_c = 4.4e-3 #HSI 8MHz flash execution typical value
 uc_sleep_c = 1.5e-3 #HSI, most peripherals turned off
-
 
 rf_pwr_down_c = 0.9e-6
 rf_stdby1_c = 26.0e-6
