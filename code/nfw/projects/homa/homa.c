@@ -20,10 +20,11 @@
  */
 
 #include <libopencm3/stm32/rcc.h>
+#include <libopencm3/stm32/rtc.h>
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/stm32/pwr.h>
 #include <libopencmsis/core_cm3.h>
-
+#include <libopencm3/stm32/flash.h>
 
 
 
@@ -31,6 +32,7 @@
 #include "spi.h"
 #include "nrf.h"
 #include "rtc.h"
+#include "pwr.h"
 
 static void gpio_setup(void)
 {
@@ -46,49 +48,53 @@ static void gpio_setup(void)
 	/* Using API functions: */
 
 	//enable pulldown to save power
-	//gpio_mode_setup(GPIOA, GPIO_MODE_INPUT, GPIO_PUPD_PULLDOWN, GPIO_ALL);
-	//gpio_mode_setup(GPIOB, GPIO_MODE_INPUT, GPIO_PUPD_PULLDOWN, GPIO_ALL);
+	gpio_mode_setup(GPIOA, GPIO_MODE_INPUT, GPIO_PUPD_PULLDOWN, GPIO_ALL);
+	gpio_mode_setup(GPIOB, GPIO_MODE_INPUT, GPIO_PUPD_PULLDOWN, GPIO_ALL);
 
-	gpio_mode_setup(PORT_LED, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_LED | PIN_LED_R);
+	gpio_mode_setup(PORT_LED, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_LED_G | PIN_LED_R);
 	gpio_mode_setup(PORT_IO_0, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_IO_0);
 
 	gpio_clear(PORT_IO_0, PIN_IO_0);
-	gpio_set(PORT_LED, PIN_LED | PIN_LED_R);
+	gpio_set(PORT_LED, PIN_LED_G | PIN_LED_R);
 }
+
+
 
 int main(void)
 {
 	int i, t;
 
-	for (i = 0; i < 1000000; i++) {	/* Wait a bit. */
-		__asm__("nop");
+
+	if(!PWR_WAS_I_IN_STANDBY) {
+		//sleep a bit. this helps the voltage of the radio to settle. also you are not yet locked out of JTAG (which could happen if the chip goes immediately into standby mode)
+		for (i = 0; i < 1000000; i++) {	/* Wait a bit. */
+			__asm__("nop");
+		}
 	}
 
-	gpio_setup();
-
 	rtc_init();
+	gpio_setup();
 	spi_init();
 	nrf_init();
 	nrf_standby_2(1);
-
-
 
 
 	/* Blink the LED (PC8) on the board. */
 	for(t=0; t<20; ++t) {
 
 		/* Using API function gpio_toggle(): */
-		gpio_toggle(PORT_LED, PIN_LED);	/* LED on/off */
+		gpio_toggle(PORT_LED, PIN_LED_G);	/* LED on/off */
 		for (i = 0; i < 100000; i++) {	/* Wait a bit. */
 			__asm__("nop");
 		}
 
 		nrf_test();
 		rtc_test();
+		//adc_read_channel(16);
 	}
 
 
-	gpio_clear(PORT_LED, PIN_LED | PIN_LED_R);
+	//gpio_clear(PORT_LED, PIN_LED_G | PIN_LED_R);
 	pwr_enter_standby();
 
 

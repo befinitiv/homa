@@ -6,7 +6,7 @@
 #include "nrf24l01.h"
 #include "nrf.h"
 #include "spi.h"
-
+#include "pwr.h"
 
 
 
@@ -92,14 +92,10 @@ void nrf_standby_2(uint8_t rx) {
 }
 
 
-
-void nrf_init(void) {
-	nrf_init_hardware();
-
-	reg_config |= (1 << EN_CRC);
-	nrf_pwr_down();
-
+void nrf_init_chip_settings(uint8_t payload_size) {
 	uint8_t reg;
+
+	nrf_write_register(CONFIG, &reg_config, 1);
 
 	reg = 1; // 3 byte addresses
 	nrf_write_register(SETUP_AW, &reg, 1);
@@ -113,8 +109,18 @@ void nrf_init(void) {
 	reg = (3 << RF_PWR) | (1 << RF_DR_LOW); //0dBm power, 250kbps
 	nrf_write_register(RF_SETUP, &reg, 1);
 
-	reg = 2; //payload size 2 bytes
+	reg = payload_size;
 	nrf_write_register(RX_PW_P0, &reg, 1);
+}
+
+void nrf_init(void) {
+	nrf_init_hardware();
+
+	reg_config = (1 << EN_CRC);
+
+	if(!PWR_WAS_I_IN_STANDBY) {
+		nrf_init_chip_settings(2);
+	}
 
 }
 

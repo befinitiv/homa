@@ -23,8 +23,19 @@
 /* Define memory regions. */
 MEMORY
 {
-	rom (rx) : ORIGIN = 0x08000000, LENGTH = 64K
+	rom (rx) : ORIGIN = 0x08000000, LENGTH = 63K
+	eeprom (rx) : ORIGIN = 0x0800FC00, LENGTH = 1K
 	ram (rwx) : ORIGIN = 0x20000000, LENGTH = 8K
+}
+
+SECTIONS
+{
+	    .eeprom :
+    {
+    . = ALIGN(4);
+        *(.eeprom)
+    . = ALIGN(4);
+    } >eeprom
 }
 
 /* Include the common ld script. */

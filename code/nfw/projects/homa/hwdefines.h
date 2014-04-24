@@ -12,7 +12,7 @@
 #include <libopencm3/stm32/gpio.h>
 
 #define PORT_LED GPIOA
-#define PIN_LED GPIO6
+#define PIN_LED_G GPIO6
 #define PIN_LED_R GPIO7
 
 #define PORT_IO_0 GPIOB

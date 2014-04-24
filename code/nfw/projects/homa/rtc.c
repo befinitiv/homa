@@ -4,6 +4,7 @@
 
 
 
+#include "pwr.h"
 
 void rtc_set_time(uint8_t pm, uint8_t hour_ten, uint8_t hour_unit, uint8_t minute_ten, uint8_t minute_unit, uint8_t second_ten, uint8_t second_unit) {
 	RTC_TR = (hour_ten << RTC_TR_HT_SHIFT) | (hour_unit << RTC_TR_HU_SHIFT) | (minute_ten << RTC_TR_MNT_SHIFT) | (minute_unit << RTC_TR_MNU_SHIFT) | (second_ten << RTC_TR_ST_SHIFT) | (second_unit << RTC_TR_SU_SHIFT);
@@ -35,29 +36,20 @@ void rtc_exit_init_mode(void) {
 
 
 
-//TODO: test me!
-void rtc_enable_periodic_wakeup(uint8_t coarse, uint16_t wakeup_time) {
+void rtc_enable_periodic_alarm_every_minute(void) {
 	rtc_unlock();
 
-	//disable WUT
-	RTC_CR &= ~RTC_CR_WUTE;
+	//disable ALARM
+	RTC_CR &= ~RTC_CR_ALRAE;
 
-	//wait until we can access WUT[15:0] and WUCLKSEL
-	while(!(RTC_ISR & RTC_ISR_WUTWF));
+	//wait until we can access the alarm registers
+	while(!(RTC_ISR & RTC_ISR_ALRAWF));
 
-	RTC_WUTR = wakeup_time;
+	RTC_ALRMAR = RTC_ALRMXR_MSK4 | RTC_ALRMXR_MSK3 | RTC_ALRMXR_MSK2 | (5 << RTC_ALRMXR_ST_SHIFT) | (9 << RTC_ALRMXR_SU_SHIFT);
 
-	if(coarse)
-		RTC_CR |= RTC_CR_WUCLKSEL_SPRE; //clock the WUT with 1Hz [1s - 32d]
-	else
-		RTC_CR |= RTC_CR_WUCLKSEL_RTC_DIV16; //clock with 32768Hz/16 == 2048Hz [488us - 32s]
+	//enable ALARM
+	RTC_CR |= RTC_CR_ALRAE | RTC_CR_ALRAIE;
 
-
-
-	//enable WUT
-	RTC_CR |= RTC_CR_WUTE;
-
-	int rtc_cr = RTC_CR;
 
 	rtc_lock();
 }
@@ -70,15 +62,9 @@ void rtc_init_hardware(uint8_t use_internal_lsi_osc) {
 	PWR_CR |= PWR_CR_DBP;
 
 	if(use_internal_lsi_osc) {
-		//enable internal 32k rc oscillator (not needed if external is used)
+		//enable internal 40khz rc oscillator (not needed if external is used)
 		RCC_CSR |= RCC_CSR_LSION;
-	}
 
-	//reset rtc domain
-	RCC_BDCR |= RCC_BDCR_BDRST;
-	RCC_BDCR &= ~RCC_BDCR_BDRST;
-
-	if(use_internal_lsi_osc) {
 		//enable rtc and the oscillators
 		RCC_BDCR |= RCC_BDCR_RTCEN | RCC_BDCR_RTCSEL_LSI;
 	}
@@ -96,9 +82,6 @@ void rtc_init_hardware(uint8_t use_internal_lsi_osc) {
 
 	rtc_set_time(0, 0, 8, 5, 0, 0, 0);
 	rtc_set_date(1, 4, 6, 0, 3, 2, 9);
-	RTC_CR |= RTC_CR_FMT;
-	RTC_CR |= RTC_CR_WUCLKSEL_SPRE;
-	RTC_CR |= RTC_CR_WUTE;
 
 	rtc_exit_init_mode();
 	rtc_lock();
@@ -107,9 +90,13 @@ void rtc_init_hardware(uint8_t use_internal_lsi_osc) {
 
 
 void rtc_init(void) {
-	rtc_init_hardware(0);
+	//TODO: this should be done only if !PWR_WAS_I_IN_STANDBY. however, without reinitializing the RTC, the alarm will not wake up the system anymore. this has to be analyzed
+	rtc_init_hardware(1);
+	rtc_enable_periodic_alarm_every_minute();
 
-	rtc_enable_periodic_wakeup(0, 40000);
+	int i;
+	i = RTC_BKPXR(0);
+	RTC_BKPXR(0) = ++i;
 }
 
 
@@ -120,7 +107,7 @@ void rtc_test(void) {
 
 
 	int wut_isr = RTC_ISR;
-	RTC_ISR &= ~RTC_ISR_WUTF;
+	RTC_ISR &= ~RTC_ISR_ALRAF;
 
 	int wut_cr = RTC_CR;
 

@@ -8,3 +8,5 @@ code/build
 code/*.make
 code/*.elf
 code/*.map
+*.o
+*.d
