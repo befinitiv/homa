@@ -24,10 +24,10 @@
 
 
 
-battery_capacity = 225e-3 #in Ah (225mAh is the capacity of a CR2032 cell)
-wakeup_period = 1.0 #in s (we assume the active time is neglectable compared to the sleep time. thus wakeup_period = sleep_time)
-beacon_message_length = 1 + 3 + 1 + 1 #message (from node to central) length in bytes (preamble, broadcast address, node id, crc). should be kept as small as possible.
-command_message_length = 1 + 3 + 1 + 1 #message length (answer from central) in bytes (preamble, dest address, command, crc). should be kept as small as possible.
+battery_capacity = 850e-3#180e-3 #225e-3 #in Ah (225mAh is the capacity of a CR2032 cell. as we consume pulses of ~20mA which is much higher than the optimal 0.2mA , the capacity drops to around 180mAh [http://m.eet.com/media/1121454/c0924post.pdf])
+wakeup_period = 1 #in s (we assume the active time is neglectable compared to the sleep time. thus wakeup_period = sleep_time)
+beacon_message_length = 1 + 3 + 1 + 1#message (from node to central) length in bytes (preamble, broadcast address, node id, crc). should be kept as small as possible.
+command_message_length = 1 + 3 + 1 + 1 #message length (answer from central) in bytes (preamble, dest address, command, crc). should be kept as small as possible. can be set to zero in case of transmit only notes (think of a remote sensor)
 bitrate = 250.0e3
 
 
@@ -35,7 +35,6 @@ bitrate = 250.0e3
 uc_standby_c = 3.0e-6 #LSI enabled (LSE would be 2.7e-6)
 uc_running_c = 4.4e-3 #HSI 8MHz flash execution typical value
 uc_sleep_c = 1.5e-3 #HSI, most peripherals turned off
-
 rf_pwr_down_c = 0.9e-6
 rf_stdby1_c = 26.0e-6
 rf_stdby2_c = 320.0e-6
@@ -67,8 +66,13 @@ quiescent_current = uc_standby_c + rf_pwr_down_c
 
 
 transmit_time = (beacon_message_time)
-pause_time = 100e-6
-receive_time = (command_message_time) * 1.1 #10% guard time for jitter
+
+if command_message_time == 0:
+	pause_time = 0
+	receive_time = 0
+else:
+	pause_time = 100e-6
+	receive_time = (command_message_time) * 1.1 #10% guard time for jitter
 
 
 #unit of this is Ah
@@ -86,7 +90,7 @@ battery_lifetime = battery_capacity / average_current
 
 
 print "Average current: %f mA\nBattery lifetime: %d Days (%.2f years)" % (average_current * 1e3, battery_lifetime / 24, battery_lifetime / 24 / 365)
-
+print "---\nQuiescent current:\t%d%%\nRadio current:\t\t%d%%\nuC current:\t\t%d%%" % (quiescent_current * 100 / average_current, (active_charge_radio / wakeup_period) * 100 / average_current, (active_charge_uc / wakeup_period) * 100 / average_current)
 
 
 
