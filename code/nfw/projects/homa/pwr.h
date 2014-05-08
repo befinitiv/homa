@@ -15,5 +15,6 @@
 
 
 void pwr_enter_standby(void);
+void pwr_enter_stop(void);
 
 #endif /* PWR_H_ */
