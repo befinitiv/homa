@@ -29,4 +29,7 @@ typedef uint64_t systemTime_t; //In US
  */
 systemTime_t getSystemTimeUS();
 
+
+void system_wait_for_interrupt();
+
 #endif /* SYSTEM_H_ */

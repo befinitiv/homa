@@ -1,0 +1,1761 @@
+Archive member included because of file (symbol)
+
+./libvector.a(vectorISR.o)    (vector_table)
+/usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+                              build/arm/debug/application/obj/msg_msgPump.o (__aeabi_idivmod)
+/usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o) (__aeabi_idiv0)
+/usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+                              build/arm/debug/application/obj/buildVersion.o (memcpy)
+/usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+                              build/arm/debug/application/obj/msg_msgPump.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+protocollIGEP_IGEPBuffer_callbackVector
+                    0x10              build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_data_p
+                    0xa78             build/arm/debug/application/obj/genericFlawLessProtocol.o
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/main.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrfProtocol.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/nrfProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/buildVersion.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x1c build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x6a build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x0000000000000000       0x28 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x1c build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000      0x100 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/test.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x4c build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0xa3 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x52 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x43 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000      0x180 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000      0x2a3 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x1c build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x6a build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msg_msgPump.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/systemInitializer.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x6a build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x4c build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0xa3 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x52 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x43 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000      0x180 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000      0x2a3 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/logging.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x4c build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0xa3 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x52 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x43 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000      0x180 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000      0x2a3 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000000000       0x6a build/arm/debug/application/obj/Assert.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x28 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x1c build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x1c build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000000000       0x28 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x1c build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000000000       0x28 build/arm/debug/application/obj/msgProxy.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000       0x44 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000       0x76 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000      0x2e6 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000000000       0x3a build/arm/debug/application/obj/gpio.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0x44 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0xfa build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0x76 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000      0x2e6 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000000000       0x3a build/arm/debug/application/obj/gpio_common_all.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0x44 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0xfa build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0x76 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000      0x2e6 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000000000       0x3a build/arm/debug/application/obj/gpio_common_f0234.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/memory.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/memory.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/memory.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/memory.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000       0x44 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000       0xfa build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/nvic.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x4c build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0xa3 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x166 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x52 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x43 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x180 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x2a3 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x20f build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x6a build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x71c build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x100 build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/system.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/system.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0x44 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0xfa build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0x76 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000      0x2e6 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0x3a build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000      0x71c build/arm/debug/application/obj/spi.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/spi.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x44 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0xfa build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x76 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x2e6 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x3a build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x71c build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x4d build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x8e build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x1f build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x6a build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x1a4 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0xaf build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x4c build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0xa3 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x52 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x43 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x180 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000      0x2a3 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x35 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/nrf.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x44 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0xfa build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000      0x71c build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x76 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000      0x2e6 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x3a build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x8e build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x1f build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x6a build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x4d build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000      0x1a4 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0xaf build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/pwr.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000      0x820 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x16 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x4a build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000      0x209 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x82 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000      0x452 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0xf6 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x22 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000      0x100 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x2e build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000      0x154 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x4d build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x76 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000      0x2e6 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0xca build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x3a build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000      0x71c build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000000000       0x10 build/arm/debug/application/obj/gpio_interrupts.o
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .group         0x0000000000000000        0x8 ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000      0x820 ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000       0x16 ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000       0x44 ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000      0x209 ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000       0x22 ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000       0xfa ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000       0x2e ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000       0x47 ./libvector.a(vectorISR.o)
+ .debug_macro   0x0000000000000000       0xca ./libvector.a(vectorISR.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000000010000 xr
+ram              0x0000000020000000 0x0000000000002000 xrw
+garbage          0x0000000000000000 0x0000000000000400 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/arm/debug/application/obj/main.o
+LOAD build/arm/debug/application/obj/nrfProtocol.o
+LOAD build/arm/debug/application/obj/buildVersion.o
+LOAD build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+LOAD build/arm/debug/application/obj/test.o
+LOAD build/arm/debug/application/obj/msg_msgPump.o
+LOAD build/arm/debug/application/obj/systemInitializer.o
+LOAD build/arm/debug/application/obj/logging.o
+LOAD build/arm/debug/application/obj/Assert.o
+LOAD build/arm/debug/application/obj/genericFlawLessProtocol.o
+LOAD build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+LOAD build/arm/debug/application/obj/msgProxy.o
+LOAD build/arm/debug/application/obj/gpio.o
+LOAD build/arm/debug/application/obj/gpio_common_all.o
+LOAD build/arm/debug/application/obj/gpio_common_f0234.o
+LOAD build/arm/debug/application/obj/memory.o
+LOAD build/arm/debug/application/obj/nvic.o
+LOAD build/arm/debug/application/obj/system.o
+LOAD build/arm/debug/application/obj/spi.o
+LOAD build/arm/debug/application/obj/nrf.o
+LOAD build/arm/debug/application/obj/pwr.o
+LOAD build/arm/debug/application/obj/gpio_interrupts.o
+LOAD ./libvector.a
+LOAD /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a
+END GROUP
+                0x0000000008000000                . = ORIGIN (rom)
+
+.text           0x0000000008000000     0x2dc4
+ *(.vectors)
+ .vectors       0x0000000008000000       0xc0 ./libvector.a(vectorISR.o)
+                0x0000000008000000                vector_table
+ *(.text*)
+ .text          0x00000000080000c0       0x40 build/arm/debug/application/obj/main.o
+                0x00000000080000c0                main
+ .text          0x0000000008000100        0x0 build/arm/debug/application/obj/nrfProtocol.o
+ .text          0x0000000008000100       0x34 build/arm/debug/application/obj/buildVersion.o
+                0x0000000008000100                getBuildVersion
+ .text          0x0000000008000134        0x0 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .text          0x0000000008000134       0x38 build/arm/debug/application/obj/test.o
+ .text          0x000000000800016c      0x734 build/arm/debug/application/obj/msg_msgPump.o
+                0x0000000008000190                msgPump_registerOnMessage
+                0x0000000008000248                msgPump_unregisterFromMessage
+                0x00000000080002dc                msgPump_postMessage
+                0x00000000080005a0                msgPump_lockMessage
+                0x0000000008000600                msgPump_unlockMessage
+                0x0000000008000654                msgPump_getFreeBuffer
+                0x0000000008000748                msgPump_pumpMessage
+ .text          0x00000000080008a0       0x38 build/arm/debug/application/obj/systemInitializer.o
+                0x00000000080008a0                systemInitialize
+ .text          0x00000000080008d8        0x0 build/arm/debug/application/obj/logging.o
+ .text          0x00000000080008d8       0x10 build/arm/debug/application/obj/Assert.o
+                0x00000000080008d8                assert_failFunction
+ .text          0x00000000080008e8      0x7a8 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x00000000080008e8                phySendFunction7
+                0x00000000080008e8                phySendFunction3
+                0x00000000080008e8                phySendFunction0
+                0x00000000080008e8                phySendFunction2
+                0x00000000080008e8                phySendFunction9
+                0x00000000080008e8                dummySendFunction
+                0x00000000080008e8                phySendFunction6
+                0x00000000080008e8                phySendFunction4
+                0x00000000080008e8                phySendFunction8
+                0x00000000080008e8                phySendFunction5
+                0x00000000080008e8                phySendFunction1
+                0x0000000008000b64                flawLess_ReceiveIndication
+                0x0000000008000d0c                genericProtocol_sendMessage
+                0x0000000008000e10                genericProtocol_BeginTransmittingFrame
+                0x0000000008000efc                genericProtocol_SendInsideFrame
+                0x0000000008000fa0                genericProtocol_EndTransmittingFrame
+ .text          0x0000000008001090       0xcc build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .text          0x000000000800115c      0x2d0 build/arm/debug/application/obj/msgProxy.o
+                0x00000000080013dc                msgProxy_addMsgForBroadcast
+                0x0000000008001404                msgProxy_rmMsgForBroadcast
+ .text          0x000000000800142c        0x0 build/arm/debug/application/obj/gpio.o
+ .text          0x000000000800142c      0x118 build/arm/debug/application/obj/gpio_common_all.o
+                0x000000000800142c                gpio_set
+                0x000000000800144c                gpio_clear
+                0x000000000800146c                gpio_get
+                0x0000000008001494                gpio_toggle
+                0x00000000080014bc                gpio_port_read
+                0x00000000080014d4                gpio_port_write
+                0x00000000080014f4                gpio_port_config_lock
+ .text          0x0000000008001544      0x298 build/arm/debug/application/obj/gpio_common_f0234.o
+                0x0000000008001544                gpio_mode_setup
+                0x0000000008001614                gpio_set_output_options
+                0x00000000080016d8                gpio_set_af
+ .text          0x00000000080017dc       0x74 build/arm/debug/application/obj/memory.o
+ .text          0x0000000008001850      0x1b0 build/arm/debug/application/obj/nvic.o
+                0x0000000008001850                nvic_enable_irq
+                0x0000000008001888                nvic_disable_irq
+                0x00000000080018c0                nvic_get_pending_irq
+                0x0000000008001900                nvic_set_pending_irq
+                0x0000000008001938                nvic_clear_pending_irq
+                0x0000000008001970                nvic_get_irq_enabled
+                0x00000000080019b0                nvic_set_priority
+ .text          0x0000000008001a00       0x84 build/arm/debug/application/obj/system.o
+                0x0000000008001a14                system_mutex_lock
+                0x0000000008001a30                system_mutex_unlock
+                0x0000000008001a60                system_reset
+ .text          0x0000000008001a84      0x200 build/arm/debug/application/obj/spi.o
+                0x0000000008001a84                spi_slaveSelect
+                0x0000000008001af4                spi_xfer
+                0x0000000008001b9c                spi_flush
+ .text          0x0000000008001c84      0x93c build/arm/debug/application/obj/nrf.o
+                0x0000000008001dd8                nrf_pwr_down
+                0x0000000008001e04                nrf_standby_1
+                0x0000000008001e30                nrf_standby_2
+                0x0000000008001e70                nrf_flushRx
+                0x0000000008001e84                nrf_flushTx
+                0x0000000008002078                nrf_pwr_up
+                0x00000000080020ec                nrf_setupNewRxDataPipe
+                0x000000000800226c                nrf_setRxBaseAddress
+                0x00000000080022c4                nrf_sendPacket
+                0x0000000008002434                nrf_test
+ .text          0x00000000080025c0       0x78 build/arm/debug/application/obj/pwr.o
+                0x00000000080025c0                system_wait_for_interrupt
+                0x00000000080025ec                pwr_enter_stop
+ .text          0x0000000008002638      0x4b0 build/arm/debug/application/obj/gpio_interrupts.o
+                0x0000000008002638                gpio_registerFor_interrupt
+                0x0000000008002868                gpio_unregisterFor_interrupt
+                0x0000000008002924                gpio_enable_interrupt
+                0x0000000008002950                gpio_disable_interrupt
+                0x00000000080029cc                exti0_1_isr
+                0x0000000008002a14                exti2_3_isr
+                0x0000000008002a5c                exti4_15_isr
+ .text          0x0000000008002ae8       0x14 ./libvector.a(vectorISR.o)
+                0x0000000008002ae8                reset_handler
+                0x0000000008002aec                rtc_isr
+                0x0000000008002aec                tim7_isr
+                0x0000000008002aec                blocking_handler
+                0x0000000008002aec                tsc_isr
+                0x0000000008002aec                spi1_isr
+                0x0000000008002aec                i2c1_isr
+                0x0000000008002aec                tim17_isr
+                0x0000000008002aec                i2c2_isr
+                0x0000000008002aec                usart1_isr
+                0x0000000008002aec                usart3_4_isr
+                0x0000000008002aec                tim1_cc_isr
+                0x0000000008002aec                tim16_isr
+                0x0000000008002aec                pvd_isr
+                0x0000000008002aec                rcc_isr
+                0x0000000008002aec                flash_isr
+                0x0000000008002aec                hard_fault_handler
+                0x0000000008002aec                tim14_isr
+                0x0000000008002aec                spi2_isr
+                0x0000000008002aec                usb_isr
+                0x0000000008002aec                tim15_isr
+                0x0000000008002aec                tim3_isr
+                0x0000000008002aec                usart2_isr
+                0x0000000008002aec                adc_comp_isr
+                0x0000000008002aec                dma1_channel1_isr
+                0x0000000008002aec                tim6_dac_isr
+                0x0000000008002aec                tim1_brk_up_trg_com_isr
+                0x0000000008002aec                dma1_channel2_3_isr
+                0x0000000008002aec                cec_can_isr
+                0x0000000008002aec                wwdg_isr
+                0x0000000008002aec                tim2_isr
+                0x0000000008002aec                dma1_channel4_5_isr
+                0x0000000008002af4                null_handler
+                0x0000000008002af4                sv_call_handler
+                0x0000000008002af4                pend_sv_handler
+                0x0000000008002af4                sys_tick_handler
+                0x0000000008002af4                nmi_handler
+ .text          0x0000000008002afc       0xc0 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+                0x0000000008002afc                __aeabi_idiv
+                0x0000000008002afc                __divsi3
+                0x0000000008002ba8                __aeabi_idivmod
+ .text          0x0000000008002bbc        0x4 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+                0x0000000008002bbc                __aeabi_ldiv0
+                0x0000000008002bbc                __aeabi_idiv0
+ .text          0x0000000008002bc0       0x80 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+                0x0000000008002bc0                memcpy
+ .text          0x0000000008002c40       0x90 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+                0x0000000008002c40                memset
+                0x0000000008002cd0                . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata        0x0000000008002cd0       0x70 build/arm/debug/application/obj/buildVersion.o
+ .rodata        0x0000000008002d40       0x30 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x0000000008002d40                g_sendFunctions
+ .rodata        0x0000000008002d70        0x4 build/arm/debug/application/obj/msgProxy.o
+                0x0000000008002d74                _initFunctions_Begin = .
+ *(.moduleInitializeFunction0*)
+ *(.moduleInitializeFunction1*)
+ .moduleInitializeFunction1
+                0x0000000008002d74        0x4 build/arm/debug/application/obj/memory.o
+                0x0000000008002d74                memory_initFuncPtr
+ *(.moduleInitializeFunction2*)
+ .moduleInitializeFunction2
+                0x0000000008002d78        0x4 build/arm/debug/application/obj/msg_msgPump.o
+                0x0000000008002d78                msgPump_initFuncPtr
+ .moduleInitializeFunction2
+                0x0000000008002d7c        0x4 build/arm/debug/application/obj/system.o
+                0x0000000008002d7c                system_initFuncPtr
+ *(.moduleInitializeFunction3*)
+ .moduleInitializeFunction3
+                0x0000000008002d80        0x4 build/arm/debug/application/obj/spi.o
+                0x0000000008002d80                spiDriver_initFuncPtr
+ .moduleInitializeFunction3
+                0x0000000008002d84        0x4 build/arm/debug/application/obj/gpio_interrupts.o
+                0x0000000008002d84                gpio_interrupts_initFuncPtr
+ *(.moduleInitializeFunction4*)
+ .moduleInitializeFunction4
+                0x0000000008002d88        0x4 build/arm/debug/application/obj/nrf.o
+                0x0000000008002d88                nrf_initFuncPtr
+ *(.moduleInitializeFunction5*)
+ .moduleInitializeFunction5
+                0x0000000008002d8c        0x4 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x0000000008002d8c                genericProtocol_initFuncPtr
+ .moduleInitializeFunction5
+                0x0000000008002d90        0x4 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+                0x0000000008002d90                genericFlawLessProtocolPacketDispatcher_initFuncPtr
+ *(.moduleInitializeFunction6*)
+ *(.moduleInitializeFunction7*)
+ *(.moduleInitializeFunction8*)
+ *(.moduleInitializeFunction9*)
+ .moduleInitializeFunction9
+                0x0000000008002d94        0x4 build/arm/debug/application/obj/test.o
+                0x0000000008002d94                test_initFuncPtr
+ .moduleInitializeFunction9
+                0x0000000008002d98        0x4 build/arm/debug/application/obj/nrf.o
+                0x0000000008002d98                blubb_initFuncPtr
+                0x0000000008002d9c                _initFunctions_End = .
+                0x0000000008002d9c                _logStringsBegin = .
+ *(.logStrings*)
+                0x0000000008002d9c                _logStringsEnd = .
+ *(.genericProtocolEndpointHandles*)
+ .genericProtocolEndpointHandles
+                0x0000000008002d9c        0xc build/arm/debug/application/obj/msgProxy.o
+                0x0000000008002d9c                incommingEndpoint_handle
+                0x0000000008002da8                _genericProtocolEndpointInternalHandlesBegin = .
+ *(.genericProtocolEndpointInternalHandles*)
+ .genericProtocolEndpointInternalHandles
+                0x0000000008002da8        0x4 build/arm/debug/application/obj/msgProxy.o
+                0x0000000008002da8                incommingEndpoint_internalHandle
+                0x0000000008002dac                _genericProtocolEndpointInternalHandlesEnd = .
+                0x0000000008002dac                _msgPumpBPHandlesBegin = .
+ *(.msgPumpDescriptions*)
+ .msgPumpDescriptions
+                0x0000000008002dac       0x18 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x0000000008002dac                protocollIGEP_IGEPBuffer_description
+                0x0000000008002dc4                _msgPumpBPHandlesEnd = .
+                0x0000000008002dc4                _etext = .
+
+.glue_7         0x0000000008002dc4        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000008002dc4        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008002dc4        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000008002dc4        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000008002dc4        0x0
+ .iplt          0x0000000000000000        0x0 build/arm/debug/application/obj/main.o
+
+.rel.dyn        0x0000000008002dc4        0x0
+ .rel.iplt      0x0000000000000000        0x0 build/arm/debug/application/obj/main.o
+
+.moduleRPCShortNames
+                0x0000000008002dc4       0x10
+ .moduleRPCShortNames
+                0x0000000008002dc4       0x10 build/arm/debug/application/obj/buildVersion.o
+                0x0000000008002dc4                getBuildVersion_shortName
+
+.moduleRPCDescriptiveNames
+                0x0000000008002dd4       0x20
+ .moduleRPCDescriptiveNames
+                0x0000000008002dd4       0x20 build/arm/debug/application/obj/buildVersion.o
+                0x0000000008002dd4                getBuildVersion_descriptiveName
+
+.moduleRPCParameterInTypes
+                0x0000000008002df4        0x8
+ .moduleRPCParameterInTypes
+                0x0000000008002df4        0x8 build/arm/debug/application/obj/buildVersion.o
+                0x0000000008002df4                getBuildVersion_in_parameterType
+
+.moduleRPCParameterOutTypes
+                0x0000000008002dfc       0x10
+ .moduleRPCParameterOutTypes
+                0x0000000008002dfc       0x10 build/arm/debug/application/obj/buildVersion.o
+                0x0000000008002dfc                getBuildVersion_out_parameterType
+
+.moduleRPCHandles
+                0x0000000008002e0c       0x28
+ .moduleRPCHandles
+                0x0000000008002e0c       0x28 build/arm/debug/application/obj/buildVersion.o
+                0x0000000008002e0c                getBuildVersion_RPChandle
+                0x0000000020000000                . = ORIGIN (ram)
+
+.data           0x0000000020000000        0xc load address 0x0000000008002e34
+                0x0000000020000000                _data = .
+ *(.data*)
+ .data          0x0000000020000000        0x0 build/arm/debug/application/obj/main.o
+ .data          0x0000000020000000        0x0 build/arm/debug/application/obj/nrfProtocol.o
+ .data          0x0000000020000000        0x0 build/arm/debug/application/obj/buildVersion.o
+ .data          0x0000000020000000        0x0 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .data          0x0000000020000000        0x0 build/arm/debug/application/obj/test.o
+ .data          0x0000000020000000        0x4 build/arm/debug/application/obj/msg_msgPump.o
+                0x0000000020000000                g_messageBuffers
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/systemInitializer.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/logging.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/Assert.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/msgProxy.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/gpio.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/gpio_common_all.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/gpio_common_f0234.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/memory.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/nvic.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/system.o
+ .data          0x0000000020000004        0x0 build/arm/debug/application/obj/spi.o
+ .data          0x0000000020000004        0x8 build/arm/debug/application/obj/nrf.o
+ .data          0x000000002000000c        0x0 build/arm/debug/application/obj/pwr.o
+ .data          0x000000002000000c        0x0 build/arm/debug/application/obj/gpio_interrupts.o
+ .data          0x000000002000000c        0x0 ./libvector.a(vectorISR.o)
+ .data          0x000000002000000c        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .data          0x000000002000000c        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+ .data          0x000000002000000c        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .data          0x000000002000000c        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+                0x000000002000000c                . = ALIGN (0x4)
+                0x000000002000000c                _edata = .
+                0x0000000008002e34                PROVIDE (_data_loadaddr, LOADADDR (.data))
+
+.igot.plt       0x000000002000000c        0x0 load address 0x0000000008002e40
+ .igot.plt      0x0000000000000000        0x0 build/arm/debug/application/obj/main.o
+
+.bss            0x000000002000000c     0x121c load address 0x0000000008002e40
+                0x000000002000000c                . = ALIGN (0x4)
+                0x000000002000000c                _bss = .
+ *(.bss*)
+ .bss           0x000000002000000c        0x0 build/arm/debug/application/obj/main.o
+ .bss           0x000000002000000c        0x0 build/arm/debug/application/obj/nrfProtocol.o
+ .bss           0x000000002000000c       0x38 build/arm/debug/application/obj/buildVersion.o
+ .bss           0x0000000020000044        0x0 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .bss           0x0000000020000044        0x0 build/arm/debug/application/obj/test.o
+ .bss           0x0000000020000044      0x61c build/arm/debug/application/obj/msg_msgPump.o
+                0x0000000020000044                g_messageBuffersBuffer
+ .bss           0x0000000020000660        0x0 build/arm/debug/application/obj/systemInitializer.o
+ .bss           0x0000000020000660        0x0 build/arm/debug/application/obj/logging.o
+ .bss           0x0000000020000660        0x0 build/arm/debug/application/obj/Assert.o
+ .bss           0x0000000020000660       0x8c build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .bss           0x00000000200006ec        0x0 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .bss           0x00000000200006ec        0x0 build/arm/debug/application/obj/msgProxy.o
+ .bss           0x00000000200006ec        0x0 build/arm/debug/application/obj/gpio.o
+ .bss           0x00000000200006ec        0x0 build/arm/debug/application/obj/gpio_common_all.o
+ .bss           0x00000000200006ec        0x0 build/arm/debug/application/obj/gpio_common_f0234.o
+ .bss           0x00000000200006ec        0x0 build/arm/debug/application/obj/memory.o
+ .bss           0x00000000200006ec        0x0 build/arm/debug/application/obj/nvic.o
+ .bss           0x00000000200006ec        0x2 build/arm/debug/application/obj/system.o
+ .bss           0x00000000200006ee        0x0 build/arm/debug/application/obj/spi.o
+ *fill*         0x00000000200006ee        0x2 
+ .bss           0x00000000200006f0       0x30 build/arm/debug/application/obj/nrf.o
+ .bss           0x0000000020000720        0x0 build/arm/debug/application/obj/pwr.o
+ .bss           0x0000000020000720       0x80 build/arm/debug/application/obj/gpio_interrupts.o
+ .bss           0x00000000200007a0        0x0 ./libvector.a(vectorISR.o)
+ .bss           0x00000000200007a0        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .bss           0x00000000200007a0        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000200007a0        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000200007a0        0x0 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+ *(COMMON)
+ COMMON         0x00000000200007a0      0xa88 build/arm/debug/application/obj/genericFlawLessProtocol.o
+                0x00000000200007a0                protocollIGEP_IGEPBuffer_callbackVector
+                0x00000000200007b0                protocollIGEP_IGEPBuffer_data_p
+                0x0000000020001228                . = ALIGN (0x4)
+                0x0000000020001228                _ebss = .
+                0x0000000020001228                . = ALIGN (0x4)
+                0x0000000020001228                end = .
+
+.garbage
+ *(.*NEVER*)
+                0x0000000008002e34                PROVIDE (_dataAtFlash, LOADADDR (.data))
+                0x0000000020002000                PROVIDE (_stack, (ORIGIN (ram) + 0x2000))
+                0x0000000020000000                PROVIDE (_ramBegin, ORIGIN (ram))
+OUTPUT(./homa.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x3c20
+ .debug_info    0x0000000000000000       0xb9 build/arm/debug/application/obj/main.o
+ .debug_info    0x00000000000000b9       0x21 build/arm/debug/application/obj/nrfProtocol.o
+ .debug_info    0x00000000000000da      0x3a5 build/arm/debug/application/obj/buildVersion.o
+ .debug_info    0x000000000000047f       0x6f build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_info    0x00000000000004ee       0xc6 build/arm/debug/application/obj/test.o
+ .debug_info    0x00000000000005b4      0x815 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_info    0x0000000000000dc9       0xc7 build/arm/debug/application/obj/systemInitializer.o
+ .debug_info    0x0000000000000e90       0x76 build/arm/debug/application/obj/logging.o
+ .debug_info    0x0000000000000f06       0xe4 build/arm/debug/application/obj/Assert.o
+ .debug_info    0x0000000000000fea      0x8ff build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_info    0x00000000000018e9      0x355 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_info    0x0000000000001c3e      0x4f7 build/arm/debug/application/obj/msgProxy.o
+ .debug_info    0x0000000000002135       0x68 build/arm/debug/application/obj/gpio.o
+ .debug_info    0x000000000000219d      0x1fe build/arm/debug/application/obj/gpio_common_all.o
+ .debug_info    0x000000000000239b      0x1f4 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_info    0x000000000000258f       0xdb build/arm/debug/application/obj/memory.o
+ .debug_info    0x000000000000266a      0x1aa build/arm/debug/application/obj/nvic.o
+ .debug_info    0x0000000000002814      0x12c build/arm/debug/application/obj/system.o
+ .debug_info    0x0000000000002940      0x185 build/arm/debug/application/obj/spi.o
+ .debug_info    0x0000000000002ac5      0x78b build/arm/debug/application/obj/nrf.o
+ .debug_info    0x0000000000003250       0xaf build/arm/debug/application/obj/pwr.o
+ .debug_info    0x00000000000032ff      0x3d5 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_info    0x00000000000036d4      0x1ba ./libvector.a(vectorISR.o)
+ .debug_info    0x000000000000388e       0xa5 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .debug_info    0x0000000000003933       0xa5 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000000000039d8      0x131 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .debug_info    0x0000000000003b09      0x117 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+.debug_abbrev   0x0000000000000000     0x146e
+ .debug_abbrev  0x0000000000000000       0x6c build/arm/debug/application/obj/main.o
+ .debug_abbrev  0x000000000000006c       0x13 build/arm/debug/application/obj/nrfProtocol.o
+ .debug_abbrev  0x000000000000007f       0xdf build/arm/debug/application/obj/buildVersion.o
+ .debug_abbrev  0x000000000000015e       0x29 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_abbrev  0x0000000000000187       0x78 build/arm/debug/application/obj/test.o
+ .debug_abbrev  0x00000000000001ff      0x20c build/arm/debug/application/obj/msg_msgPump.o
+ .debug_abbrev  0x000000000000040b       0x8b build/arm/debug/application/obj/systemInitializer.o
+ .debug_abbrev  0x0000000000000496       0x29 build/arm/debug/application/obj/logging.o
+ .debug_abbrev  0x00000000000004bf       0x73 build/arm/debug/application/obj/Assert.o
+ .debug_abbrev  0x0000000000000532      0x1e6 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_abbrev  0x0000000000000718      0x11e build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_abbrev  0x0000000000000836      0x147 build/arm/debug/application/obj/msgProxy.o
+ .debug_abbrev  0x000000000000097d       0x29 build/arm/debug/application/obj/gpio.o
+ .debug_abbrev  0x00000000000009a6       0xc2 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_abbrev  0x0000000000000a68       0x99 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_abbrev  0x0000000000000b01       0xa5 build/arm/debug/application/obj/memory.o
+ .debug_abbrev  0x0000000000000ba6       0x97 build/arm/debug/application/obj/nvic.o
+ .debug_abbrev  0x0000000000000c3d       0xa6 build/arm/debug/application/obj/system.o
+ .debug_abbrev  0x0000000000000ce3       0xfc build/arm/debug/application/obj/spi.o
+ .debug_abbrev  0x0000000000000ddf      0x266 build/arm/debug/application/obj/nrf.o
+ .debug_abbrev  0x0000000000001045       0x6a build/arm/debug/application/obj/pwr.o
+ .debug_abbrev  0x00000000000010af      0x174 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_abbrev  0x0000000000001223       0xd9 ./libvector.a(vectorISR.o)
+ .debug_abbrev  0x00000000000012fc       0x14 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x0000000000001310       0x14 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000001324       0xab /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .debug_abbrev  0x00000000000013cf       0x9f /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+.debug_aranges  0x0000000000000000      0x340
+ .debug_aranges
+                0x0000000000000000       0x20 build/arm/debug/application/obj/main.o
+ .debug_aranges
+                0x0000000000000020       0x18 build/arm/debug/application/obj/nrfProtocol.o
+ .debug_aranges
+                0x0000000000000038       0x20 build/arm/debug/application/obj/buildVersion.o
+ .debug_aranges
+                0x0000000000000058       0x18 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_aranges
+                0x0000000000000070       0x20 build/arm/debug/application/obj/test.o
+ .debug_aranges
+                0x0000000000000090       0x20 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_aranges
+                0x00000000000000b0       0x20 build/arm/debug/application/obj/systemInitializer.o
+ .debug_aranges
+                0x00000000000000d0       0x18 build/arm/debug/application/obj/logging.o
+ .debug_aranges
+                0x00000000000000e8       0x20 build/arm/debug/application/obj/Assert.o
+ .debug_aranges
+                0x0000000000000108       0x20 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_aranges
+                0x0000000000000128       0x20 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_aranges
+                0x0000000000000148       0x20 build/arm/debug/application/obj/msgProxy.o
+ .debug_aranges
+                0x0000000000000168       0x18 build/arm/debug/application/obj/gpio.o
+ .debug_aranges
+                0x0000000000000180       0x20 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_aranges
+                0x00000000000001a0       0x20 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_aranges
+                0x00000000000001c0       0x20 build/arm/debug/application/obj/memory.o
+ .debug_aranges
+                0x00000000000001e0       0x20 build/arm/debug/application/obj/nvic.o
+ .debug_aranges
+                0x0000000000000200       0x20 build/arm/debug/application/obj/system.o
+ .debug_aranges
+                0x0000000000000220       0x20 build/arm/debug/application/obj/spi.o
+ .debug_aranges
+                0x0000000000000240       0x20 build/arm/debug/application/obj/nrf.o
+ .debug_aranges
+                0x0000000000000260       0x20 build/arm/debug/application/obj/pwr.o
+ .debug_aranges
+                0x0000000000000280       0x20 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_aranges
+                0x00000000000002a0       0x20 ./libvector.a(vectorISR.o)
+ .debug_aranges
+                0x00000000000002c0       0x20 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000000000002e0       0x20 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x0000000000000300       0x20 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .debug_aranges
+                0x0000000000000320       0x20 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+.debug_macro    0x0000000000000000     0x51ec
+ .debug_macro   0x0000000000000000      0x172 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000000172      0x820 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000000992       0x10 build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000009a2       0x16 build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000009b8       0x4a build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000000a02      0x209 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000000c0b       0x82 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000000c8d      0x452 build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000010df       0x22 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001101       0xf6 build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000011f7       0x10 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001207       0x22 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001229       0x1c build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001245       0x10 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001255       0x10 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001265       0x6a build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000012cf      0x100 build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000013cf       0x2e build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000013fd      0x154 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001551       0x8e build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000015df       0x10 build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000015ef       0x1f build/arm/debug/application/obj/main.o
+ .debug_macro   0x000000000000160e       0x6a build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001678       0x4d build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000016c5       0xca build/arm/debug/application/obj/main.o
+ .debug_macro   0x000000000000178f      0x1a4 build/arm/debug/application/obj/main.o
+ .debug_macro   0x0000000000001933       0xaf build/arm/debug/application/obj/main.o
+ .debug_macro   0x00000000000019e2       0x11 build/arm/debug/application/obj/nrfProtocol.o
+ .debug_macro   0x00000000000019f3      0x170 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001b63       0x10 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001b73       0x46 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001bb9       0x28 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001be1       0x4c build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001c2d       0x35 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001c62       0xa3 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001d05       0x52 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001d57       0x16 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001d6d       0x43 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001db0      0x180 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000001f30      0x2a3 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x00000000000021d3       0x10 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x00000000000021e3       0x35 build/arm/debug/application/obj/buildVersion.o
+ .debug_macro   0x0000000000002218       0xf2 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_macro   0x000000000000230a      0x12b build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000002435      0x71c build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000002b51       0x76 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000002bc7      0x2e6 build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000002ead       0xca build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000002f77       0x3a build/arm/debug/application/obj/test.o
+ .debug_macro   0x0000000000002fb1      0x192 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_macro   0x0000000000003143       0x97 build/arm/debug/application/obj/systemInitializer.o
+ .debug_macro   0x00000000000031da      0x18d build/arm/debug/application/obj/logging.o
+ .debug_macro   0x0000000000003367       0x44 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x00000000000033ab       0x22 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x00000000000033cd       0x22 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x00000000000033ef       0x10 build/arm/debug/application/obj/logging.o
+ .debug_macro   0x00000000000033ff      0x149 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x0000000000003548      0x166 build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x00000000000036ae      0x20f build/arm/debug/application/obj/Assert.o
+ .debug_macro   0x00000000000038bd      0x108 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x00000000000039c5       0x10 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_macro   0x00000000000039d5       0xdf build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000003ab4       0x16 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_macro   0x0000000000003aca      0x104 build/arm/debug/application/obj/msgProxy.o
+ .debug_macro   0x0000000000003bce       0xb6 build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000003c84       0xfa build/arm/debug/application/obj/gpio.o
+ .debug_macro   0x0000000000003d7e       0xbc build/arm/debug/application/obj/gpio_common_all.o
+ .debug_macro   0x0000000000003e3a       0xb6 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_macro   0x0000000000003ef0       0x1a build/arm/debug/application/obj/memory.o
+ .debug_macro   0x0000000000003f0a       0x93 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000003f9d       0x47 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000003fe4      0x1b0 build/arm/debug/application/obj/nvic.o
+ .debug_macro   0x0000000000004194      0x199 build/arm/debug/application/obj/system.o
+ .debug_macro   0x000000000000432d       0x82 build/arm/debug/application/obj/system.o
+ .debug_macro   0x00000000000043af      0x126 build/arm/debug/application/obj/spi.o
+ .debug_macro   0x00000000000044d5      0x2eb build/arm/debug/application/obj/spi.o
+ .debug_macro   0x00000000000047c0       0xca build/arm/debug/application/obj/spi.o
+ .debug_macro   0x000000000000488a      0x27e build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000004b08       0x3a build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000004b42       0x10 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000004b52      0x1b4 build/arm/debug/application/obj/nrf.o
+ .debug_macro   0x0000000000004d06      0x17b build/arm/debug/application/obj/pwr.o
+ .debug_macro   0x0000000000004e81      0x155 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000004fd6       0xd6 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x00000000000050ac       0xa6 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_macro   0x0000000000005152       0x9a ./libvector.a(vectorISR.o)
+
+.debug_line     0x0000000000000000     0x4a92
+ .debug_line    0x0000000000000000      0x469 build/arm/debug/application/obj/main.o
+ .debug_line    0x0000000000000469       0x3e build/arm/debug/application/obj/nrfProtocol.o
+ .debug_line    0x00000000000004a7      0x32a build/arm/debug/application/obj/buildVersion.o
+ .debug_line    0x00000000000007d1      0x355 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .debug_line    0x0000000000000b26      0x379 build/arm/debug/application/obj/test.o
+ .debug_line    0x0000000000000e9f      0x4ba build/arm/debug/application/obj/msg_msgPump.o
+ .debug_line    0x0000000000001359      0x1e7 build/arm/debug/application/obj/systemInitializer.o
+ .debug_line    0x0000000000001540      0x38b build/arm/debug/application/obj/logging.o
+ .debug_line    0x00000000000018cb      0x28c build/arm/debug/application/obj/Assert.o
+ .debug_line    0x0000000000001b57      0x48d build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_line    0x0000000000001fe4      0x344 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_line    0x0000000000002328      0x38a build/arm/debug/application/obj/msgProxy.o
+ .debug_line    0x00000000000026b2      0x22c build/arm/debug/application/obj/gpio.o
+ .debug_line    0x00000000000028de      0x26a build/arm/debug/application/obj/gpio_common_all.o
+ .debug_line    0x0000000000002b48      0x2a9 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_line    0x0000000000002df1       0xae build/arm/debug/application/obj/memory.o
+ .debug_line    0x0000000000002e9f      0x1ec build/arm/debug/application/obj/nvic.o
+ .debug_line    0x000000000000308b      0x3b4 build/arm/debug/application/obj/system.o
+ .debug_line    0x000000000000343f      0x31c build/arm/debug/application/obj/spi.o
+ .debug_line    0x000000000000375b      0x5dc build/arm/debug/application/obj/nrf.o
+ .debug_line    0x0000000000003d37      0x3dc build/arm/debug/application/obj/pwr.o
+ .debug_line    0x0000000000004113      0x482 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_line    0x0000000000004595      0x1db ./libvector.a(vectorISR.o)
+ .debug_line    0x0000000000004770       0x82 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .debug_line    0x00000000000047f2       0x5d /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000484f      0x12d /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .debug_line    0x000000000000497c      0x116 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+.debug_str      0x0000000000000000    0x1179d
+ .debug_str     0x0000000000000000     0x6565 build/arm/debug/application/obj/main.o
+                                       0x673a (size before relaxing)
+ .debug_str     0x0000000000006565       0x1e build/arm/debug/application/obj/nrfProtocol.o
+                                       0x2257 (size before relaxing)
+ .debug_str     0x0000000000006583     0x2ea1 build/arm/debug/application/obj/buildVersion.o
+                                       0x6df4 (size before relaxing)
+ .debug_str     0x0000000000009424       0x52 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+                                       0x45b4 (size before relaxing)
+ .debug_str     0x0000000000009476     0x3660 build/arm/debug/application/obj/test.o
+                                       0x85e6 (size before relaxing)
+ .debug_str     0x000000000000cad6      0x576 build/arm/debug/application/obj/msg_msgPump.o
+                                       0x6c54 (size before relaxing)
+ .debug_str     0x000000000000d04c       0x71 build/arm/debug/application/obj/systemInitializer.o
+                                       0x4041 (size before relaxing)
+ .debug_str     0x000000000000d0bd      0x2cb build/arm/debug/application/obj/logging.o
+                                       0x6760 (size before relaxing)
+ .debug_str     0x000000000000d388       0x5a build/arm/debug/application/obj/Assert.o
+                                       0x630a (size before relaxing)
+ .debug_str     0x000000000000d3e2      0x62a build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                       0x4d00 (size before relaxing)
+ .debug_str     0x000000000000da0c      0x1ae build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+                                       0x49c4 (size before relaxing)
+ .debug_str     0x000000000000dbba      0x219 build/arm/debug/application/obj/msgProxy.o
+                                       0x49c9 (size before relaxing)
+ .debug_str     0x000000000000ddd3       0x1a build/arm/debug/application/obj/gpio.o
+                                       0x4c6f (size before relaxing)
+ .debug_str     0x000000000000dded       0x98 build/arm/debug/application/obj/gpio_common_all.o
+                                       0x4d35 (size before relaxing)
+ .debug_str     0x000000000000de85       0x9e build/arm/debug/application/obj/gpio_common_f0234.o
+                                       0x4d41 (size before relaxing)
+ .debug_str     0x000000000000df23       0x6c build/arm/debug/application/obj/memory.o
+                                       0x23ac (size before relaxing)
+ .debug_str     0x000000000000df8f      0x9c2 build/arm/debug/application/obj/nvic.o
+                                       0x3fe2 (size before relaxing)
+ .debug_str     0x000000000000e951      0x277 build/arm/debug/application/obj/system.o
+                                       0x976c (size before relaxing)
+ .debug_str     0x000000000000ebc8     0x1270 build/arm/debug/application/obj/spi.o
+                                       0x8417 (size before relaxing)
+ .debug_str     0x000000000000fe38      0x902 build/arm/debug/application/obj/nrf.o
+                                       0xc404 (size before relaxing)
+ .debug_str     0x000000000001073a       0x42 build/arm/debug/application/obj/pwr.o
+                                       0x97e3 (size before relaxing)
+ .debug_str     0x000000000001077c      0x915 build/arm/debug/application/obj/gpio_interrupts.o
+                                       0x90fd (size before relaxing)
+ .debug_str     0x0000000000011091      0x54a ./libvector.a(vectorISR.o)
+                                       0x3b4a (size before relaxing)
+ .debug_str     0x00000000000115db      0x11f /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+                                        0x1b8 (size before relaxing)
+ .debug_str     0x00000000000116fa       0xa3 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+                                        0x193 (size before relaxing)
+
+.comment        0x0000000000000000       0x1d
+ .comment       0x0000000000000000       0x1d build/arm/debug/application/obj/main.o
+                                         0x1e (size before relaxing)
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/nrfProtocol.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/buildVersion.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/test.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/msg_msgPump.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/systemInitializer.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/logging.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/Assert.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/msgProxy.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/gpio.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/gpio_common_all.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/gpio_common_f0234.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/memory.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/nvic.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/system.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/spi.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/nrf.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/pwr.o
+ .comment       0x0000000000000000       0x1e build/arm/debug/application/obj/gpio_interrupts.o
+ .comment       0x0000000000000000       0x1e ./libvector.a(vectorISR.o)
+ .comment       0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .comment       0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+.ARM.attributes
+                0x0000000000000000       0x31
+ .ARM.attributes
+                0x0000000000000000       0x31 build/arm/debug/application/obj/main.o
+ .ARM.attributes
+                0x0000000000000031       0x31 build/arm/debug/application/obj/nrfProtocol.o
+ .ARM.attributes
+                0x0000000000000062       0x31 build/arm/debug/application/obj/buildVersion.o
+ .ARM.attributes
+                0x0000000000000093       0x31 build/arm/debug/application/obj/interfaceStatisticsDebugging.o
+ .ARM.attributes
+                0x00000000000000c4       0x31 build/arm/debug/application/obj/test.o
+ .ARM.attributes
+                0x00000000000000f5       0x31 build/arm/debug/application/obj/msg_msgPump.o
+ .ARM.attributes
+                0x0000000000000126       0x31 build/arm/debug/application/obj/systemInitializer.o
+ .ARM.attributes
+                0x0000000000000157       0x31 build/arm/debug/application/obj/logging.o
+ .ARM.attributes
+                0x0000000000000188       0x31 build/arm/debug/application/obj/Assert.o
+ .ARM.attributes
+                0x00000000000001b9       0x31 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .ARM.attributes
+                0x00000000000001ea       0x31 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .ARM.attributes
+                0x000000000000021b       0x31 build/arm/debug/application/obj/msgProxy.o
+ .ARM.attributes
+                0x000000000000024c       0x31 build/arm/debug/application/obj/gpio.o
+ .ARM.attributes
+                0x000000000000027d       0x31 build/arm/debug/application/obj/gpio_common_all.o
+ .ARM.attributes
+                0x00000000000002ae       0x31 build/arm/debug/application/obj/gpio_common_f0234.o
+ .ARM.attributes
+                0x00000000000002df       0x31 build/arm/debug/application/obj/memory.o
+ .ARM.attributes
+                0x0000000000000310       0x31 build/arm/debug/application/obj/nvic.o
+ .ARM.attributes
+                0x0000000000000341       0x31 build/arm/debug/application/obj/system.o
+ .ARM.attributes
+                0x0000000000000372       0x31 build/arm/debug/application/obj/spi.o
+ .ARM.attributes
+                0x00000000000003a3       0x31 build/arm/debug/application/obj/nrf.o
+ .ARM.attributes
+                0x00000000000003d4       0x31 build/arm/debug/application/obj/pwr.o
+ .ARM.attributes
+                0x0000000000000405       0x31 build/arm/debug/application/obj/gpio_interrupts.o
+ .ARM.attributes
+                0x0000000000000436       0x31 ./libvector.a(vectorISR.o)
+ .ARM.attributes
+                0x0000000000000467       0x23 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000048a       0x23 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000004ad       0x31 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000000004de       0x31 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+.debug_frame    0x0000000000000000      0xd30
+ .debug_frame   0x0000000000000000       0x30 build/arm/debug/application/obj/main.o
+ .debug_frame   0x0000000000000030       0x30 build/arm/debug/application/obj/buildVersion.o
+ .debug_frame   0x0000000000000060       0x2c build/arm/debug/application/obj/test.o
+ .debug_frame   0x000000000000008c      0x130 build/arm/debug/application/obj/msg_msgPump.o
+ .debug_frame   0x00000000000001bc       0x30 build/arm/debug/application/obj/systemInitializer.o
+ .debug_frame   0x00000000000001ec       0x30 build/arm/debug/application/obj/Assert.o
+ .debug_frame   0x000000000000021c      0x170 build/arm/debug/application/obj/genericFlawLessProtocol.o
+ .debug_frame   0x000000000000038c       0x50 build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+ .debug_frame   0x00000000000003dc       0x90 build/arm/debug/application/obj/msgProxy.o
+ .debug_frame   0x000000000000046c       0xf0 build/arm/debug/application/obj/gpio_common_all.o
+ .debug_frame   0x000000000000055c       0x70 build/arm/debug/application/obj/gpio_common_f0234.o
+ .debug_frame   0x00000000000005cc       0x30 build/arm/debug/application/obj/memory.o
+ .debug_frame   0x00000000000005fc       0xf0 build/arm/debug/application/obj/nvic.o
+ .debug_frame   0x00000000000006ec       0x80 build/arm/debug/application/obj/system.o
+ .debug_frame   0x000000000000076c       0xa8 build/arm/debug/application/obj/spi.o
+ .debug_frame   0x0000000000000814      0x2d0 build/arm/debug/application/obj/nrf.o
+ .debug_frame   0x0000000000000ae4       0x48 build/arm/debug/application/obj/pwr.o
+ .debug_frame   0x0000000000000b2c      0x130 build/arm/debug/application/obj/gpio_interrupts.o
+ .debug_frame   0x0000000000000c5c       0x58 ./libvector.a(vectorISR.o)
+ .debug_frame   0x0000000000000cb4       0x20 /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000cd4       0x30 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000d04       0x2c /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+.debug_loc      0x0000000000000000      0x569
+ .debug_loc     0x0000000000000000      0x386 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+ .debug_loc     0x0000000000000386      0x1e3 /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+
+Cross Reference Table
+
+Symbol                                            File
+__aeabi_idiv                                      /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+__aeabi_idiv0                                     /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+                                                  /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+__aeabi_idivmod                                   /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+__aeabi_ldiv0                                     /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_dvmd_tls.o)
+__divsi3                                          /usr/lib/gcc/arm-none-eabi/4.9.0/thumb/cortex-m0/libgcc.a(_divsi3.o)
+_data                                             build/arm/debug/application/obj/memory.o
+_data_loadaddr                                    build/arm/debug/application/obj/memory.o
+_ebss                                             build/arm/debug/application/obj/memory.o
+_edata                                            build/arm/debug/application/obj/memory.o
+_genericProtocolEndpointInternalHandlesBegin      build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+_genericProtocolEndpointInternalHandlesEnd        build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+_initFunctions_Begin                              build/arm/debug/application/obj/systemInitializer.o
+_initFunctions_End                                build/arm/debug/application/obj/systemInitializer.o
+_msgPumpBPHandlesBegin                            build/arm/debug/application/obj/msgProxy.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+_msgPumpBPHandlesEnd                              build/arm/debug/application/obj/msgProxy.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+_ramBegin                                         build/arm/debug/application/obj/memory.o
+_stack                                            ./libvector.a(vectorISR.o)
+adc_comp_isr                                      ./libvector.a(vectorISR.o)
+assert_failFunction                               build/arm/debug/application/obj/Assert.o
+blocking_handler                                  ./libvector.a(vectorISR.o)
+blubb_initFuncPtr                                 build/arm/debug/application/obj/nrf.o
+cec_can_isr                                       ./libvector.a(vectorISR.o)
+dma1_channel1_isr                                 ./libvector.a(vectorISR.o)
+dma1_channel2_3_isr                               ./libvector.a(vectorISR.o)
+dma1_channel4_5_isr                               ./libvector.a(vectorISR.o)
+dummySendFunction                                 build/arm/debug/application/obj/genericFlawLessProtocol.o
+exti0_1_isr                                       build/arm/debug/application/obj/gpio_interrupts.o
+exti2_3_isr                                       build/arm/debug/application/obj/gpio_interrupts.o
+exti4_15_isr                                      build/arm/debug/application/obj/gpio_interrupts.o
+flash_isr                                         ./libvector.a(vectorISR.o)
+flawLess_ReceiveIndication                        build/arm/debug/application/obj/genericFlawLessProtocol.o
+g_messageBuffers                                  build/arm/debug/application/obj/msg_msgPump.o
+g_messageBuffersBuffer                            build/arm/debug/application/obj/msg_msgPump.o
+g_sendFunctions                                   build/arm/debug/application/obj/genericFlawLessProtocol.o
+genericFlawLessProtocolPacketDispatcher_initFuncPtr build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+genericProtocol_BeginTransmittingFrame            build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+genericProtocol_EndTransmittingFrame              build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+genericProtocol_SendInsideFrame                   build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+genericProtocol_initFuncPtr                       build/arm/debug/application/obj/genericFlawLessProtocol.o
+genericProtocol_sendMessage                       build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+getBuildVersion                                   build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_RPChandle                         build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_descriptiveName                   build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_in_parameterType                  build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_out_parameterType                 build/arm/debug/application/obj/buildVersion.o
+getBuildVersion_shortName                         build/arm/debug/application/obj/buildVersion.o
+gpio_clear                                        build/arm/debug/application/obj/gpio_common_all.o
+                                                  build/arm/debug/application/obj/nrf.o
+                                                  build/arm/debug/application/obj/spi.o
+gpio_disable_interrupt                            build/arm/debug/application/obj/gpio_interrupts.o
+gpio_enable_interrupt                             build/arm/debug/application/obj/gpio_interrupts.o
+                                                  build/arm/debug/application/obj/nrf.o
+gpio_get                                          build/arm/debug/application/obj/gpio_common_all.o
+                                                  build/arm/debug/application/obj/nrf.o
+gpio_interrupts_initFuncPtr                       build/arm/debug/application/obj/gpio_interrupts.o
+gpio_mode_setup                                   build/arm/debug/application/obj/gpio_common_f0234.o
+                                                  build/arm/debug/application/obj/gpio_interrupts.o
+                                                  build/arm/debug/application/obj/nrf.o
+                                                  build/arm/debug/application/obj/spi.o
+                                                  build/arm/debug/application/obj/test.o
+gpio_port_config_lock                             build/arm/debug/application/obj/gpio_common_all.o
+gpio_port_read                                    build/arm/debug/application/obj/gpio_common_all.o
+gpio_port_write                                   build/arm/debug/application/obj/gpio_common_all.o
+gpio_registerFor_interrupt                        build/arm/debug/application/obj/gpio_interrupts.o
+                                                  build/arm/debug/application/obj/nrf.o
+gpio_set                                          build/arm/debug/application/obj/gpio_common_all.o
+                                                  build/arm/debug/application/obj/nrf.o
+                                                  build/arm/debug/application/obj/spi.o
+                                                  build/arm/debug/application/obj/test.o
+gpio_set_af                                       build/arm/debug/application/obj/gpio_common_f0234.o
+                                                  build/arm/debug/application/obj/spi.o
+gpio_set_output_options                           build/arm/debug/application/obj/gpio_common_f0234.o
+gpio_toggle                                       build/arm/debug/application/obj/gpio_common_all.o
+gpio_unregisterFor_interrupt                      build/arm/debug/application/obj/gpio_interrupts.o
+hard_fault_handler                                ./libvector.a(vectorISR.o)
+i2c1_isr                                          ./libvector.a(vectorISR.o)
+i2c2_isr                                          ./libvector.a(vectorISR.o)
+incommingEndpoint_handle                          build/arm/debug/application/obj/msgProxy.o
+incommingEndpoint_internalHandle                  build/arm/debug/application/obj/msgProxy.o
+main                                              build/arm/debug/application/obj/main.o
+                                                  ./libvector.a(vectorISR.o)
+memcpy                                            /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memcpy-stub.o)
+                                                  build/arm/debug/application/obj/nrf.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/buildVersion.o
+memory_initFuncPtr                                build/arm/debug/application/obj/memory.o
+memset                                            /usr/lib/gcc/arm-none-eabi/4.9.0/../../../../arm-none-eabi/lib/thumb/cortex-m0/libc.a(lib_a-memset.o)
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+msgProxy_addMsgForBroadcast                       build/arm/debug/application/obj/msgProxy.o
+msgProxy_rmMsgForBroadcast                        build/arm/debug/application/obj/msgProxy.o
+msgPump_getFreeBuffer                             build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+msgPump_initFuncPtr                               build/arm/debug/application/obj/msg_msgPump.o
+msgPump_lockMessage                               build/arm/debug/application/obj/msg_msgPump.o
+msgPump_postMessage                               build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+msgPump_pumpMessage                               build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/main.o
+msgPump_registerOnMessage                         build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocolPacketDispatcher.o
+msgPump_unlockMessage                             build/arm/debug/application/obj/msg_msgPump.o
+msgPump_unregisterFromMessage                     build/arm/debug/application/obj/msg_msgPump.o
+                                                  build/arm/debug/application/obj/msgProxy.o
+nmi_handler                                       ./libvector.a(vectorISR.o)
+nrf_flushRx                                       build/arm/debug/application/obj/nrf.o
+nrf_flushTx                                       build/arm/debug/application/obj/nrf.o
+nrf_initFuncPtr                                   build/arm/debug/application/obj/nrf.o
+nrf_pwr_down                                      build/arm/debug/application/obj/nrf.o
+                                                  build/arm/debug/application/obj/pwr.o
+nrf_pwr_up                                        build/arm/debug/application/obj/nrf.o
+nrf_sendPacket                                    build/arm/debug/application/obj/nrf.o
+nrf_setRxBaseAddress                              build/arm/debug/application/obj/nrf.o
+nrf_setupNewRxDataPipe                            build/arm/debug/application/obj/nrf.o
+nrf_standby_1                                     build/arm/debug/application/obj/nrf.o
+nrf_standby_2                                     build/arm/debug/application/obj/nrf.o
+nrf_test                                          build/arm/debug/application/obj/nrf.o
+null_handler                                      ./libvector.a(vectorISR.o)
+nvic_clear_pending_irq                            build/arm/debug/application/obj/nvic.o
+nvic_disable_irq                                  build/arm/debug/application/obj/nvic.o
+nvic_enable_irq                                   build/arm/debug/application/obj/nvic.o
+                                                  build/arm/debug/application/obj/gpio_interrupts.o
+nvic_get_irq_enabled                              build/arm/debug/application/obj/nvic.o
+nvic_get_pending_irq                              build/arm/debug/application/obj/nvic.o
+nvic_set_pending_irq                              build/arm/debug/application/obj/nvic.o
+nvic_set_priority                                 build/arm/debug/application/obj/nvic.o
+pend_sv_handler                                   ./libvector.a(vectorISR.o)
+phySendFunction0                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction1                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction2                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction3                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction4                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction5                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction6                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction7                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction8                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+phySendFunction9                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_callbackVector           build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_data_p                   build/arm/debug/application/obj/genericFlawLessProtocol.o
+protocollIGEP_IGEPBuffer_description              build/arm/debug/application/obj/genericFlawLessProtocol.o
+pvd_isr                                           ./libvector.a(vectorISR.o)
+pwr_enter_stop                                    build/arm/debug/application/obj/pwr.o
+rcc_isr                                           ./libvector.a(vectorISR.o)
+reset_handler                                     ./libvector.a(vectorISR.o)
+rtc_isr                                           ./libvector.a(vectorISR.o)
+spi1_isr                                          ./libvector.a(vectorISR.o)
+spi2_isr                                          ./libvector.a(vectorISR.o)
+spiDriver_initFuncPtr                             build/arm/debug/application/obj/spi.o
+spi_flush                                         build/arm/debug/application/obj/spi.o
+spi_slaveSelect                                   build/arm/debug/application/obj/spi.o
+                                                  build/arm/debug/application/obj/nrf.o
+spi_xfer                                          build/arm/debug/application/obj/spi.o
+                                                  build/arm/debug/application/obj/nrf.o
+sv_call_handler                                   ./libvector.a(vectorISR.o)
+sys_tick_handler                                  ./libvector.a(vectorISR.o)
+systemInitialize                                  build/arm/debug/application/obj/systemInitializer.o
+                                                  build/arm/debug/application/obj/main.o
+system_initFuncPtr                                build/arm/debug/application/obj/system.o
+system_mutex_lock                                 build/arm/debug/application/obj/system.o
+                                                  build/arm/debug/application/obj/gpio_interrupts.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+system_mutex_unlock                               build/arm/debug/application/obj/system.o
+                                                  build/arm/debug/application/obj/gpio_interrupts.o
+                                                  build/arm/debug/application/obj/genericFlawLessProtocol.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+system_reset                                      build/arm/debug/application/obj/system.o
+system_wait_for_interrupt                         build/arm/debug/application/obj/pwr.o
+                                                  build/arm/debug/application/obj/msg_msgPump.o
+test_initFuncPtr                                  build/arm/debug/application/obj/test.o
+tim14_isr                                         ./libvector.a(vectorISR.o)
+tim15_isr                                         ./libvector.a(vectorISR.o)
+tim16_isr                                         ./libvector.a(vectorISR.o)
+tim17_isr                                         ./libvector.a(vectorISR.o)
+tim1_brk_up_trg_com_isr                           ./libvector.a(vectorISR.o)
+tim1_cc_isr                                       ./libvector.a(vectorISR.o)
+tim2_isr                                          ./libvector.a(vectorISR.o)
+tim3_isr                                          ./libvector.a(vectorISR.o)
+tim6_dac_isr                                      ./libvector.a(vectorISR.o)
+tim7_isr                                          ./libvector.a(vectorISR.o)
+tsc_isr                                           ./libvector.a(vectorISR.o)
+usart1_isr                                        ./libvector.a(vectorISR.o)
+usart2_isr                                        ./libvector.a(vectorISR.o)
+usart3_4_isr                                      ./libvector.a(vectorISR.o)
+usb_isr                                           ./libvector.a(vectorISR.o)
+vector_table                                      ./libvector.a(vectorISR.o)
+wwdg_isr                                          ./libvector.a(vectorISR.o)
