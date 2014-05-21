@@ -27,12 +27,13 @@
 #include <libopencm3/stm32/flash.h>
 
 
-
 #include "hwdefines.h"
 #include "spi.h"
 #include "nrf.h"
 #include "rtc.h"
 #include "pwr.h"
+
+#define TESTING
 
 static void gpio_setup(void)
 {
@@ -48,8 +49,10 @@ static void gpio_setup(void)
 	/* Using API functions: */
 
 	//enable pulldown to save power
+#ifndef TESTING
 	gpio_mode_setup(GPIOA, GPIO_MODE_INPUT, GPIO_PUPD_PULLDOWN, GPIO_ALL);
 	gpio_mode_setup(GPIOB, GPIO_MODE_INPUT, GPIO_PUPD_PULLDOWN, GPIO_ALL);
+#endif
 
 	gpio_mode_setup(PORT_LED, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_LED_G | PIN_LED_R);
 	gpio_mode_setup(PORT_IO_0, GPIO_MODE_OUTPUT, GPIO_PUPD_NONE, PIN_IO_0);
@@ -95,7 +98,9 @@ int main(void)
 
 
 	//gpio_clear(PORT_LED, PIN_LED_G | PIN_LED_R);
+#ifndef TESTING
 	pwr_enter_standby();
+#endif
 
 
 	return 0;
