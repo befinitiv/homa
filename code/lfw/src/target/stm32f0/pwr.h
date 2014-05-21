@@ -14,7 +14,4 @@
 #define PWR_WAS_I_IN_STANDBY (PWR_CSR & PWR_CSR_SBF)
 
 
-void pwr_enter_standby(void);
-void pwr_enter_stop(void);
-
 #endif /* PWR_H_ */

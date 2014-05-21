@@ -59,7 +59,7 @@ solution "homa"
 			--  valid DEBUG SYMBOLS:
 			--    DEBUG
 			--]]
-			defines { "DEBUG", "STM32F4" }
+			defines { "DEBUG", "STM32F0" }
 			flags { "Symbols"}
 			objdir(targetDirDebug.."/obj/")
 			buildoptions {"-g3", "-O0"}

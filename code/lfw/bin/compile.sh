@@ -27,6 +27,7 @@ elif [[ ! -z $VERBOSE ]]; then
         VERBOSE="verbose=1"
 fi
 
+VERBOSSE=verbose
 
 ###############################################################################
 

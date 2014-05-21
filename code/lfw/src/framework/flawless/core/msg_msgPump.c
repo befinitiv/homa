@@ -432,7 +432,8 @@ void msgPump_pumpMessage()
 		}
 		else
 		{
-			/*	system_wait_for_interrupt(); */
+			system_wait_for_interrupt();
+
 		}
 	}
 }

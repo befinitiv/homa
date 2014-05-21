@@ -353,7 +353,7 @@ uint16_t spi_clean_disable(uint32_t spi);
 void spi_write(uint32_t spi, uint16_t data);
 void spi_send(uint32_t spi, uint16_t data);
 uint16_t spi_read(uint32_t spi);
-uint16_t spi_xfer(uint32_t spi, uint16_t data);
+//uint16_t spi_xfer(uint32_t spi, uint16_t data);
 void spi_set_bidirectional_mode(uint32_t spi);
 void spi_set_unidirectional_mode(uint32_t spi);
 void spi_set_bidirectional_receive_only_mode(uint32_t spi);

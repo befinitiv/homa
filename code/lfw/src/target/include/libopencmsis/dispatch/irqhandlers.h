@@ -18,6 +18,6 @@
 #	include <libopencmsis/lpc43xx/irqhandlers.h>
 
 #else
-#	warning"no chipset defined; user interrupts are not redirected"
+//#	warning"no chipset defined; user interrupts are not redirected"
 
 #endif

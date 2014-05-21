@@ -1,4 +1,4 @@
 #ifdef BUILDINFO
 #undef BUILDINFO
 #endif
-#define BUILDINFO "master-d194f26 (dirty) build on 20140314-1228 by Lutz"
+#define BUILDINFO "master-68f76c1 (dirty) build on 20140507-1700 by Lutz"

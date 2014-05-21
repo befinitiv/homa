@@ -1,9 +1,9 @@
 TOOLCHAIN_PREFIX				= "/usr/bin/"
 
-GCC_ARM_CC_PATH  = TOOLCHAIN_PREFIX .. "/arm-none-eabi-gcc"
-GCC_ARM_CPP_PATH = TOOLCHAIN_PREFIX .. "/arm-none-eabi-g++"
-GCC_ARM_AR_PATH  = TOOLCHAIN_PREFIX .. "/arm-none-eabi-ar"
-GCC_ARM_OBJCPY 	 = TOOLCHAIN_PREFIX .. "/arm-none-eabi-objcopy"
+GCC_ARM_CC_PATH  = TOOLCHAIN_PREFIX .. "arm-none-eabi-gcc"
+GCC_ARM_CPP_PATH = TOOLCHAIN_PREFIX .. "arm-none-eabi-g++"
+GCC_ARM_AR_PATH  = TOOLCHAIN_PREFIX .. "arm-none-eabi-ar"
+GCC_ARM_OBJCPY 	 = TOOLCHAIN_PREFIX .. "arm-none-eabi-objcopy"
 
 -- Check if a file exists --
 function FileExists(strFileName)
