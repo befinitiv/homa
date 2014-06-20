@@ -1,8 +1,8 @@
 #include <libopencm3/stm32/rcc.h>
 #include <libopencm3/stm32/timer.h>
+#include <libopencmsis/core_cm3.h>
 
 
-#include "pwr.h"
 
 
 #define TIM_CLK 8e6
@@ -23,12 +23,17 @@ void timer_sleep_us(int us) {
 
 
 	TIM6_SR = 0;
+	TIM6_EGR = TIM_EGR_UG;
+	TIM6_DIER = TIM_DIER_UIE;
 	TIM6_CR1 = TIM_CR1_OPM | TIM_CR1_URS | TIM_CR1_CEN;
 
-	pwr_enter_stop();
-	while(!(TIM6_SR & TIM_SR_UIF)) {
-		asm volatile ("wfe");
-	}
+//	while(!(TIM6_SR & TIM_SR_UIF)) {
+
+#define SCB_SCR_SEVONPEND (1 << 4)
+	SCB_SCR |= SCB_SCR_SEVONPEND;
+
+	asm volatile ("wfe");
+//	}
 
 	rcc_periph_clock_disable(RCC_TIM6);
 	

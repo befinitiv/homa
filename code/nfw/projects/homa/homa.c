@@ -83,10 +83,16 @@ int main(void)
 
 
 	/* Blink the LED (PC8) on the board. */
-	for(t=0; t<20; ++t) {
+	for(;;){ //for(t=0; t<20; ++t) {
 
 		/* Using API function gpio_toggle(): */
 		gpio_toggle(PORT_LED, PIN_LED_G);	/* LED on/off */
+
+
+		gpio_set(PORT_LED, PIN_LED_R);
+		timer_sleep_us(50000);
+		gpio_clear(PORT_LED, PIN_LED_R);
+
 		for (i = 0; i < 100000; i++) {	/* Wait a bit. */
 			__asm__("nop");
 		}
