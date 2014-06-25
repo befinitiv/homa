@@ -10,3 +10,7 @@ code/*.elf
 code/*.map
 *.o
 *.d
+*.elf
+*.map
+*.swp
+
