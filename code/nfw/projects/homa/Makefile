@@ -18,7 +18,10 @@
 ##
 
 #project defines
-PDEFS = -DAPP_WALLSOCKET
+
+APP = WALLSOCKET
+
+PDEFS = -DAPP_$(APP)
 
 BINARY = homa
 

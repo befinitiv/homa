@@ -10,17 +10,13 @@
 #include "gpio.h"
 #include "usart.h"
 
-struct __attribute__ ((__packed__)) app_temperature_sensor_package {
-	float vdda;
-	float temp;
-	uint8_t node_id;
-};
+#include "apps.h"
 
 void app_uart_gateway(void)
 {
 	gpio_setup();
 	spi_init();
-	nrf_init(9);
+	nrf_init(5);
 	nrf_standby_2(1);
 	usart_init();
 
