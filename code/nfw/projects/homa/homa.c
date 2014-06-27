@@ -32,6 +32,7 @@
 #include "nrf.h"
 #include "rtc.h"
 #include "pwr.h"
+#include "adc.h"
 
 #define TESTING
 
@@ -62,6 +63,8 @@ static void gpio_setup(void)
 }
 
 
+void adc_init(uint8_t channel_count, const uint8_t *channels);
+
 
 int main(void)
 {
@@ -81,6 +84,10 @@ int main(void)
 	nrf_init();
 	nrf_standby_2(1);
 
+	uint8_t channel_conf[] = { ADC_CHANNEL_TEMP, ADC_CHANNEL_VREF};
+	adc_init(2, channel_conf);
+
+
 
 	/* Blink the LED (PC8) on the board. */
 	for(;;){ //for(t=0; t<20; ++t) {
@@ -90,7 +97,7 @@ int main(void)
 
 
 		gpio_set(PORT_LED, PIN_LED_R);
-		timer_sleep_us(50000);
+		timer_sleep_us(1000);
 		gpio_clear(PORT_LED, PIN_LED_R);
 
 		for (i = 0; i < 100000; i++) {	/* Wait a bit. */
@@ -99,7 +106,7 @@ int main(void)
 
 		nrf_test();
 		rtc_test();
-		//adc_read_channel(16);
+		adc_test();
 	}
 
 
