@@ -1,6 +1,5 @@
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/stm32/rcc.h>
-#include <libopencm3/lm4f/nvic.h>
 
 #include "hwdefines.h"
 #include "nrf24l01.h"
@@ -113,42 +112,13 @@ void nrf_init_chip_settings(uint8_t payload_size) {
 	nrf_write_register(RX_PW_P0, &reg, 1);
 }
 
-void nrf_init(void) {
+void nrf_init(uint8_t payload_size) {
 	nrf_init_hardware();
 
 	reg_config = (1 << EN_CRC);
 
 	if(!PWR_WAS_I_IN_STANDBY) {
-		nrf_init_chip_settings(2);
+		nrf_init_chip_settings(payload_size);
 	}
 
-}
-
-
-uint8_t nrf_test(void) {
-	uint8_t reg;
-
-	reg = 0x7e; // clear interrupts
-	reg = nrf_write_register(STATUS, &reg, 1);
-
-	//read fifo
-	if((reg & 0xe) != 0xe) {
-		uint8_t p[4];
-		uint16_t key, presses;
-		nrf_read_rx_payload(p, sizeof(p));
-		key = (*(uint16_t*)p) & 0xff;
-		presses = *(uint16_t*)(p+2);
-
-		//bottom
-		if(key == 0x1e) {
-			gpio_clear(PORT_LED, PIN_LED_R);
-			gpio_clear(PORT_IO_0, PIN_IO_0);
-		} else if(key == 0xf) { //middle
-			gpio_set(PORT_LED, PIN_LED_R);
-			gpio_set(PORT_IO_0, PIN_IO_0);
-		}
-
-	}
-
-	return reg & 64;
 }

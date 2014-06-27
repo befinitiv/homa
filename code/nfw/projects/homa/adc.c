@@ -16,7 +16,7 @@
 #define VREFINT_CAL    *((uint16_t*) 0x1FFFF7BA)
 
 
-void adc_init(uint8_t channel_count, const uint8_t *channels)
+void adc_init(uint8_t channel_count, uint8_t *channels)
 {
 	int i;
 
@@ -66,10 +66,7 @@ void adc_init(uint8_t channel_count, const uint8_t *channels)
 
 
 
-uint16_t adc_read_channels(uint8_t channel_count, uint16_t *channel_data) {
-
-
-
+void adc_read_channels(uint8_t channel_count, uint16_t *channel_data) {
 
 	while(channel_count--) {
 		adc_start_conversion_regular(ADC1);
@@ -85,11 +82,11 @@ float adc_get_vdda(uint16_t vref) {
 	return 3.3 * VREFINT_CAL / vref;
 }
 
-void adc_test() {
+void adc_get_temp(float *vdda, float *temp) {
 	uint16_t channels[2];
 
 	adc_read_channels(2, channels);
 
-	float vdda = adc_get_vdda(channels[1]);
-	float temp = (((TS_CAL1 - vdda / 3.3 * channels[0])/AVG_SLOPE)+25);
+	*vdda = adc_get_vdda(channels[1]);
+	*temp = (((TS_CAL1 - *vdda / 3.3 * channels[0])/AVG_SLOPE)+25);
 }

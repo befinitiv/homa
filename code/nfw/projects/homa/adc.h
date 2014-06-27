@@ -11,6 +11,8 @@
 #include <libopencm3/stm32/adc.h>
 
 
-void adc_init(uint8_t channel_count, const uint8_t *channels);
+void adc_init(uint8_t channel_count, uint8_t *channels);
+void adc_get_temp(float *vdda, float *temp);
+
 
 #endif /* ADC_H_ */
