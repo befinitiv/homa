@@ -37,13 +37,12 @@ void app_uart_gateway(void)
 
 	for(;;) {
 		uint8_t reg;
-		reg = 0x7e; // clear interrupts
+		reg = NRF_CLEAR_ALL_INTERRUPTS;
 		reg = nrf_write_register(STATUS, &reg, 1);
 
-		//read fifo
-		if((reg & 0xe) != 0xe) {
+		//check which rx pipe has data
+		if(NRF_RX_P_NO(reg) != NRF_RX_FIFO_EMPTY) {
 			struct node_status_package pkg;
-
 
 			nrf_read_rx_payload((uint8_t*)&pkg, sizeof(pkg));
 //			float vdda, temp;
