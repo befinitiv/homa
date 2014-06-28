@@ -1,3 +1,6 @@
+#include <libopencm3/stm32/rtc.h>
+
+
 #include "hwdefines.h"
 #include "spi.h"
 #include "nrf.h"
@@ -9,25 +12,38 @@
 #include "apps.h"
 
 
+ struct __attribute__ ((__packed__)) nv_data_type {
+	uint8_t node_id;
+	uint32_t wakeup_count;
+};
+
+
+ static volatile struct nv_data_type *nv_data = (struct nv_data_type*)RTC_BKP_BASE;
+
+
 void app_temperature_sensor(void)
 {
 	rtc_init();
 	rtc_enable_periodic_alarm(0, 5);
 	gpio_setup();
 	spi_init();
-	nrf_init(2);
+	nrf_init(sizeof(struct node_status_package));
 	nrf_standby_2(0);
+
+
+	nv_data->wakeup_count++;
 
 	uint8_t channel_conf[] = { ADC_CHANNEL_TEMP, ADC_CHANNEL_VREF};
 	adc_init(2, channel_conf);
 
 
-	struct app_temperature_sensor_package pkg;
+	struct node_status_package pkg;
 
 	float vdda, temp;
 	adc_get_temp(&vdda, &temp);
 
 	pkg.node_id = 123;
+	pkg.wakeup_count = nv_data->wakeup_count;
 	pkg.temp = temp * 256;
 	pkg.vdda = vdda * 256;
 

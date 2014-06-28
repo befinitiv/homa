@@ -12,11 +12,26 @@
 
 #include "apps.h"
 
+
+void uart_send_pkg(uint8_t *data, uint8_t len) {
+	uint8_t chk = len;
+	usart_send_blocking(USART1, 0xff);
+	usart_send_blocking(USART1, 0xff);
+	usart_send_blocking(USART1, len);
+	while(len-- > 0) {
+		usart_send_blocking(USART1, *data);
+		chk += *data++;
+	}
+	usart_send_blocking(USART1, chk);
+
+}
+
+
 void app_uart_gateway(void)
 {
 	gpio_setup();
 	spi_init();
-	nrf_init(5);
+	nrf_init(sizeof(struct node_status_package));
 	nrf_standby_2(1);
 	usart_init();
 
@@ -27,10 +42,16 @@ void app_uart_gateway(void)
 
 		//read fifo
 		if((reg & 0xe) != 0xe) {
-			struct app_temperature_sensor_package pkg;
+			struct node_status_package pkg;
+
+
 			nrf_read_rx_payload((uint8_t*)&pkg, sizeof(pkg));
+//			float vdda, temp;
+//			temp = 1.0 * pkg.temp / 256;
+//			vdda = 1.0 * pkg.vdda / 256;
+
 			gpio_toggle(PORT_LED, PIN_LED_G);
-			usart_send_blocking(USART1, '-');
+			uart_send_pkg((uint8_t*)&pkg, sizeof(pkg));
 		}
 	}
 

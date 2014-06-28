@@ -10,6 +10,7 @@ int main(void)
 		timer_sleep_ms(1500);
 
 
+	//the ifdefs could be replaced by the ID resistor measurement... someday
 #ifdef APP_TEMP
 	app_temperature_sensor();
 #endif
