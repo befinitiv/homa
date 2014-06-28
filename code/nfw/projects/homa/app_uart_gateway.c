@@ -10,7 +10,7 @@
 #include "gpio.h"
 #include "usart.h"
 
-#include "apps.h"
+#include "protocol.h"
 
 
 void uart_send_pkg(uint8_t *data, uint8_t len) {
