@@ -105,6 +105,9 @@ void nrf_init_chip_settings(uint8_t payload_size) {
 	reg = 0; //disable auto retransmit
 	nrf_write_register(EN_AA, &reg, 1);
 
+	reg = 120; //set frequency to 2520MHz
+	nrf_write_register(RF_CH, &reg, 1);
+
 	reg = (3 << RF_PWR) | (1 << RF_DR_LOW); //0dBm power, 250kbps
 	nrf_write_register(RF_SETUP, &reg, 1);
 
