@@ -36,7 +36,7 @@ void rtc_exit_init_mode(void) {
 
 
 
-void rtc_enable_periodic_alarm_every_minute(void) {
+void rtc_enable_periodic_alarm(uint8_t second_ten, uint8_t second_unit) {
 	rtc_unlock();
 
 	//disable ALARM
@@ -45,7 +45,8 @@ void rtc_enable_periodic_alarm_every_minute(void) {
 	//wait until we can access the alarm registers
 	while(!(RTC_ISR & RTC_ISR_ALRAWF));
 
-	RTC_ALRMAR = RTC_ALRMXR_MSK4 | RTC_ALRMXR_MSK3 | RTC_ALRMXR_MSK2 | (5 << RTC_ALRMXR_ST_SHIFT) | (9 << RTC_ALRMXR_SU_SHIFT);
+
+	RTC_ALRMAR = RTC_ALRMXR_MSK4 | RTC_ALRMXR_MSK3 | RTC_ALRMXR_MSK2 | (second_ten << RTC_ALRMXR_ST_SHIFT) | (second_unit << RTC_ALRMXR_SU_SHIFT);
 
 	//enable ALARM
 	RTC_CR |= RTC_CR_ALRAE | RTC_CR_ALRAIE;
@@ -55,7 +56,6 @@ void rtc_enable_periodic_alarm_every_minute(void) {
 }
 
 void rtc_init_hardware(uint8_t use_internal_lsi_osc) {
-	uint32_t t;
 
 	//disable RCC_BDCR write protection
 	rcc_periph_clock_enable(RCC_PWR);
@@ -92,23 +92,8 @@ void rtc_init_hardware(uint8_t use_internal_lsi_osc) {
 void rtc_init(void) {
 	//TODO: this should be done only if !PWR_WAS_I_IN_STANDBY. however, without reinitializing the RTC, the alarm will not wake up the system anymore. this has to be analyzed
 	rtc_init_hardware(1);
-	rtc_enable_periodic_alarm_every_minute();
 
 	int i;
 	i = RTC_BKPXR(0);
 	RTC_BKPXR(0) = ++i;
-}
-
-
-void rtc_test(void) {
-	int s = (RTC_TR & RTC_TR_SU_MASK) + ((RTC_TR >> RTC_TR_ST_SHIFT) & RTC_TR_ST_MASK ) * 10;
-	int m = ((RTC_TR >> RTC_TR_MNU_SHIFT) & RTC_TR_MNU_MASK) + ((RTC_TR >> RTC_TR_MNT_SHIFT) & RTC_TR_MNT_MASK) * 10;
-	int wut = RTC_WUTR;
-
-
-	int wut_isr = RTC_ISR;
-	RTC_ISR &= ~RTC_ISR_ALRAF;
-
-	int wut_cr = RTC_CR;
-
 }

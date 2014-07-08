@@ -17,6 +17,12 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+#project defines
+
+APP = WALLSOCKET
+
+PDEFS = -DAPP_$(APP)
+
 BINARY = homa
 
 LDSCRIPT = ../stm32f0-discovery.ld
