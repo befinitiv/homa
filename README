@@ -1,0 +1,101 @@
+The goal of this project is to create small, cheap and power efficient devices for home automation (HA).
+
+First, a remote controllable wall socket will be built. This will give the basis for deriving other devices for sensing and actuating.
+
+All devices will be communicating via a power efficient 2.4GHz wireless link. For saving cost and power, a proprietary protocol will be used (http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01 ).
+
+Power efficiency is a key goal of the project. By using modern approaches for the power supply, the power consumption of these devices will be two orders of magnitude lower than the usual standby power of consumer devices. The user does not have to think about whether or not to add another HA device. In almost every case adding more HA devices will save power.
+
+
+----
+All prices include VAT.
+Edit
+Battery powered devel board (rev A)
+
+Components: 5.09€
+PCB: 55mmx18mm = 0.1dm^2 = 7€ plus 1€ mill cost
+Sum: 13.09€
+---
+Reduced price for 50x pieces:
+Components 1.46€ (future electronics)
+PCB: 1.60€ (Fischer PCB, reduced width)
+Sum: 3.06€
+Edit
+STM ucboard (rev A)
+
+Components: 8€
+PCB: 34mmx14mm = 0.047dm^2 = 3.29€ plus 1€ mill cost
+Sum: 12.29€
+---
+Reduced price for 50x pieces without LEDs, RTC and 64kB uC:
+Components: 1.40€ (future electronics)
+PCB: 1.19€ (Fischer PCB)
+Sum: 2.59€
+Edit
+Relais board (rev A)
+
+Components: 8.43€
+PCB: 34mmx23mm = 0.078dm^2 = 5.46€ plus 1€ mill cost
+Sum: 14.89€
+
+Price for 1dm^2 PCB: 70€ (pcb-pool)
+Edit
+Log
+
+15-03-19 Cedric paid everything to Bennet
+
+
+----
+
+SettingUpBuildEnv
+
+    Download compiler:
+    sudo add-apt-repository ppa:terry.guo/gcc-arm-embedded
+    sudo apt-get update
+    sudo apt-get install gcc-arm-none-eabi
+
+    Download and install segger software:
+    http://www.segger.com/jlink-software.html?step=2&file=JLinkLinuxDEB64_4.82
+
+    Install Eclipse
+        Inside of eclipse: Install GDB Hardware Debugging extension http://stm32discovery.nano-age.co.uk/open-source-development-with-the-stm32-discovery/getting-hardware-debuging-working-with-eclipse-and-code-sourcey
+        Create a “GDB hardware debugging” configuration and enter the following lines to “Startup→Initialization Commands”:
+        monitor flash device STM32F051C8
+        monitor speed 1000
+
+
+-----
+
+
+h1. Tea1721
+
+
+See http://www.nxp.com/documents/user_manual/UM10522.pdf
+
+
+L1: "Reichelt":http://www.reichelt.de/Power-Induktivitaeten-SMD/L-PISG-1-0M/3/index.html?&ACTION=3&LA=2&ARTICLE=86537&GROUPID=3709&artnr=L-PISG+1%2C0M
+L2: "Reichelt":http://www.reichelt.de/Power-Induktivitaeten-SMD/L-PISR-1-0M/3/index.html?&ACTION=3&LA=2&ARTICLE=73077&GROUPID=3709&artnr=L-PISR+1%2C0M
+
+D7: "Digikey":http://www.digikey.de/product-detail/de/BZX384-B12,115/568-3810-1-ND/1163091
+D4, D6: "Reichelt":http://www.reichelt.de/BY-BYX-EM-ER-Dioden/ES-1JL-SMD/3/index.html?&ACTION=3&LA=446&ARTICLE=95404&GROUPID=2989&artnr=ES+1JL+SMD
+D5: "Digikey":http://www.digikey.de/product-detail/de/BYG20J-E3%2FTR/BYG20J-E3%2FTRGICT-ND/2356593
+D1: "Reichelt":http://www.reichelt.de/SB-SKE-4F-Dioden/S-1ML-SMD/3/index.html?&ACTION=3&LA=446&ARTICLE=95358&GROUPID=2991&artnr=S+1ML+SMD
+
+C1,C2: "Digikey":http://www.digikey.de/product-detail/de/400PX4R7MEFCTA8X11.5/1189-1633-1-ND/3134590
+C3: "Digikey":http://www.digikey.de/product-detail/de/C0603C100K3GACTU/399-8979-1-ND/3522496
+C7: "Digikey":http://www.digikey.de/product-detail/de/CL05B103KB5NNNC/1276-1028-1-ND/3889114
+C45, C14: "Digikey":http://www.digikey.de/product-detail/de/CL31A225KB9LNNC/1276-2723-1-ND/3890809
+C6: "Digikey":http://www.digikey.de/product-detail/de/UVR1C471MPD/493-1043-ND/588784
+
+IC1: "Digikey":http://www.digikey.de/product-detail/de/TEA1721AT%2FN1,118/568-9556-1-ND/3250102
+
+R1: "Digikey":http://www.digikey.de/product-detail/de/CF14JT47R0/CF14JT47R0CT-ND/1830319
+R2: "Digikey":http://www.digikey.de/product-detail/de/RC1005F472CS/1276-3466-1-ND/3903569
+R3: "Digikey":http://www.digikey.de/product-detail/de/MCR01MRTF1802/RHM18KCDCT-ND/4083706
+R4: "Digikey":http://www.digikey.de/product-detail/de/RC1206JR-071RL/311-1.0ERCT-ND/732132
+R5: "Digikey":http://www.digikey.de/product-detail/de/RC0603JR-0768KL/311-68KGRCT-ND/729769
+
+
+SS-Relais: "Digikey":http://www.digikey.de/product-detail/de/PR3BMF51NSKF/425-2562-5-ND/1302229
+
+
